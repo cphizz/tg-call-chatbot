@@ -1,0 +1,1256 @@
+{
+  "educational_consultant": {
+    "voice": {
+      "label": "Educational Consultant",
+      "tagline": "Explains the WHY behind the service",
+      "voice_rules": [
+        "Lead with the reason/mechanism, then the next step.",
+        "Use \"because\" / \"the reason is\" / \"the way it works\".",
+        "One short explanation per response, not a lecture.",
+        "Confident, teacher-tone without being condescending."
+      ],
+      "avoid": [
+        "long paragraphs",
+        "jargon dumps",
+        "repeating the explanation if already given"
+      ]
+    },
+    "objection_moves": {
+      "PRICE_TOO_HIGH": [
+        {
+          "customer_said": "Uh, so I highly doubt you are going to find someone who is lower than that.",
+          "response": "We have seen everything to see when it comes to, uh so we can definitely get out there, take care of the lawn, and give you the best results Oh yeah, so we do not do contracts here at TrueGreen, so this is a reoccurring service until you tell us to stop.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, well, I mean, are, are you happy with the price now, or does it seem like it is too high?",
+          "response": "I mean you have already had our service you know what to look forward to.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Yes, so that is, that is the higher tier package.",
+          "response": "If you did 8 visits, it would be with an aeration and overseating.",
+          "weight": 1
+        }
+      ],
+      "PETS_ENVIRONMENT": [
+        {
+          "customer_said": "And yeah, so obviously with pets, you know, uh, whether it is, you know, urinating, uh, digging, I mean",
+          "response": "obviously, you are going to have some, uh, patches throughout the lawn, um, which we can definitely, uh, help out with as well",
+          "weight": 1
+        },
+        {
+          "customer_said": "OK, OK, so it is all natural you do not have any real, uh landscaping, OK.",
+          "response": "For your property we do that service 5 times a year, OK, so 30 days apart throughout the, uh, pest control season, uh, 5 times a year in total, uh, and then obviously we will come back out there any time at no cost, part of that TruGreen guarantee, but it looks like normally for the full, full property it would normally be 160.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Um, I have not, I, I have not put any insecticides down on the yard, uh, because, well, I am, I, I try to keep it a little bit natural.",
+          "response": "We have, um, a, a service come out and spray around the house, and they, they, you know, to kill anything.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I mean, you do get the best results with pets.",
+          "response": "Uh, this would go ahead and take you through, yeah, this would take you through May of next year because you would have those spring services remaining for next season, uh, but yeah, it looks like for that full property full year, uh, so today we do have our summer promotion going on. And so it would come out to, so this includes 50% off the first two services as well as also includes that aeration and seating, but including aeration and seating, it looks like full property full year, especially",
+          "weight": 1
+        },
+        {
+          "customer_said": "That is a more organic state",
+          "response": "So that is all included in one year price and that is only $962.84 so there is nothing extra with that, that includes all your treatments for the full year and that is only a one-time fee, so you do not, yeah, there is nothing extra with this plan.",
+          "weight": 1
+        },
+        {
+          "customer_said": "We recommend it at least every couple of years, every couple of years it is good to come back in that soil gets compact over time just naturally.",
+          "response": "It is a promotional deal, but I will take 10% off the rest of them, and then what it combines with the prepay amount so I can get you down instead you just pay 671.",
+          "weight": 1
+        }
+      ],
+      "PRICE_MATCH": [
+        {
+          "customer_said": "Uh, now that being said, obviously I mean reputation alone is what, you know, gives us the edge over our competitors.",
+          "response": "We do have that tried and true method of servicing. We do have our licenses to use products other companies just do not have, especially smaller companies. So you do get those smaller companies that offer you like, you know, $50 a service, but you know they are using products that you can, you know, pretty much, uh, order online yourself, uh, whereas, you know, like I said we those same services we are doing we are doing on the PGA Tour and NASCAR as well we have license with them as well as thi",
+          "weight": 1
+        }
+      ],
+      "NEED_TO_THINK": [
+        {
+          "customer_said": "Yeah, I mean like I said you would, so since nothing's charged today I mean you would have, I mean like I said 120 days to give us a call back if you find a price that is lower",
+          "response": "we would price match to you just by sending us that quote that the other company sent you so I mean like I said I mean we are the best So with our E pay nothing's charged till March when we come out, OK, so March, April when we come out, then you would be charged and it would be the $45. And you are going per application.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, is there a good time for me to give you a call back?",
+          "response": "OK, well, let Uh, so we do not, we do not have individual agent numbers, so you would not be able to reach me, uh, directly, uh, but let me go ahead, I am going to send you an, uh, email with this laid out in there, and then that will also include that discount that way you do not even have to give a call back, uh, when you are ready to get set up, you just follow directions on the email.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Um, yeah, let me double-check with my wife and stuff, and then is there a number I can call you back at?",
+          "response": "No, no, I mean, um, like I said, I am, you know, we have been with one doctor for a while now, so I am just kind of pricing, you know, other companies out.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Yeah, but if we end up losing each other I will give you a call back myself.",
+          "response": "OK, yep, and as I pull up this property here via satellite, uh, let me go ahead and ask you a few questions just so we can get a better understanding of you know, where we would be starting up out there",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, it just depends on when you call back in if you lose out on discounts.",
+          "response": "I mean you have already had our service you know what to look forward to.",
+          "weight": 1
+        }
+      ],
+      "ALREADY_HAVE_SERVICE": [
+        {
+          "customer_said": "so you said you are with Lawn Doctor currently",
+          "response": "I mean, as far as uh the products that we use, you know, I know that we do use uh the highest quality product on the market when it comes to professional companies. In fact, I mean, we have been at this for over 50 years, so, uh, one of the longest, uh, you know, as far as like lawn care, uh, companies go, we have been around the longest we have seen every, you know, everything that can be seen with lawns we dealt with, uh, in fact, I mean we service over 3 million, 3 million homes in America, u",
+          "weight": 1
+        },
+        {
+          "customer_said": "I know with Lawn Doctor, uh, do you pay for the year",
+          "response": "do you just go per application Because we do have our price match guarantee, so I mean if, if they were to offer you a lower cost, we would definitely be able to price match.",
+          "weight": 1
+        },
+        {
+          "customer_said": "OK, so you, you already have a pest control service?",
+          "response": "I was just going to ask because we do have the nation's number one mosquito preventative that is a residual spray, meaning, you know, unlike normal mosquito treatments, once it is applied, it is effective guaranteed, uh, for 30 days at a time. Um, so definitely if mosquitoes are a concern, uh, we can ensure that they are not. Uh, now, as far as the lawn, uh, we can definitely help that out there, in fact.",
+          "weight": 1
+        },
+        {
+          "customer_said": "OK, OK, so you already have a service with them.",
+          "response": "Uh, well, from what you tell me, uh, we can definitely take care of the lawn. Um, we do have our true signature program which would take care of everything, aeration, seeding. Uh, we do the, uh, core aeration, help loosen up any compaction in the soil, prepare the lawn for the seed, uh",
+          "weight": 1
+        },
+        {
+          "customer_said": "OK, well, we already have a card that is on file for Mr.",
+          "response": "OK, I am not sure if that'll be able to happen because we have to do it just like, like as if he was to go to the doctor's office and get a diagnosis, they have to put a card on file, uh, that is the only way we would be able to charge you, but let me see if there is anything that I can do for that. um, I am not sure how that would work, but let me put you on a brief hold and ask my manager if there is anything we can do.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Well, it is in between the bracket of 10 to 150, so since you are in between that bracket, you already have a standard price.",
+          "response": "Um, so the annual cost you would pay monthly if you did the prepay discount, that is where you pay up in full. You, you always get the opportunity to save a little bit more money, but let us say if you only wanted to just pay per service, then right now the first visit for you is only $63.48 and then every other visit after that would just be the standard at the $126.95 and then of course when it is time for them to do the iteration, which is in the fall, that'll be that one-time fee of 665 95 c",
+          "weight": 1
+        }
+      ],
+      "SEND_INFO": [
+        {
+          "customer_said": "All you have to do is email me the um.",
+          "response": "OK, yeah, so we are at 8, yeah, that is 8 for $900.",
+          "weight": 1
+        },
+        {
+          "customer_said": "You would have to wait 3 minutes until I park my car, uh, but I do need you to write me a little short email telling me again this is for first visit and then the direct 5 visits how much it is, so I have it from you in writing.",
+          "response": "There is no way you could make it $50?",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, let us see, yeah, and all it is going to do is just show you the information of what we spoke about just so you can see it in writing, and it is also going to go to your email too, and we will just take a look at that and confirm to get you on the schedule.",
+          "response": "So when you see the True pro, it should say the first service 995 and then of course each treatment after that is the 97.95, and then that aeration should already have its own separate price where it says additional items and then at the bottom it should say True Shrub.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Alright, so there is a text message that is going to come to your cell phone, uh, this is just for us to go ahead and confirm the plan to get you on the schedule and then it is also going to show you the breakdown of everything we just spoke about so you can have this in writing ",
+          "response": "Alright, so that message should say thank you for choosing TruGreen click the link to confirm. And then at the top of the screen, uh, there is a green button that you will click that just says confirm your plan that way we can go and get you on the schedule for that.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, yeah, yeah, you will click the link and once you click the link on the next screen it will load up everything we just spoke about just so you can have it in details and in writing.",
+          "response": "The remaining 6 would show the pricing of the 69.95, so that'll just let you know like the number of services we can do in a year with this program that you can do as many times as you want to.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Alright, so yeah, you will go ahead and click the link and when you get to the next screen it just have all the details of everything we just spoke about so you will just be able to see it in writing.",
+          "response": "Oh OK, so yeah, you get the opportunity to save some money, yeah, you get the opportunity to save some more money if you want to prepay for the year so that is why they give you that option.",
+          "weight": 1
+        }
+      ],
+      "TALK_TO_SPOUSE": [
+        {
+          "customer_said": "Um, yeah, let me double-check with my wife and stuff, and then is there a number I can call you back at?",
+          "response": "No, no, I mean, um, like I said, I am, you know, we have been with one doctor for a while now, so I am just kind of pricing, you know, other companies out.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I just like my wife is with me so she can attest to it, but like.",
+          "response": "Yeah, I have seen something like a $19 thing that was incredible, but I was wondering what that was all about too.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I would have to ask my husband",
+          "response": "So what is it with, can you do it without the aeration?",
+          "weight": 1
+        },
+        {
+          "customer_said": "Now, let me, the thing is I want, because I want to talk to my wife on all this stuff.",
+          "response": "Oh, that is that is the only thing we do not have a national number. we do not have a direct number because this is just a national sales line",
+          "weight": 1
+        },
+        {
+          "customer_said": "I had, my wife is showing me your flyer.",
+          "response": "It was, it should have been like the local promo code with the 50% off first application.",
+          "weight": 1
+        }
+      ],
+      "NOT_INTERESTED": [
+        {
+          "customer_said": "Uh, are you sure you are not interested in having that protection?",
+          "response": "Uh, we do have some promotions off those services for this year as well. Yeah, we control, yeah, we control fertilizer, uh, uh like I said, we do the, uh, the potash soil amendment, uh",
+          "weight": 1
+        },
+        {
+          "customer_said": "Usually what they are referring to is the fact that it is usually, you know, not looking too good, it is patchy, dried out, lots of weeds, and so they are referring to that.",
+          "response": "So we would fix those problems and get the grass that you do have to grow back in and keep it lush and healthy. um, now usually replacing the grass altogether is going to cost you a lot more money than the, you know, what we would do, uh, that is usually a couple 1000 easily, um, so usually this is a better option if you are not looking to spend all of that money uh now obviously if you are willing to spend all that extra money to replace the grass completely I mean that is up to you. Because we",
+          "weight": 1
+        },
+        {
+          "customer_said": "I am not looking to.",
+          "response": "And Let, let us just say mainly the grass, the aeration, and whatever the treatments are, how much is that going to cost me?",
+          "weight": 1
+        },
+        {
+          "customer_said": "Tell me know if you are not interested.",
+          "response": "We are just, we are running a promotion on it, so we always have to offer it, um, in the warmer months of the year we offer, uh, sprays for a mosquito. We can guarantee the whole property mosquito free.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I mean, it sounds like it since you are not, you are not wanting us to quote your mosquito this year, so that is good they are working.",
+          "response": "Now, um, do you, uh, do you want to include aeration with the lawn care side of this? We keep stuff like that off it for you and then the fire ants, it is a standalone application we do.",
+          "weight": 1
+        },
+        {
+          "customer_said": "You were not looking for this initially, so let me, let me offer you a discount and you try it out.",
+          "response": "We will do a round of fertilizer, spray the weeds, $46.98.",
+          "weight": 1
+        }
+      ],
+      "BUDGET_FIXED": [
+        {
+          "customer_said": "A fixed income.",
+          "response": "I mean if you want to, uh, simplify things, uh, a little bit more, that is completely fine, um, yeah, so I mean we can drop down and take off the, the first I can take off the aeration seating and grub, uh, for right now, um. It would be, well, also you would be getting the 50% off the first application, so let me add that on as well, uh, one second.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, with you being retired, want to try to help you out.",
+          "response": "So we can get that fixed. Alright, so we can get that taken care of for you. Uh, we do accept American Express, Visa.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I, I feel bad for my grandparents, you know, they are on a fixed income.",
+          "response": "Yeah, no, exactly, no, I understand, yeah, it is, uh, it is good that we have these communities and you know people that, uh, you know, help out, uh, so we do not have to rely so much on it, but. So we break it down per application for you, Ed, uh, for the lawn care, the first service visit will be $46.48. Uh, every 4 to 6 weeks, yep, 50% off your first application, uh, every 4 to 6 weeks when we would come back out for you, uh, it would be $92.95.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I am retired",
+          "response": "Yeah So what is your total for, for what you are, I guess the weed in your fertilizer then is 421 something.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Now I know you are on a fixed income, you mentioned",
+          "response": "So with our service, that is actually automatically part of the normal service.",
+          "weight": 1
+        },
+        {
+          "customer_said": "My family, my parents are retired, things like that.",
+          "response": "And then, uh, what I am going to do another thing here we do, and just again letting you know more so you are informed, we also deal with bugs, ants, spiders, fleas, ticks, and mosquitoes.",
+          "weight": 1
+        }
+      ],
+      "DO_IT_MYSELF": [
+        {
+          "customer_said": "And if you like, if the person that cuts your grass, let us say they just go to Lowe's or Home Depot and they just go get something.",
+          "response": "It is just called the fertilizer. OK, so with the program and also we, we will, um, do the aeration too, which that is what I wanted to like ask you about because when they do the aeration this is just going to decompact the soil because what happens is we will need to do a chemical treatment to get rid of those bugs. So the program that we have, it takes care of everything.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Mhm Oh, I know that I have already done all this already on my yard, so because I do it myself",
+          "response": "OK, so we are only talking fertilizer and um. Um, insect or not insect control, fertilizer. Fertilizer and weed control.",
+          "weight": 1
+        }
+      ],
+      "TIMING_WRONG": [
+        {
+          "customer_said": "So obviously as you know not a good time right now for seeding uh seeds usually fry uh in the sun so we want to wait until the weather cools off for that.",
+          "response": "And then yeah, pretty much you got the fertilizer weed control. It is a special, uh, application of fertilizer that kind of boosts the lawn through the winter and then that is going to be it for this year, OK? And then at the end of the year winterizer and the aeration and the season and then we are done this year",
+          "weight": 1
+        },
+        {
+          "customer_said": "Um, it really just depends on the weather with it being so early in the year.",
+          "response": "Yeah, yeah, yeah, and we would put in a CFR for you. Yeah, so you just give us a call and we would take care of it.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Maybe next year while you are working in the yard if they ever get bad in the summer, I mean, we always offer it.",
+          "response": "OK, yeah, we will, we will, and we will, we will let you know exactly when, when, when we are going to be there so if we can just kind of play around that. All right Jennifer well hey thank you for choosing TruGreen.",
+          "weight": 1
+        },
+        {
+          "customer_said": "But yeah, since you already signed up, I mean, use them, give them a fair shot, um, ours is guaranteed to it is a very good spray, but maybe next year.",
+          "response": "OK, alright well hey thank you for choosing TruGreen and did you have any other questions while you have got me on the phone?",
+          "weight": 1
+        }
+      ],
+      "HAD_BAD_EXPERIENCE": [
+        {
+          "customer_said": "To be honest with you, and I know you had a bad experience, so it is probably just wasting my breath telling you this, but, uh, we, I get a lot of lawn doctors calls, a lot of weed man's calls, a lot of, um, you know, green lawns calls, um, all those local companies basically the",
+          "response": "Give me one moment, I will be right back and we will see if we can get you a better pricing.",
+          "weight": 1
+        },
+        {
+          "customer_said": "So if you did want to add pest control for, you know, let us say if the fire pit did not work that time, you can call us",
+          "response": "Uh, right now you are just getting set up to do the pay as you go to use your 50% off for your first application. OK, so the next text message that I am going to send you, it is just going to say thank you for choosing TruGreen click the link to confirm then I am going to guide you to the part where you see the prepay link",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "process_driven_advisor": {
+    "voice": {
+      "label": "Process-Driven Advisor",
+      "tagline": "Clear step-by-step process",
+      "voice_rules": [
+        "Structure answers as numbered or sequenced moves.",
+        "Use \"first... then... after that...\" framing.",
+        "Reference the call-stage checkpoint explicitly.",
+        "Make the next step unambiguous."
+      ],
+      "avoid": [
+        "vague \"we handle it\" language",
+        "skipping stages"
+      ]
+    },
+    "objection_moves": {}
+  },
+  "direct_setup": {
+    "voice": {
+      "label": "Direct Setup",
+      "tagline": "Short, clear, quick-to-setup",
+      "voice_rules": [
+        "Short sentences. Action-first wording.",
+        "Use \"let's get you started\" / \"go ahead and\" / \"no problem\".",
+        "Minimize preamble. Say the next move, not the backstory.",
+        "Confident assumptive tone."
+      ],
+      "avoid": [
+        "long lead-ins",
+        "hedging",
+        "extra explanation when action is possible"
+      ]
+    },
+    "objection_moves": {
+      "PRICE_TOO_HIGH": [
+        {
+          "customer_said": "Uh, so I highly doubt you are going to find someone who is lower than that.",
+          "response": "We have seen everything to see when it comes to, uh so we can definitely get out there, take care of the lawn, and give you the best results Oh yeah, so we do not do contracts here at TrueGreen, so this is a reoccurring service until you tell us to stop.",
+          "weight": 2
+        },
+        {
+          "customer_said": "so again I mean you know you are getting highly trained professionals out there",
+          "response": "Uh, but, I mean, on our end, obviously we can price match if you send me that invoice from your current provider, but if not, um. And Yeah, that average you at $96 a service from us. Yep, so 7 of them are going to be, uh, the proper fertilizer, uh, and weed control, whether that be the pre-emergent post-emergent, depending on what weeds you have, and then obviously that slow release fertilizer, so 7 of those are going to be those too",
+          "weight": 2
+        },
+        {
+          "customer_said": "We actually do use a, a high-quality fescue blend.",
+          "response": "Uh, now, like I said, as part of this, uh, we do do the fertilizers for the trees and shrubs. Everything, everything we do is backed by the TruGreen guarantee.",
+          "weight": 2
+        }
+      ],
+      "PETS_ENVIRONMENT": [
+        {
+          "customer_said": "And yeah, so obviously with pets, you know, uh, whether it is, you know, urinating, uh, digging, I mean",
+          "response": "obviously, you are going to have some, uh, patches throughout the lawn, um, which we can definitely, uh, help out with as well",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, OK, so it is all natural you do not have any real, uh landscaping, OK.",
+          "response": "For your property we do that service 5 times a year, OK, so 30 days apart throughout the, uh, pest control season, uh, 5 times a year in total, uh, and then obviously we will come back out there any time at no cost, part of that TruGreen guarantee, but it looks like normally for the full, full property it would normally be 160.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, I have not, I, I have not put any insecticides down on the yard, uh, because, well, I am, I, I try to keep it a little bit natural.",
+          "response": "We have, um, a, a service come out and spray around the house, and they, they, you know, to kill anything.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I mean, you do get the best results with pets.",
+          "response": "Uh, this would go ahead and take you through, yeah, this would take you through May of next year because you would have those spring services remaining for next season, uh, but yeah, it looks like for that full property full year, uh, so today we do have our summer promotion going on. And so it would come out to, so this includes 50% off the first two services as well as also includes that aeration and seating, but including aeration and seating, it looks like full property full year, especially",
+          "weight": 2
+        },
+        {
+          "customer_said": "You know, the grass, the grass that you have there, uh, you know, our goal would be to get to get the natural grass and for that lawn to get that growing back in, make sure that is thriving, uh, because obviously the way it looks now, I mean, a lot of people say they do not like ",
+          "response": "So we would fix those problems and get the grass that you do have to grow back in and keep it lush and healthy. um, now usually replacing the grass altogether is going to cost you a lot more money than the, you know, what we would do, uh, that is usually a couple 1000 easily, um, so usually this is a better option if you are not looking to spend all of that money uh now obviously if you are willing to spend all that extra money to replace the grass completely I mean that is up to you. Because we",
+          "weight": 2
+        },
+        {
+          "customer_said": "That is a more organic state",
+          "response": "So that is all included in one year price and that is only $962.84 so there is nothing extra with that, that includes all your treatments for the full year and that is only a one-time fee, so you do not, yeah, there is nothing extra with this plan.",
+          "weight": 2
+        }
+      ],
+      "PRICE_MATCH": [
+        {
+          "customer_said": "Uh, now that being said, obviously I mean reputation alone is what, you know, gives us the edge over our competitors.",
+          "response": "We do have that tried and true method of servicing. We do have our licenses to use products other companies just do not have, especially smaller companies. So you do get those smaller companies that offer you like, you know, $50 a service, but you know they are using products that you can, you know, pretty much, uh, order online yourself, uh, whereas, you know, like I said we those same services we are doing we are doing on the PGA Tour and NASCAR as well we have license with them as well as thi",
+          "weight": 2
+        }
+      ],
+      "NEED_TO_THINK": [
+        {
+          "customer_said": "Yeah, I mean like I said you would, so since nothing's charged today I mean you would have, I mean like I said 120 days to give us a call back if you find a price that is lower",
+          "response": "we would price match to you just by sending us that quote that the other company sent you so I mean like I said I mean we are the best So with our E pay nothing's charged till March when we come out, OK, so March, April when we come out, then you would be charged and it would be the $45. And you are going per application.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Uh, is there a good time for me to give you a call back?",
+          "response": "OK, well, let Uh, so we do not, we do not have individual agent numbers, so you would not be able to reach me, uh, directly, uh, but let me go ahead, I am going to send you an, uh, email with this laid out in there, and then that will also include that discount that way you do not even have to give a call back, uh, when you are ready to get set up, you just follow directions on the email.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, yeah, let me double-check with my wife and stuff, and then is there a number I can call you back at?",
+          "response": "No, no, I mean, um, like I said, I am, you know, we have been with one doctor for a while now, so I am just kind of pricing, you know, other companies out.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Yeah, but if we end up losing each other I will give you a call back myself.",
+          "response": "OK, yep, and as I pull up this property here via satellite, uh, let me go ahead and ask you a few questions just so we can get a better understanding of you know, where we would be starting up out there",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, I said, uh, do you have a phone number or an extension I can get back to you on?",
+          "response": "Hi, um, let us go ahead and do that, um, just the lawn service for the 1,369 and 62, and I will prepay.",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, and it sounds like you do need to go uh, is, is there a time I can give you a call back to check on the other, uh, property address?",
+          "response": "OK, and is there a good time for me to give you a call back about this property so we can talk about that?",
+          "weight": 2
+        }
+      ],
+      "ALREADY_HAVE_SERVICE": [
+        {
+          "customer_said": "so you said you are with Lawn Doctor currently",
+          "response": "I mean, as far as uh the products that we use, you know, I know that we do use uh the highest quality product on the market when it comes to professional companies. In fact, I mean, we have been at this for over 50 years, so, uh, one of the longest, uh, you know, as far as like lawn care, uh, companies go, we have been around the longest we have seen every, you know, everything that can be seen with lawns we dealt with, uh, in fact, I mean we service over 3 million, 3 million homes in America, u",
+          "weight": 2
+        },
+        {
+          "customer_said": "I know with Lawn Doctor, uh, do you pay for the year",
+          "response": "do you just go per application Because we do have our price match guarantee, so I mean if, if they were to offer you a lower cost, we would definitely be able to price match.",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, so you, you already have a pest control service?",
+          "response": "I was just going to ask because we do have the nation's number one mosquito preventative that is a residual spray, meaning, you know, unlike normal mosquito treatments, once it is applied, it is effective guaranteed, uh, for 30 days at a time. Um, so definitely if mosquitoes are a concern, uh, we can ensure that they are not. Uh, now, as far as the lawn, uh, we can definitely help that out there, in fact.",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, OK, so you already have a service with them.",
+          "response": "Uh, well, from what you tell me, uh, we can definitely take care of the lawn. Um, we do have our true signature program which would take care of everything, aeration, seeding. Uh, we do the, uh, core aeration, help loosen up any compaction in the soil, prepare the lawn for the seed, uh",
+          "weight": 2
+        },
+        {
+          "customer_said": "That extra protection from the mosquitoes since you said you already have a service for the fleas and ts.",
+          "response": "I mean in reality it is $180 difference. I mean, I do not know how much you are paying right now for the other services, but $180 for the year and the difference there it really is not that much, uh, so I mean definitely if you want it all in one, you know, everything just in in one service, uh, like I said we can definitely take care of those other insects as well.",
+          "weight": 2
+        }
+      ],
+      "SEND_INFO": [
+        {
+          "customer_said": "All you have to do is email me the um.",
+          "response": "OK, yeah, so we are at 8, yeah, that is 8 for $900.",
+          "weight": 2
+        },
+        {
+          "customer_said": "You would have to wait 3 minutes until I park my car, uh, but I do need you to write me a little short email telling me again this is for first visit and then the direct 5 visits how much it is, so I have it from you in writing.",
+          "response": "There is no way you could make it $50?",
+          "weight": 2
+        },
+        {
+          "customer_said": "Uh, let us see, yeah, and all it is going to do is just show you the information of what we spoke about just so you can see it in writing, and it is also going to go to your email too, and we will just take a look at that and confirm to get you on the schedule.",
+          "response": "So when you see the True pro, it should say the first service 995 and then of course each treatment after that is the 97.95, and then that aeration should already have its own separate price where it says additional items and then at the bottom it should say True Shrub.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Alright, so there is a text message that is going to come to your cell phone, uh, this is just for us to go ahead and confirm the plan to get you on the schedule and then it is also going to show you the breakdown of everything we just spoke about so you can have this in writing ",
+          "response": "Alright, so that message should say thank you for choosing TruGreen click the link to confirm. And then at the top of the screen, uh, there is a green button that you will click that just says confirm your plan that way we can go and get you on the schedule for that.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Uh, yeah, yeah, you will click the link and once you click the link on the next screen it will load up everything we just spoke about just so you can have it in details and in writing.",
+          "response": "The remaining 6 would show the pricing of the 69.95, so that'll just let you know like the number of services we can do in a year with this program that you can do as many times as you want to.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Alright, so yeah, you will go ahead and click the link and when you get to the next screen it just have all the details of everything we just spoke about so you will just be able to see it in writing.",
+          "response": "Oh OK, so yeah, you get the opportunity to save some money, yeah, you get the opportunity to save some more money if you want to prepay for the year so that is why they give you that option.",
+          "weight": 2
+        }
+      ],
+      "TALK_TO_SPOUSE": [
+        {
+          "customer_said": "Um, yeah, let me double-check with my wife and stuff, and then is there a number I can call you back at?",
+          "response": "No, no, I mean, um, like I said, I am, you know, we have been with one doctor for a while now, so I am just kind of pricing, you know, other companies out.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I just like my wife is with me so she can attest to it, but like.",
+          "response": "Yeah, I have seen something like a $19 thing that was incredible, but I was wondering what that was all about too.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I would have to ask my husband",
+          "response": "So what is it with, can you do it without the aeration?",
+          "weight": 2
+        },
+        {
+          "customer_said": "Now, let me, the thing is I want, because I want to talk to my wife on all this stuff.",
+          "response": "Oh, that is that is the only thing we do not have a national number. we do not have a direct number because this is just a national sales line",
+          "weight": 2
+        },
+        {
+          "customer_said": "I had, my wife is showing me your flyer.",
+          "response": "It was, it should have been like the local promo code with the 50% off first application.",
+          "weight": 2
+        }
+      ],
+      "NOT_INTERESTED": [
+        {
+          "customer_said": "Uh, are you sure you are not interested in having that protection?",
+          "response": "Uh, we do have some promotions off those services for this year as well. Yeah, we control, yeah, we control fertilizer, uh, uh like I said, we do the, uh, the potash soil amendment, uh",
+          "weight": 2
+        },
+        {
+          "customer_said": "Usually what they are referring to is the fact that it is usually, you know, not looking too good, it is patchy, dried out, lots of weeds, and so they are referring to that.",
+          "response": "So we would fix those problems and get the grass that you do have to grow back in and keep it lush and healthy. um, now usually replacing the grass altogether is going to cost you a lot more money than the, you know, what we would do, uh, that is usually a couple 1000 easily, um, so usually this is a better option if you are not looking to spend all of that money uh now obviously if you are willing to spend all that extra money to replace the grass completely I mean that is up to you. Because we",
+          "weight": 2
+        },
+        {
+          "customer_said": "I am not looking to.",
+          "response": "And Let, let us just say mainly the grass, the aeration, and whatever the treatments are, how much is that going to cost me?",
+          "weight": 2
+        },
+        {
+          "customer_said": "you are just not interested",
+          "response": "Just want to make sure because that is something we treat as well and when you add two services together, I can give you some pretty hefty discounts um to help you out on the cost so we can get everything properly treated for you, uh, Mr. Rosenbaum.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I mean, if you are not interested, not a problem, uh, but we definitely like to, you know, bring it up so you can take care of everything.",
+          "response": "So we can do a whole treatment and take care of everything rather than just do a blanket treatment.",
+          "weight": 2
+        },
+        {
+          "customer_said": "you are not locked into anything so, um, you know, if you just wanted to do one service you give us a call after that service and let us know, you know, you are not looking to continue, um",
+          "response": "we would recommend doing the full service And then we would ask you to keep the dogs off the lawn for about 2-3 hours.",
+          "weight": 2
+        }
+      ],
+      "BUDGET_FIXED": [
+        {
+          "customer_said": "A fixed income.",
+          "response": "I mean if you want to, uh, simplify things, uh, a little bit more, that is completely fine, um, yeah, so I mean we can drop down and take off the, the first I can take off the aeration seating and grub, uh, for right now, um. It would be, well, also you would be getting the 50% off the first application, so let me add that on as well, uh, one second.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Uh, with you being retired, want to try to help you out.",
+          "response": "So we can get that fixed. Alright, so we can get that taken care of for you. Uh, we do accept American Express, Visa.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I, I feel bad for my grandparents, you know, they are on a fixed income.",
+          "response": "Yeah, no, exactly, no, I understand, yeah, it is, uh, it is good that we have these communities and you know people that, uh, you know, help out, uh, so we do not have to rely so much on it, but. So we break it down per application for you, Ed, uh, for the lawn care, the first service visit will be $46.48. Uh, every 4 to 6 weeks, yep, 50% off your first application, uh, every 4 to 6 weeks when we would come back out for you, uh, it would be $92.95.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I am a retired golf course superintendent, OK?",
+          "response": "So, one more time, what type of pre-emergent do you use?",
+          "weight": 2
+        },
+        {
+          "customer_said": "I retired, so I decided maybe I will just go back to the service",
+          "response": "So, yes, I have been using fertilizer every year since 2019, yes.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I, I am looking like I, I just retired last year, so I am looking, uh, I am calling around to all these different companies",
+          "response": "I think I, I had issues, I had a, I had a little bit of issues last time where I had, you know, a lot of streaks in my yard from the previous TruGreen",
+          "weight": 2
+        }
+      ],
+      "DO_IT_MYSELF": [
+        {
+          "customer_said": "And if you like, if the person that cuts your grass, let us say they just go to Lowe's or Home Depot and they just go get something.",
+          "response": "It is just called the fertilizer. OK, so with the program and also we, we will, um, do the aeration too, which that is what I wanted to like ask you about because when they do the aeration this is just going to decompact the soil because what happens is we will need to do a chemical treatment to get rid of those bugs. So the program that we have, it takes care of everything.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I have heard people say like, yeah, I do it myself, and they, they put like a little tractor on the back of a lawnmower or, you know, they wear like the shoes and walk around their lawn.",
+          "response": "No, it is just the aeration.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Low-grade quality service like stuff you could buy from Lowe's and Home Depot yourself.",
+          "response": "Uh, so with this, I mean, everything's going to be commercial grade tailored specifically to your yard to make sure that we can start enriching nutrients into the soil.",
+          "weight": 2
+        }
+      ],
+      "TIMING_WRONG": [
+        {
+          "customer_said": "So obviously as you know not a good time right now for seeding uh seeds usually fry uh in the sun so we want to wait until the weather cools off for that.",
+          "response": "And then yeah, pretty much you got the fertilizer weed control. It is a special, uh, application of fertilizer that kind of boosts the lawn through the winter and then that is going to be it for this year, OK? And then at the end of the year winterizer and the aeration and the season and then we are done this year",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, it really just depends on the weather with it being so early in the year.",
+          "response": "Yeah, yeah, yeah, and we would put in a CFR for you. Yeah, so you just give us a call and we would take care of it.",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, OK, I know it is, you know, snow on the ground, it is kind of early in the season, um, yeah, yeah.",
+          "response": "Well, I would tell you, I mean, um, again, you know, with you calling in as early as you are, uh, we are really able to get out there and start, you know, attacking things, um, before the season really ramps up so that way we can start making sure we are seeing progress before we move into the summer. Uh, main thing being you are going to get our pre-emergent, so we will really be able to eradicate any weeds that might pop up or any evasive weeds that are hard to get rid of throughout the summer",
+          "weight": 2
+        },
+        {
+          "customer_said": "I was just, you know, asking if you started like early in the year",
+          "response": "Um, and then a lot of the time, you know, we have weeds in the yard it is due to the grass not being as thick or full as it could be, which means it is lacking in nutrients. Uh, so Yeah, I mean No man, we, we would do everything for you.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, so if you do not have them now, you know, it is still early in the season.",
+          "response": "Um, basically, you know, we will come out, we will put down, um, like a pre-emergent to help keep any weeds from popping up or take care of any weeds that may pop up before we come, uh, which we spray from the root up so we can kill it where it germinates, prevent it from spreading.",
+          "weight": 2
+        },
+        {
+          "customer_said": "All right, so I am getting everything pulled up now, um, I know it is kind of early in the year, you know, for you, for you to be able to kind of look at it and see.",
+          "response": "Holmes, you know, we will come out first with the pre-emergent. Uh, so typically in your area, uh, looks like we do about 8, so it would be 8 applications which will cover you until the end of the year.",
+          "weight": 2
+        }
+      ],
+      "HAD_BAD_EXPERIENCE": [
+        {
+          "customer_said": "To be honest with you, and I know you had a bad experience, so it is probably just wasting my breath telling you this, but, uh, we, I get a lot of lawn doctors calls, a lot of weed man's calls, a lot of, um, you know, green lawns calls, um, all those local companies basically the",
+          "response": "Give me one moment, I will be right back and we will see if we can get you a better pricing.",
+          "weight": 2
+        },
+        {
+          "customer_said": "So if you did want to add pest control for, you know, let us say if the fire pit did not work that time, you can call us",
+          "response": "Uh, right now you are just getting set up to do the pay as you go to use your 50% off for your first application. OK, so the next text message that I am going to send you, it is just going to say thank you for choosing TruGreen click the link to confirm then I am going to guide you to the part where you see the prepay link",
+          "weight": 2
+        },
+        {
+          "customer_said": "Just for the bad experience that you had before.",
+          "response": "It is we can overprocess your lawn and that is not, that is too much.",
+          "weight": 2
+        }
+      ]
+    }
+  },
+  "reassurance_builder": {
+    "voice": {
+      "label": "Reassurance Builder",
+      "tagline": "Softens, reassures, calms hesitation",
+      "voice_rules": [
+        "Open with an acknowledgment (\"I understand\", \"I hear you\", \"that makes sense\").",
+        "Use \"no pressure\" / \"take your time\" / \"no problem at all\".",
+        "Soft tone. Validate the concern before redirecting.",
+        "Reduce commitment anxiety (\"cancel anytime\", \"no charge today\")."
+      ],
+      "avoid": [
+        "pushing",
+        "hard closes",
+        "minimizing their worry"
+      ]
+    },
+    "objection_moves": {
+      "PETS_ENVIRONMENT": [
+        {
+          "customer_said": "Um, so once we get rid of the weeds, your natural grass will be able to come and grow through.",
+          "response": "So to make sure that does not happen, what we do is we come out, we inject nutrients into the root of all of your trees, all your shrubs and ornamentals. Um, they do get their own personal fertilizer, so they leave that lawn fertilizer alone and then the dormant oil to protect them through the, through the fall.",
+          "weight": 2
+        },
+        {
+          "customer_said": "It also softens the blade of Of the, um, your natural grass, Bermuda, that is going to be growing.",
+          "response": "They can not stand lime, so they do not like when we spray the lime down.",
+          "weight": 2
+        },
+        {
+          "customer_said": "you will have a self-seed and grass, so then the natural",
+          "response": "Well, here is the thing, um, right, with the, the type of fertilizer and the, the pH balance, the lime that we are going to be using, your natural, all your grass is going to be all one color and beautiful and grow. Um, plus the sod that they did put down, it needs fertilizer or it is not going to grab a hold.",
+          "weight": 2
+        },
+        {
+          "customer_said": "your natural grass will come through",
+          "response": "We do not want you to have bare spots right now cause if leaves have, have room to grow back, they will. This is what we are going to do, that pre-emergent kills the seed of the weed. So, we do not want that for you.",
+          "weight": 2
+        },
+        {
+          "customer_said": "And, and some of it is natural if you go back into the, the tip of it, I see, you know.",
+          "response": "we do not get to see that stuff a whole lot, so",
+          "weight": 2
+        },
+        {
+          "customer_said": "Now, the goal is to get your root system as dense and healthy as possible because thick, healthy grass naturally defends itself from weeds.",
+          "response": "It balance, it is kind of like lime.",
+          "weight": 2
+        }
+      ],
+      "SEND_INFO": [
+        {
+          "customer_said": "And I am going to send you all of this in writing as well.",
+          "response": "So your first application will be 240, that is 50% off.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Alright, and then what is a good email address so I can send you and your husband everything in writing.",
+          "response": "So what we can do is we can either text you, we could call you, um we can do, um, email you",
+          "weight": 2
+        },
+        {
+          "customer_said": "because you opted in to pay for application, I do have to send you everything in writing.",
+          "response": "Um, that text message is going to say thank you for choosing TruGreen.",
+          "weight": 2
+        },
+        {
+          "customer_said": "In case we end up moving forward, I can send you everything in writing.",
+          "response": "So, obviously, we have established you got some weeds and some discoloration.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I do have to send you everything in writing",
+          "response": "That text message is going to say thank you for choosing TruGreen to confirm your plan, please click the link below.",
+          "weight": 2
+        }
+      ],
+      "NEED_TO_THINK": [
+        {
+          "customer_said": "You got to think about it because that ends today.",
+          "response": "Um, that, that gives you a $280 discount, brings your total to $1,083.",
+          "weight": 2
+        },
+        {
+          "customer_said": "This is Tanya with True giving you a call back.",
+          "response": "Let me see what we can do.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Yeah, the little round button to get back to your home screen.",
+          "response": "Yeah, you are, are you in the text messages where, uh, you have received a text that says thank you for choosing TruGreen to confirm the plan, please click the link below. Nope, nope, nope, in the text messages where open the text message that I sent you, it says thank you for choosing TruGreen yep, so right below where it says click the link below, you are going to click those numbers where the link is click that and it is going to load.",
+          "weight": 2
+        },
+        {
+          "customer_said": "That is really what it boils down to, um, alright, so, so, um, that sounds interesting, uh, I am just driving a car right now, so, so is it possible you can email me like the quote and everything just so I can look it over and then get back to you.",
+          "response": "I might be interested in the prepay. Uh, we can talk tomorrow. I mean we can set up a time for tomorrow afternoon.",
+          "weight": 2
+        },
+        {
+          "customer_said": "A personal, you know, something that technicians taught us, um, and I never knew that, but you got to think the root system and the grassroots, root system are right there touching each other, so it will affect all the grass around it.",
+          "response": "So what we would do, yup, is we target where they nest at.",
+          "weight": 2
+        },
+        {
+          "customer_said": "then I will call, I will call you back after my next phone call",
+          "response": "Are you talking about for the weed control when your pain?",
+          "weight": 2
+        }
+      ],
+      "PRICE_TOO_HIGH": [
+        {
+          "customer_said": "It is, it is a higher quality, yes.",
+          "response": "Obviously, you know, if you are, if it is really hot outside, then We do not do that, um.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Uh, is the, the additional, mhm, that is that expensive one.",
+          "response": "Yep, and then it is going to ask you once you click the confirm my plan it will ask you if you want to prepay and save. Some people, when they see the savings for themselves, they are, OK, well, I will prepay.",
+          "weight": 2
+        },
+        {
+          "customer_said": "And so, and it is only a couple of treatments and it is not expensive at all.",
+          "response": "Um, but what we would recommend is the true core.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Well, whatever I highlight.",
+          "response": "There is no way for me to just give you weed control.",
+          "weight": 2
+        }
+      ],
+      "BUDGET_FIXED": [
+        {
+          "customer_said": "I am glad you are retired.",
+          "response": "Well, well, it is still Scott's stuff, um, because that is why their name is on it, or we would have changed it to green.",
+          "weight": 2
+        }
+      ],
+      "NOT_INTERESTED": [
+        {
+          "customer_said": "No, I am not looking there.",
+          "response": "Um, I mean, even if you were paying a certain amount when you canceled, I mean, the price of fertilizer since the last time you canceled has gone up, so I mean I can not honor that price again",
+          "weight": 2
+        },
+        {
+          "customer_said": "As soon as your account goes active, Miss Vicky, I am going to go in there and email them about you not wanting.",
+          "response": "Thank you so much for choosing TruGreen.",
+          "weight": 2
+        },
+        {
+          "customer_said": "So if he came and walked the lawn and you said no thank you after that, then everything gets canceled, nothing gets charged.",
+          "response": "OK, so the next thing that is going to pop up it is going to ask you if you want to prepay and save.",
+          "weight": 2
+        },
+        {
+          "customer_said": "That is free, um, and then as, as long as you do not, you know, tell him never mind, no thank you, because some people do that, they change your mind, it is what it is, um, then he will, he will pull out his hose",
+          "response": "When he is done spraying your yard, the next, yep, the next day your card will be charged $38.48. We do not just show up.",
+          "weight": 2
+        }
+      ]
+    }
+  },
+  "structured_professional": {
+    "voice": {
+      "label": "Structured Professional",
+      "tagline": "Polished, script-adjacent, measured",
+      "voice_rules": [
+        "Use \"certainly\" / \"of course\" / \"I would be happy to\" / \"my pleasure\".",
+        "Full sentences. No slang.",
+        "Measured pace, no \"yeah I mean\" tics.",
+        "Confirm and summarize before moving on."
+      ],
+      "avoid": [
+        "casual filler",
+        "overly informal openers"
+      ]
+    },
+    "objection_moves": {
+      "NEED_TO_THINK": [
+        {
+          "customer_said": "I will call back as soon as I figure this, figure this out",
+          "response": "He next door, I am trying to maintain even if it is 1 less, that still would save me $100 close to $100 each visit, you know, like one do away with one.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, so when you call back in, Mr. Snyder, you will have to go through this again.",
+          "response": "whenever you get routed to somebody, you know, you have to go through the system again because we do not save anything in the system",
+          "weight": 1
+        },
+        {
+          "customer_said": "Um, so when you call back in, you are going to have to go through this process again.",
+          "response": "Still trying to pull up to see if we have a card on file for you.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, so when you call back in, uh",
+          "response": "We do not save anything in the system, Mr. Kent, but since I have you on the phone, can I ask you, I mean, does it seem like the price is a little high? You said TruGreen was great for you, um, you know Well, here, here at TruGreen uh, what we do is once we lock you in at a price, um, if you stay consecutive with us for the years to come, you know, we should keep you right around the same pricing, um, you should not see it, you know, an influx or anything like that",
+          "weight": 1
+        }
+      ],
+      "TIMING_WRONG": [
+        {
+          "customer_said": "OK, OK, I know it is, you know, snow on the ground, it is kind of early in the season, um, yeah, yeah.",
+          "response": "Well, I would tell you, I mean, um, again, you know, with you calling in as early as you are, uh, we are really able to get out there and start, you know, attacking things, um, before the season really ramps up so that way we can start making sure we are seeing progress before we move into the summer. Uh, main thing being you are going to get our pre-emergent, so we will really be able to eradicate any weeds that might pop up or any evasive weeds that are hard to get rid of throughout the summer",
+          "weight": 1
+        },
+        {
+          "customer_said": "I was just, you know, asking if you started like early in the year",
+          "response": "Um, and then a lot of the time, you know, we have weeds in the yard it is due to the grass not being as thick or full as it could be, which means it is lacking in nutrients. Uh, so Yeah, I mean No man, we, we would do everything for you.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Um, so if you do not have them now, you know, it is still early in the season.",
+          "response": "Um, basically, you know, we will come out, we will put down, um, like a pre-emergent to help keep any weeds from popping up or take care of any weeds that may pop up before we come, uh, which we spray from the root up so we can kill it where it germinates, prevent it from spreading.",
+          "weight": 1
+        },
+        {
+          "customer_said": "All right, so I am getting everything pulled up now, um, I know it is kind of early in the year, you know, for you, for you to be able to kind of look at it and see.",
+          "response": "Holmes, you know, we will come out first with the pre-emergent. Uh, so typically in your area, uh, looks like we do about 8, so it would be 8 applications which will cover you until the end of the year.",
+          "weight": 1
+        }
+      ],
+      "PRICE_TOO_HIGH": [
+        {
+          "customer_said": "This will cover you for 8 visits and can not this this pricing that I give you today is going to be the pricing you will be able to look forward to for the year so you do not have to worry about the price continuing to change or getting higher on you, um",
+          "response": "Um, I did get you the 50% off your first application plus I gave you an additional discount to help you out with the cost so we can get you started again. One including your aeration. Um, and then everything will be backed by our guarantee where we will be using that commercial grade product to get your yard back under control for you, get rid of those problems that you are saying.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Does it still seem like it is, you know, high for the year or?",
+          "response": "You said TruGreen was great for you, um, you know Well, here, here at TruGreen uh, what we do is once we lock you in at a price, um, if you stay consecutive with us for the years to come, you know, we should keep you right around the same pricing, um, you should not see it, you know, an influx or anything like that",
+          "weight": 1
+        },
+        {
+          "customer_said": "We will do fertilizing for your palm trees and any other bushes or shrubs in the yard, um, keep everything protected for you so that way you can have a nice beautiful yard that you do not have to, you know, worry about maintaining too much.",
+          "response": "It is backed with our guarantee. This is going to be your lawn fertilization, your weed control with a one time line treatment.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, let me ask you, I mean, does it seem like the price is too high?",
+          "response": "So I was able to get you guys an additional discount, um, knock it down even more for you, um, so for all services plus the aeration and overseating, uh, it would be 894 after tax. And then that is back with our guarantee, uh, so we will guarantee our services for you.",
+          "weight": 1
+        }
+      ],
+      "NOT_INTERESTED": [
+        {
+          "customer_said": "you are just not interested",
+          "response": "Just want to make sure because that is something we treat as well and when you add two services together, I can give you some pretty hefty discounts um to help you out on the cost so we can get everything properly treated for you, uh, Mr. Rosenbaum.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I mean, if you are not interested, not a problem, uh, but we definitely like to, you know, bring it up so you can take care of everything.",
+          "response": "So we can do a whole treatment and take care of everything rather than just do a blanket treatment.",
+          "weight": 1
+        },
+        {
+          "customer_said": "you are not locked into anything so, um, you know, if you just wanted to do one service you give us a call after that service and let us know, you know, you are not looking to continue, um",
+          "response": "we would recommend doing the full service And then we would ask you to keep the dogs off the lawn for about 2-3 hours.",
+          "weight": 1
+        }
+      ],
+      "PRICE_MATCH": [
+        {
+          "customer_said": "we want to be closer to our competitors",
+          "response": "But, um, with this, it will be your lawn fertilizer, weed control with a one-time line treatment. Uh, your first visit would be $42.48. I got you 50% off your first application.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I know, I know you said you are price matching so",
+          "response": "We do have a $100 gift card, um, you know, when somebody refers you, refers you in that referral program that you are talking about, uh, so I will definitely look into that for you.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Uh, I would not be doing my job if I did not ask cause I do not want you to hear later we had a bunch of discounts, probably beat their price, so I just want to make sure I brought it up to you.",
+          "response": "Alright, so if we do this for you, I will give you quite a few discounts since you would be bundling two services together. we would spray any low hanging branches, property line, deck areas, mulch bed areas, perimeter of the home, keep everything protected, um, and then of course with that everything is backed by a guarantee just like with your weeds and discoloration",
+          "weight": 1
+        },
+        {
+          "customer_said": "OK, well, I could tell you with the discounts we got I could probably beat their price if you want to hear about it, Mrs. Saunders.",
+          "response": "OK, OK, alright, if you want to add that on later you can go ahead and give us a call, uh, but with the discounts I will tell you we could probably get it to you for about $85 per visit.",
+          "weight": 1
+        }
+      ],
+      "PETS_ENVIRONMENT": [
+        {
+          "customer_said": "then we will allow all the, you know, um, natural resources and everything to give you able to get back to the root",
+          "response": "Yeah yeah Oh, for sure, we have a mobile app you can download as well. So you will not actually make that payment until we service your property for the first time Uh, only thing we would do today, Mr. Robinson, is put a card on file.",
+          "weight": 1
+        },
+        {
+          "customer_said": "And I do see you guys are like right near the water too, so, um, you know, you should have a good, a good amount of natural nutrients that um should be able to help out in this, you know, areas.",
+          "response": "Um, so we definitely want to make sure that we can get that treated so we do not, you know, continue to have the problem and then enrich the nutrients back into the soil, green back up your grass, um, so we could try to leave less room for weeds and things like that to start filling in. Uh, so here at TruGreen we actually get our pricing based on the size of the property, not based on the condition, uh, Ms. Warnick, so what I would actually do is an aerial view of your yard, um, and then from th",
+          "weight": 1
+        },
+        {
+          "customer_said": "Now again, if, if you are just, you know, you do not want it around the dogs, I could understand.",
+          "response": "We do not have to fool with it, but I can see how small your backyard is and it is not going to change the price and maybe save 20 bucks not doing the backyard. Uh, let me go ahead and, you know, start putting together the package for you, give you something to think about, um, as far as the services go for you, Mrs. Herton, what we will do, we will spray those weeds from top to bottom that way we can kill them where they germinate, try to prevent the weed from spreading throughout the rest of t",
+          "weight": 1
+        }
+      ],
+      "DO_IT_MYSELF": [
+        {
+          "customer_said": "I have heard people say like, yeah, I do it myself, and they, they put like a little tractor on the back of a lawnmower or, you know, they wear like the shoes and walk around their lawn.",
+          "response": "No, it is just the aeration.",
+          "weight": 1
+        },
+        {
+          "customer_said": "Low-grade quality service like stuff you could buy from Lowe's and Home Depot yourself.",
+          "response": "Uh, so with this, I mean, everything's going to be commercial grade tailored specifically to your yard to make sure that we can start enriching nutrients into the soil.",
+          "weight": 1
+        }
+      ],
+      "BUDGET_FIXED": [
+        {
+          "customer_said": "I am a retired golf course superintendent, OK?",
+          "response": "So, one more time, what type of pre-emergent do you use?",
+          "weight": 1
+        },
+        {
+          "customer_said": "I retired, so I decided maybe I will just go back to the service",
+          "response": "So, yes, I have been using fertilizer every year since 2019, yes.",
+          "weight": 1
+        },
+        {
+          "customer_said": "I, I am looking like I, I just retired last year, so I am looking, uh, I am calling around to all these different companies",
+          "response": "I think I, I had issues, I had a, I had a little bit of issues last time where I had, you know, a lot of streaks in my yard from the previous TruGreen",
+          "weight": 1
+        },
+        {
+          "customer_said": "Yeah, yeah, trust me, I, I, I am not retired.",
+          "response": ", um, with TruGreen you know, during the slow season we get to take a break for about 2 or 3 months, and, uh, by after the first month I am like, all right, you know, I have slept as much as I needed",
+          "weight": 1
+        }
+      ],
+      "SEND_INFO": [
+        {
+          "customer_said": "That way you can see it in writing as well, um, and then if you will hit that confirm my plan button for me at the top.",
+          "response": "Oh Yep, so, uh, we got you on the schedule in the next 24 to 48 hours you should receive like a welcome email from TruGreen.",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "casual_problem_solver": {
+    "voice": {
+      "label": "Casual Problem Solver",
+      "tagline": "Conversational, plain-language",
+      "voice_rules": [
+        "Natural conversational language. \"Yeah, I get it\" / \"for sure\" / \"totally\".",
+        "Treat it like talking to a neighbor.",
+        "Short, warm, no corporate-speak.",
+        "Use humor sparingly if the prospect's tone invites it."
+      ],
+      "avoid": [
+        "stiff formality",
+        "script-reading tone"
+      ]
+    },
+    "objection_moves": {}
+  },
+  "polished_guide": {
+    "voice": {
+      "label": "Polished Guide",
+      "tagline": "Detailed, organized, strong wrap-up",
+      "voice_rules": [
+        "Confirm, recap, verify.",
+        "Use \"so to recap\" / \"let me confirm\" / \"going forward\".",
+        "Lay out expectations and timeline clearly.",
+        "Finish moves with explicit confirmation."
+      ],
+      "avoid": [
+        "loose ends",
+        "moving on without confirming"
+      ]
+    },
+    "objection_moves": {
+      "PRICE_TOO_HIGH": [
+        {
+          "customer_said": "So if this gets to be, you know, more than you want to spend or it is just too much on you, you do not want to continue",
+          "response": "I mean, we do not, we will not lock you into it we are always going to let you know ahead of time before we would come out, right So if you tell us do not come out, we do not come out, we are not going to, you are not charged anything because we",
+          "weight": 2
+        },
+        {
+          "customer_said": "It is a high potassium one.",
+          "response": "we do also include insect preventative, uh, more in the summertime",
+          "weight": 2
+        },
+        {
+          "customer_said": "No, ma'am, no, so aerating and seating, that is it is expensive.",
+          "response": "It is $270 for that service to be done.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, I, I know she, you know, she is kind of leaning against that, but this is, this is more of like a high end service we get the lawns in absolutely beautiful shape.",
+          "response": "Um, so we, we do it this way because we know this works best, um, so it is something you always want to be consistent with fertilizer, but like for example when we go in the summertime we switch out what types of fertilizer we use when it is hotter out to a slow release, so it, it does start to become a little less frequent when it is warmer, but it is for the most part always every about 4 to 6 weeks that we would come out for one. When you guys call back you will get somebody different on the ",
+          "weight": 2
+        },
+        {
+          "customer_said": "He let it go so high that no matter what I did, it was all those weeds would come over to my place regardless as I try to contain.",
+          "response": "Yeah So I generally end up spending like $120 per year.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Once they, once they are fully matured, they, they usually do not need too much help, but more like the, the small.",
+          "response": "OK, well, yeah, if you, if they are, if they are doing, if they are doing healthy because we do not do any cutting, right?",
+          "weight": 2
+        }
+      ],
+      "NEED_TO_THINK": [
+        {
+          "customer_said": "So do not, do not you, you do not call back if we get disconnected.",
+          "response": "So the way our service works in lawn care, when we come out and start Minnesota lawns as this weather is starting to warm up now, the first thing we do early spring this time of year we are going to put down what is called a pre-emergent.",
+          "weight": 2
+        },
+        {
+          "customer_said": "you talk to her, you call back you get somebody different, um, but I.",
+          "response": "Uh, if you break them down, you pay the 1st 1 $35.48 plus tax, and then with this, with this discount I am giving you the rest of them are going to be at $63.86 plus tax, uh, iteration would be $173.66 plus tax that one time, so we, we give that option as well if that works better for you guys where you just break them up and pay as you go.",
+          "weight": 2
+        },
+        {
+          "customer_said": "So what is the number to call you back?",
+          "response": "Just me wondering, maybe people are saying, oh, maybe $60 per month, or it is only was and why it is like up to the sense oh because the size of the lung, right?",
+          "weight": 2
+        },
+        {
+          "customer_said": "Um, all of our verification department, they are, they are tied up on the phone with, with other customers, so I am going to send your information over to them, and as soon as one of them frees up, it should be shortly here, but they will, they will give you a call back and it is",
+          "response": "They are just going to make sure that everything is right on the account with the address and the price and then you are all good we can get your first service scheduled, um, so yeah, just look out for that call shortly it should, it should come to you soon here. I appreciate you being patient with us, Kim, and, uh, again thank you for choosing TruGreen",
+          "weight": 2
+        },
+        {
+          "customer_said": "you guys decide, you know, let us just pay off the whole year, you can always give us a call back",
+          "response": "Right, right, just close out of it because you do not want to do it that way today we are just going to charge you as we do them.",
+          "weight": 2
+        }
+      ],
+      "PETS_ENVIRONMENT": [
+        {
+          "customer_said": "We recommend it at least every couple of years, every couple of years it is good to come back in that soil gets compact over time just naturally.",
+          "response": "It is a promotional deal, but I will take 10% off the rest of them, and then what it combines with the prepay amount so I can get you down instead you just pay 671.",
+          "weight": 2
+        },
+        {
+          "customer_said": "So all the all the products we use are going to be good with kids and pets.",
+          "response": "Well, yeah, we would eliminate.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Definitely, yeah, even, even just naturally over time that soil will get compact but yeah if if you have got a tractor remote, it is absolutely, man, you are going to see a huge difference if we aerate that lawn this year.",
+          "response": "Uh, we come out and start, we will get down your pre-emergent, that is a broad leaf weed preventative, so no crab grass, no dandelions, keeps a lot of these weeds from germinating in the yard then we have a lot of different post-emergent sprays we will use And then we do fertilizer rounds every 4 to 6 weeks.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Yeah, because, yeah, especially with your situation with the dogs being allergic to them possibly, we want to make sure they are out entirely.",
+          "response": "But you are, you are, you are starting this at the right time where we can do that pre-emergent so that does not let them germinate. But definitely call us if you do cause we have, we will always honor that. We would, we would definitely would if we could.",
+          "weight": 2
+        }
+      ],
+      "SEND_INFO": [
+        {
+          "customer_said": "Yeah, I will get I will get everything sent over to you in writing.",
+          "response": "Um, did you want to get the account set up today though so we can get the uh scheduling process going because it, it probably be, probably early next week we can get out to start.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Yeah, yeah, I get them both to you in writing.",
+          "response": "And then let me ask you this if you do not mind while I have got you on the line, can you tell me what uh what Spring Green has you at price wise for their fertilizer treatments this year? the grow preventative, all the fertilizer rounds we can get you down to $2,821.36 instead",
+          "weight": 2
+        },
+        {
+          "customer_said": "Yeah, yeah I can get it to you in writing, um, you think there is anything that would hold you or her back from setting it up with us for this year?",
+          "response": "You do not make a payment on it, but I, I can give you that 50% off the first service accompanied with 10% off the rest of the year, and then we will let you just pay them, pay us as we do them.",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, and would you like us to send an email copy of your receipt",
+          "response": "Alright, makes it easy for us, we do not have to worry about stepping on them.",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, I will, I will send this to you if you have an email I can send this one to you so you have it broken up in writing, so if you want to review it.",
+          "response": "A big part of this is that aeration seeding, right?",
+          "weight": 2
+        }
+      ],
+      "TIMING_WRONG": [
+        {
+          "customer_said": "Maybe next year while you are working in the yard if they ever get bad in the summer, I mean, we always offer it.",
+          "response": "OK, yeah, we will, we will, and we will, we will let you know exactly when, when, when we are going to be there so if we can just kind of play around that. All right Jennifer well hey thank you for choosing TruGreen.",
+          "weight": 2
+        },
+        {
+          "customer_said": "But yeah, since you already signed up, I mean, use them, give them a fair shot, um, ours is guaranteed to it is a very good spray, but maybe next year.",
+          "response": "OK, alright well hey thank you for choosing TruGreen and did you have any other questions while you have got me on the phone?",
+          "weight": 2
+        },
+        {
+          "customer_said": "OK, is there a right time to, to do the first treatment, like are we too late in the season, or?",
+          "response": "OK, we do not, we do not have a working in ground sprinkler system. We have got one of those auto, auto sprinklers out front, um, in the back we just rely on rain, so I do not know if that makes a difference, but.",
+          "weight": 2
+        },
+        {
+          "customer_said": "So, a northern grass does not do well if you try to plant it early in the year.",
+          "response": "Now, additionally, we would also bring in grass seed, and that will start growing usually within a couple of weeks. So you actually see grass, even though we do do a kind of pre-fall or fall, you know",
+          "weight": 2
+        }
+      ],
+      "NOT_INTERESTED": [
+        {
+          "customer_said": "Tell me know if you are not interested.",
+          "response": "We are just, we are running a promotion on it, so we always have to offer it, um, in the warmer months of the year we offer, uh, sprays for a mosquito. We can guarantee the whole property mosquito free.",
+          "weight": 2
+        },
+        {
+          "customer_said": "I mean, it sounds like it since you are not, you are not wanting us to quote your mosquito this year, so that is good they are working.",
+          "response": "Now, um, do you, uh, do you want to include aeration with the lawn care side of this? We keep stuff like that off it for you and then the fire ants, it is a standalone application we do.",
+          "weight": 2
+        },
+        {
+          "customer_said": "You were not looking for this initially, so let me, let me offer you a discount and you try it out.",
+          "response": "We will do a round of fertilizer, spray the weeds, $46.98.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Alright, I am just waiting for the computer to catch up here and then are you, you are not looking for any lawn care right?",
+          "response": "like fertilizer, weed control, that sort of stuff?",
+          "weight": 2
+        },
+        {
+          "customer_said": "Had you had us, you had areas that were just not looking right, not healthy",
+          "response": "Now as we do this, I am going to show you what it would be and did you happen to get anything in the mail today that led you to call today?",
+          "weight": 2
+        },
+        {
+          "customer_said": "No thank you.",
+          "response": "The good news is if you go forward today and we set it up without it, to your point, we can always upgrade it later.",
+          "weight": 2
+        }
+      ],
+      "BUDGET_FIXED": [
+        {
+          "customer_said": "I am retired",
+          "response": "Yeah So what is your total for, for what you are, I guess the weed in your fertilizer then is 421 something.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Now I know you are on a fixed income, you mentioned",
+          "response": "So with our service, that is actually automatically part of the normal service.",
+          "weight": 2
+        },
+        {
+          "customer_said": "My family, my parents are retired, things like that.",
+          "response": "And then, uh, what I am going to do another thing here we do, and just again letting you know more so you are informed, we also deal with bugs, ants, spiders, fleas, ticks, and mosquitoes.",
+          "weight": 2
+        },
+        {
+          "customer_said": "Retired active military?",
+          "response": "It is, uh, it would be a, a waste, and we do not do individual treatments because Oh, it is not, it is, it is a science to it.",
+          "weight": 1
+        },
+        {
+          "customer_said": "OK, so, are you retired military or?",
+          "response": "So we can certainly, um, That will definitely make a huge difference in the cost. So with the promo discount, military discount, we are keeping everything the same, all of your trees and shrub treatments, your lawn care, your aeration.",
+          "weight": 1
+        }
+      ],
+      "DO_IT_MYSELF": [
+        {
+          "customer_said": "Mhm Oh, I know that I have already done all this already on my yard, so because I do it myself",
+          "response": "OK, so we are only talking fertilizer and um. Um, insect or not insect control, fertilizer. Fertilizer and weed control.",
+          "weight": 2
+        }
+      ],
+      "PRICE_MATCH": [
+        {
+          "customer_said": "I am trying to get estimates for you and your competitors.",
+          "response": "I know you, we have used to use you on, uh, my father-in-law's property, um, which he lives over on Oneida Drive, um, so that he is passed away now, so we, um, no longer use your service for him, but, um, anyway.",
+          "weight": 2
+        }
+      ],
+      "ALREADY_HAVE_SERVICE": [
+        {
+          "customer_said": "You said you already have a pest control.",
+          "response": "We would not do the whole lawn, but we would do it a different way. We would also put out bait in your yard that the ants take back to their colony, and it eliminates them.",
+          "weight": 2
+        },
+        {
+          "customer_said": "We already already have a form of payment.",
+          "response": "Um, we do actually have a visa ending in 8200 if you want to use that. we can change if needed",
+          "weight": 2
+        },
+        {
+          "customer_said": "We had actually with Lawn Doctor they let us know that what they use really does not kill sedge weed, so they got to come out like over and over and over and over again.",
+          "response": "It is, uh, it is in the green, um, but it works, um, if, if we do it.",
+          "weight": 2
+        }
+      ],
+      "TALK_TO_SPOUSE": [
+        {
+          "customer_said": "I, I, to your question, I have the service, um, you know, my wife is all about gardening",
+          "response": "we have got all kinds of beds around the, the whole yard",
+          "weight": 2
+        }
+      ],
+      "HAD_BAD_EXPERIENCE": [
+        {
+          "customer_said": "Just for the bad experience that you had before.",
+          "response": "It is we can overprocess your lawn and that is not, that is too much.",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

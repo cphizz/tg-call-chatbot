@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>TruGreen Call Assist</title>
+<style>
+  /* Okabe-Ito accessible palette - safe for all common color-blindness forms */
+  :root {
+    --blue:         #0072B2;  /* SAY THIS - primary action/content */
+    --blue-dark:    #005380;
+    --blue-tint:    #e6f1f8;
+    --orange:       #D55E00;  /* CHECK / warnings */
+    --orange-tint:  #fbe9d9;
+    --purple:       #CC79A7;  /* End Call / reset accent */
+    --purple-dark:  #9d4a7a;
+    --gray-dark:    #333333;
+    --gray-mid:     #6b6b6b;
+    --gray-light:   #e2e2de;
+    --bg:           #f5f5f3;
+    --card:         #ffffff;
+    --text:         #1a1a1a;
+    --muted:        #6b6b6b;
+    --border:       #d8d8d4;
+    --yellow:       #F0E442;  /* Highlight accent */
+  }
+  * { box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+  html, body { margin: 0; padding: 0; height: 100%; background: var(--bg); color: var(--text);
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif; font-size: 14px; }
+  body { display: flex; flex-direction: column; }
+
+  /* Passcode gate */
+  .gate { position: fixed; inset: 0; background: var(--bg); display: flex;
+    align-items: center; justify-content: center; z-index: 1000; padding: 20px; }
+  .gate.hidden { display: none; }
+  .gate-box { background: var(--card); border-radius: 8px; padding: 24px; max-width: 360px;
+    width: 100%; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; }
+  .gate-box h1 { color: var(--blue-dark); font-size: 18px; margin: 0 0 6px; }
+  .gate-box p { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+  .gate-box input { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 5px;
+    font-size: 15px; text-align: center; margin-bottom: 10px; }
+  .gate-box input:focus { outline: none; border-color: var(--blue); }
+  .gate-box button { width: 100%; padding: 10px; background: var(--blue); color: white; border: 0;
+    border-radius: 5px; font-weight: 700; font-size: 14px; cursor: pointer; }
+  .gate-box button:hover { background: var(--blue-dark); }
+  .gate-box .err { color: var(--orange); font-size: 12px; margin-top: 8px; min-height: 16px; }
+
+  /* Header */
+  header {
+    background: var(--blue); color: white; padding: 10px 14px;
+    display: flex; justify-content: space-between; align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); flex-shrink: 0;
+  }
+  header .brand { font-weight: 700; font-size: 15px; }
+  header .ctx { font-size: 11px; opacity: 0.9; margin-top: 2px; }
+  header button {
+    background: rgba(255,255,255,0.2); color: white; border: 0; border-radius: 4px;
+    padding: 6px 10px; font-size: 11px; font-weight: 700; cursor: pointer;
+  }
+  header button:hover { background: rgba(255,255,255,0.35); }
+
+  /* Style picker modal */
+  .style-picker {
+    position: absolute; inset: 0; background: rgba(0,0,0,0.5);
+    display: none; align-items: center; justify-content: center; z-index: 100;
+    padding: 20px;
+  }
+  .style-picker.open { display: flex; }
+  .style-picker-box {
+    background: var(--card); border-radius: 8px; padding: 18px; max-width: 380px; width: 100%;
+    max-height: 90vh; overflow-y: auto;
+  }
+  .style-picker-box h2 { margin: 0 0 6px; font-size: 16px; color: var(--blue-dark); }
+  .style-picker-box p { margin: 0 0 14px; font-size: 12px; color: var(--muted); }
+  .style-option {
+    border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; margin-bottom: 8px;
+    cursor: pointer; transition: all 0.1s;
+  }
+  .style-option:hover { border-color: var(--blue); background: var(--blue-tint); }
+  .style-option .name { font-weight: 700; font-size: 13px; color: var(--blue-dark); }
+  .style-option .desc { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* Chat area */
+  .chat {
+    flex: 1; overflow-y: auto; padding: 12px 14px;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .msg { padding: 10px 12px; border-radius: 8px; max-width: 100%; line-height: 1.5; }
+  .msg.user { background: var(--blue-tint); align-self: flex-end; max-width: 85%; font-size: 13px;
+    border: 1px solid #c5dde9; }
+  .msg.bot { background: var(--card); border: 1px solid var(--border); align-self: flex-start; width: 100%; }
+  .msg.sys { background: var(--orange-tint); border: 1px solid var(--orange); font-size: 12px; }
+
+  /* Structured response */
+  .r-block { margin: 6px 0; }
+  .r-label {
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    margin-bottom: 3px; display: flex; align-items: center; gap: 5px;
+  }
+  .r-label.say { color: var(--blue-dark); }
+  .r-label.then { color: var(--gray-mid); }
+  .r-label.check { color: var(--orange); }
+  .r-label .ico { font-size: 12px; }
+  .r-text { font-size: 13px; line-height: 1.5; }
+  .r-text.saythis {
+    font-weight: 600; color: var(--text); background: var(--blue-tint);
+    padding: 10px 12px; border-radius: 5px; border-left: 4px solid var(--blue);
+  }
+  .r-text.check {
+    background: var(--orange-tint); padding: 8px 12px; border-radius: 5px;
+    border-left: 4px solid var(--orange); font-size: 12px;
+  }
+
+  /* Input */
+  .input-row {
+    padding: 10px 12px; border-top: 1px solid var(--border);
+    background: var(--card); flex-shrink: 0;
+  }
+  .input-row textarea {
+    width: 100%; min-height: 60px; max-height: 150px;
+    border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px;
+    font-family: inherit; font-size: 13px; resize: vertical;
+  }
+  .input-row textarea:focus { outline: none; border-color: var(--blue); }
+  .input-row .actions { display: flex; gap: 6px; margin-top: 6px; }
+  .input-row button {
+    flex: 1; padding: 8px; border: 0; border-radius: 6px; font-weight: 700;
+    font-size: 12px; cursor: pointer;
+  }
+  .btn-send { background: var(--blue); color: white; }
+  .btn-send:hover { background: var(--blue-dark); }
+  .btn-send:disabled { background: #999; cursor: not-allowed; }
+  .btn-end { background: var(--purple); color: white; flex: 0.5; }
+  .btn-end:hover { background: var(--purple-dark); }
+
+  /* Empty state */
+  .empty {
+    text-align: center; color: var(--muted); font-size: 12px; padding: 20px 10px;
+  }
+  .empty .examples {
+    text-align: left; margin-top: 12px; background: white; border: 1px solid var(--border);
+    border-radius: 6px; padding: 10px;
+  }
+  .empty .examples b { color: var(--blue-dark); font-size: 11px; }
+  .empty .ex-line {
+    padding: 6px 0; font-size: 12px; cursor: pointer; border-bottom: 1px solid #f0f0f0;
+  }
+  .empty .ex-line:hover { color: var(--blue-dark); }
+  .empty .ex-line:last-child { border-bottom: 0; }
+
+  /* Loading */
+  .loading { display: inline-block; opacity: 0.6; font-style: italic; }
+
+  /* Error state */
+  .err-msg {
+    background: var(--orange-tint); border-left: 4px solid var(--orange);
+    padding: 10px 12px; border-radius: 5px; font-size: 12px; color: var(--gray-dark);
+  }
+</style>
+</head>
+<body>
+
+<!-- Passcode gate -->
+<div class="gate" id="gate">
+  <div class="gate-box">
+    <h1>🌱 TG Call Assist</h1>
+    <p>Enter your TruGreen passcode to access the assistant.</p>
+    <input type="password" id="gate-input" placeholder="Passcode" autocomplete="off"/>
+    <button onclick="checkGate()">Unlock</button>
+    <div class="err" id="gate-err"></div>
+  </div>
+</div>
+
+<header>
+  <div>
+    <div class="brand">🌱 TG Call Assist</div>
+    <div class="ctx" id="ctx-display">Setting up...</div>
+  </div>
+  <div style="display:flex; gap:6px;">
+    <button onclick="changeStyle()" id="style-btn" title="Change selling style">Style</button>
+  </div>
+</header>
+
+<div class="chat" id="chat">
+  <div class="empty" id="empty-state">
+    <div style="margin-bottom:10px;">Ready to help. Describe what the prospect just said or asked.</div>
+    <div class="examples">
+      <b>Try asking:</b>
+      <div class="ex-line" onclick="fillInput(this)">Customer refuses to give address and just wants a price.</div>
+      <div class="ex-line" onclick="fillInput(this)">Prospect says the price is too much.</div>
+      <div class="ex-line" onclick="fillInput(this)">Customer asked if we treat moles.</div>
+      <div class="ex-line" onclick="fillInput(this)">They want to talk to their spouse before deciding.</div>
+      <div class="ex-line" onclick="fillInput(this)">Customer mentioned mosquitoes and bagworms. What should I bundle?</div>
+    </div>
+  </div>
+</div>
+
+<div class="input-row">
+  <textarea id="input-box" placeholder="What did the prospect just say? Or what do you need help with?" rows="3"></textarea>
+  <div class="actions">
+    <button class="btn-send" id="send-btn" onclick="sendMessage()">Ask Assistant</button>
+    <button class="btn-end" onclick="endCall()" title="Clear memory for next prospect">End Call</button>
+  </div>
+</div>
+
+<!-- Style picker modal -->
+<div class="style-picker" id="style-picker">
+  <div class="style-picker-box">
+    <h2>Choose your selling style</h2>
+    <p>Pick the style that matches how you naturally sell. The assistant will respond in that voice.</p>
+    <div id="style-options"></div>
+  </div>
+</div>
+
+<script>
+// ======================================================================
+// Config
+// ======================================================================
+const PROXY_URL = '/.netlify/functions/claude'
+const PASSCODE_HASH = 'd2f4cd592aa6ae93923549cdb0d6a5059cea9dc3378a3a960d371f93d3289b97'  // SHA-256 of trugreen2026
+const PASSCODE_OK_KEY = 'tg_passcode_ok_v1'
+
+const STYLE_LABELS = {
+  educational_consultant: { name: 'Educational Consultant', desc: 'I like explaining the WHY behind the service.' },
+  process_driven_advisor: { name: 'Process-Driven Advisor', desc: 'I like a clear step-by-step process.' },
+  direct_setup: { name: 'Direct Setup', desc: 'I like short, clear wording and quick setup.' },
+  reassurance_builder: { name: 'Reassurance Builder', desc: 'Customers sound nervous or had bad experiences.' },
+  structured_professional: { name: 'Structured Professional', desc: 'Polished, script-adjacent wording.' },
+  casual_problem_solver: { name: 'Casual Problem Solver', desc: 'Natural, conversational, plain-language.' },
+  polished_guide: { name: 'Polished Guide', desc: 'Detailed, organized, strong wrap-up.' },
+}
+
+const STAGE_LABELS = {
+  open: 'Open + Verify', discovery: 'Discovery', package: 'Build Package',
+  value: 'Match Value', close: 'Close + Payment', objection: 'Objection Handling',
+  reclose: 'Re-Close', wrapup: 'Wrap-Up', trusource: 'TruSource Lookup'
+}
+
+const params = new URLSearchParams(location.search)
+const ctx = {
+  stage: params.get('stage') || null,
+  style: params.get('style') || localStorage.getItem('tg_style') || null,
+  page: params.get('page') || null,
+  customerIssue: params.get('customer_issue') || null,
+  bundleContext: params.get('bundle_context') || null,
+  source: params.get('source') || null,
+}
+if (params.get('style')) localStorage.setItem('tg_style', params.get('style'))
+
+let callMessages = []
+let stylePatterns = null
+let truSource = null
+let patternEngine = null
+
+// ======================================================================
+// Passcode gate
+// ======================================================================
+async function sha256(s) {
+  const buf = new TextEncoder().encode(s)
+  const hash = await crypto.subtle.digest('SHA-256', buf)
+  return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('')
+}
+async function checkGate() {
+  const val = document.getElementById('gate-input').value
+  const err = document.getElementById('gate-err')
+  err.textContent = ''
+  if (!val) { err.textContent = 'Enter the passcode.'; return }
+  const hash = await sha256(val)
+  if (hash === PASSCODE_HASH) {
+    try { localStorage.setItem(PASSCODE_OK_KEY, '1') } catch (e) {}
+    document.getElementById('gate').classList.add('hidden')
+    init()
+  } else {
+    err.textContent = 'Incorrect passcode.'
+  }
+}
+function ensureGate() {
+  try {
+    if (localStorage.getItem(PASSCODE_OK_KEY) === '1') {
+      document.getElementById('gate').classList.add('hidden')
+      return true
+    }
+  } catch (e) {}
+  const input = document.getElementById('gate-input')
+  input.focus()
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') checkGate() })
+  return false
+}
+
+// ======================================================================
+// Startup
+// ======================================================================
+async function init() {
+  updateContextDisplay()
+  renderStylePicker()
+  if (!ctx.style) {
+    document.getElementById('style-picker').classList.add('open')
+  }
+  try {
+    const [sp, ts, pe] = await Promise.all([
+      fetch('style_patterns.json').then(r => r.json()).catch(() => null),
+      fetch('trusource_data.json').then(r => r.json()).catch(() => null),
+      fetch('pattern_engine.json').then(r => r.json()).catch(() => null)
+    ])
+    stylePatterns = sp
+    truSource = ts
+    patternEngine = pe
+  } catch (e) { console.warn('Knowledge load warning:', e) }
+  document.getElementById('input-box').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage() }
+  })
+}
+window.addEventListener('load', () => { if (ensureGate()) init() })
+
+function updateContextDisplay() {
+  const el = document.getElementById('ctx-display')
+  const bits = []
+  if (ctx.style) bits.push(STYLE_LABELS[ctx.style]?.name || ctx.style)
+  if (ctx.stage) bits.push(STAGE_LABELS[ctx.stage] || ctx.stage)
+  if (ctx.page) bits.push(`p.${ctx.page}`)
+  el.textContent = bits.length ? bits.join(' · ') : 'No style set'
+}
+
+function renderStylePicker() {
+  const container = document.getElementById('style-options')
+  container.innerHTML = ''
+  Object.entries(STYLE_LABELS).forEach(([key, info]) => {
+    const d = document.createElement('div')
+    d.className = 'style-option'
+    d.innerHTML = `<div class="name">${info.name}</div><div class="desc">${info.desc}</div>`
+    d.onclick = () => { setStyle(key); document.getElementById('style-picker').classList.remove('open') }
+    container.appendChild(d)
+  })
+}
+
+function setStyle(style) {
+  ctx.style = style
+  localStorage.setItem('tg_style', style)
+  updateContextDisplay()
+}
+
+function changeStyle() {
+  document.getElementById('style-picker').classList.add('open')
+}
+
+function fillInput(el) {
+  document.getElementById('input-box').value = el.textContent
+  document.getElementById('input-box').focus()
+}
+
+function endCall() {
+  if (!confirm('End call? This clears the chat for your next prospect.')) return
+  callMessages = []
+  document.getElementById('chat').innerHTML = `
+    <div class="empty">
+      <div style="margin-bottom:10px;">Fresh call. What do you need help with?</div>
+    </div>`
+}
+
+// ======================================================================
+// Message handling
+// ======================================================================
+function appendMsg(role, html) {
+  const empty = document.getElementById('empty-state')
+  if (empty) empty.remove()
+  document.querySelectorAll('.chat .empty').forEach(e => e.remove())
+  const chat = document.getElementById('chat')
+  const el = document.createElement('div')
+  el.className = `msg ${role}`
+  el.innerHTML = html
+  chat.appendChild(el)
+  chat.scrollTop = chat.scrollHeight
+  return el
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+
+function parseStructured(text) {
+  const result = { saythis: '', then: '', check: '', raw: text }
+  const sayMatch = text.match(/SAY THIS\s*\n+([\s\S]*?)(?=\n\s*(?:THEN|CHECK)\s*\n|$)/i)
+  const thenMatch = text.match(/THEN\s*\n+([\s\S]*?)(?=\n\s*CHECK\s*\n|$)/i)
+  const checkMatch = text.match(/CHECK[^\n]*\n+([\s\S]*?)$/i)
+  if (sayMatch) result.saythis = sayMatch[1].trim()
+  if (thenMatch) result.then = thenMatch[1].trim()
+  if (checkMatch) result.check = checkMatch[1].trim()
+  return result
+}
+
+function renderStructured(parsed) {
+  if (!parsed.saythis && !parsed.then && !parsed.check) {
+    return `<div class="r-text">${escapeHtml(parsed.raw)}</div>`
+  }
+  let html = ''
+  if (parsed.saythis) {
+    html += `<div class="r-block"><div class="r-label say"><span class="ico">💬</span>Say this</div>
+      <div class="r-text saythis">${escapeHtml(parsed.saythis)}</div></div>`
+  }
+  if (parsed.then) {
+    html += `<div class="r-block"><div class="r-label then"><span class="ico">→</span>Then</div>
+      <div class="r-text">${escapeHtml(parsed.then)}</div></div>`
+  }
+  if (parsed.check) {
+    html += `<div class="r-block"><div class="r-label check"><span class="ico">⚠</span>Check</div>
+      <div class="r-text check">${escapeHtml(parsed.check)}</div></div>`
+  }
+  return html
+}
+
+function buildSystemPrompt() {
+  const styleKey = ctx.style
+  const style = stylePatterns?.[styleKey]?.voice
+  const styleName = style?.label || 'any approved style'
+  const voiceRules = style?.voice_rules?.join('\n- ') || 'Follow TruSource v15 guidance.'
+  const avoid = style?.avoid?.join(', ') || ''
+
+  const movesPool = []
+  if (stylePatterns?.[styleKey]?.objection_moves) {
+    for (const [objType, patterns] of Object.entries(stylePatterns[styleKey].objection_moves)) {
+      patterns.slice(0, 3).forEach(p => {
+        movesPool.push(`[${objType}] Context: "${p.customer_said.substring(0, 180)}" | How a top rep in this style responded: "${p.response.substring(0, 300)}"`)
+      })
+    }
+  }
+  const movesText = movesPool.slice(0, 25).join('\n\n')
+
+  const stageLabel = STAGE_LABELS[ctx.stage] || 'unspecified'
+
+  return `You are the TruGreen Call Coach - LIVE CALL ASSIST MODE.
+
+Rep is on a live inbound sales call and needs help NOW. Give short, usable guidance.
+
+CURRENT CONTEXT:
+- Call stage: ${stageLabel}
+- Rep's selling style: ${styleName}
+- PDF page: ${ctx.page || 'unspecified'}
+${ctx.customerIssue ? `- Customer issue: ${ctx.customerIssue}` : ''}
+${ctx.bundleContext ? `- Bundle context: ${ctx.bundleContext}` : ''}
+
+RESPONSE FORMAT - ALWAYS this exact shape, nothing else:
+
+SAY THIS
+[1-2 sentence customer-facing line in the ${styleName} voice]
+
+THEN
+[Exact next step in the call flow - name the stage to return to]
+
+CHECK
+[Include ONLY if TruSource, pricing, compliance, or branch availability needs verification]
+
+STYLE VOICE RULES (${styleName}):
+- ${voiceRules}
+${avoid ? `Avoid: ${avoid}` : ''}
+
+VOICE/WORDING REFERENCE FROM COMPLETED SALES CALLS IN THIS STYLE:
+${movesText}
+
+Use these as VOICE and WORDING reference ONLY. The "Context:" labels may include fragments where speaker roles got mixed up during transcript analysis - do NOT treat them as literal objections. Treat the "How a top rep responded" lines as examples of HOW the ${styleName} style sounds, and adapt freely to the rep's actual question below.
+
+HARD RULES - MUST FOLLOW:
+1. Never invent pricing. If asked about specific prices, send to CHECK with "Verify in TruView".
+2. Never claim a specific pest/weed/service is covered unless you can confirm it. CHECK with "Verify in TruSource".
+3. Never produce compliance language outside the approved wording. For compliance questions, point to the PDF Compliance Guardrails section.
+4. Never name individual TruGreen reps or imply which specific rep said what.
+5. Never produce long paragraphs. Rep is on a live call - keep SAY THIS under 2 sentences.
+6. If the prospect interrupted the call flow (asking for price in Discovery, refusing address in Open, etc.), the SAY THIS should handle the interruption and the THEN should route back to the stage from current context (${stageLabel}).
+
+COMPLIANCE REQUIRED STAGES:
+- Open+Verify: Say TruGreen name, state rep name, confirm customer name, confirm full service address
+- Discovery: 3 lawn Qs, 1 tree/shrub Q, 1 pest/mosquito Q, avoid yes/no except compliance items
+- Close: PrePay first, EasyPay only after resistance, attempt 1+ objection recovery
+- Wrap-Up: Property instructions, notification prefs, approved continuous service/consent/state language
+
+APPROVED BUNDLE CUES (from TruSource v15):
+- Weeds/crabgrass/color/thickness -> Lead with core lawn program
+- Thin/bare/hard soil -> Lead TruPro where available
+- Trees/shrubs/landscape -> Bridge to Tree/Shrub
+- Mosquitoes/kids/pets/patio/wooded shade -> Bridge to TruDefense Mosquito
+- Ants/spiders/foundation/doors/windows -> Bridge to TruBarrier
+- Customer only wants lawn -> Keep core, do not force add-on
+
+Respond ONLY with SAY THIS / THEN / CHECK blocks. No preamble, no "Here's my advice:", no closing summary.`
+}
+
+// ======================================================================
+// Pattern-match engine (instant, no API)
+// ======================================================================
+function matchIntent(userText) {
+  if (!patternEngine) return null
+  const t = userText.toLowerCase()
+  for (const pat of patternEngine.pest_lookup.triggers) {
+    try {
+      if (new RegExp(pat, 'i').test(t)) {
+        const term = extractPestTerm(t)
+        if (term) {
+          const found = lookupTruSource(term)
+          return { type: 'pest', term, found, config: patternEngine.pest_lookup }
+        }
+      }
+    } catch (e) {}
+  }
+  for (const intent of patternEngine.intents) {
+    for (const trigger of intent.triggers) {
+      try {
+        if (new RegExp(trigger, 'i').test(t)) {
+          return { type: 'intent', intent }
+        }
+      } catch (e) {}
+    }
+  }
+  return null
+}
+
+function extractPestTerm(text) {
+  const patterns = [
+    /do (?:we|you) (?:treat|handle|cover|do|take care of)\s+(?:for\s+)?([a-z][a-z\s-]{2,30}?)(?:\?|$|,)/i,
+    /does trugreen (?:treat|handle|cover|do)\s+(?:for\s+)?([a-z][a-z\s-]{2,30}?)(?:\?|$|,)/i,
+    /can (?:we|you) (?:treat|handle|cover)\s+(?:for\s+)?([a-z][a-z\s-]{2,30}?)(?:\?|$|,)/i,
+    /services? include\s+([a-z][a-z\s-]{2,30}?)(?:\?|$|,)/i,
+  ]
+  for (const p of patterns) {
+    const m = text.match(p)
+    if (m) {
+      let term = m[1].trim()
+      term = term.replace(/\s+(?:in|at|for|the|a|an|service|treatment)$/i, '').trim()
+      if (term.length >= 3) return term
+    }
+  }
+  return null
+}
+
+function lookupTruSource(term) {
+  if (!truSource || !Array.isArray(truSource)) return null
+  const q = term.toLowerCase().trim()
+  for (const entry of truSource) {
+    const name = (entry.name || '').toLowerCase()
+    if (name === q || name === q + 's' || name === q.replace(/s$/, '')) return entry
+  }
+  for (const entry of truSource) {
+    const name = (entry.name || '').toLowerCase()
+    if (name.includes(q) || q.includes(name)) return entry
+  }
+  return null
+}
+
+function renderStructuredWithBadge(parsed) {
+  let badgeHtml = parsed._badge
+    ? `<div style="font-size:10px; color:var(--blue-dark); background:var(--blue-tint); padding:3px 8px; border-radius:3px; display:inline-block; margin-bottom:8px; font-weight:700;">${escapeHtml(parsed._badge)}</div>`
+    : ''
+  let minedHtml = ''
+  if (parsed._mined && Array.isArray(parsed._mined) && parsed._mined.length > 0) {
+    const id = 'mined-' + Math.random().toString(36).slice(2, 8)
+    const lis = parsed._mined.map(ex => `<li style="margin:6px 0; padding:6px 8px; background:#faf7f0; border-left:3px solid var(--yellow); border-radius:3px; font-style:italic; color:var(--gray-dark); font-size:11px; line-height:1.4;">${escapeHtml(ex.substring(0,320))}</li>`).join('')
+    minedHtml = `
+      <details style="margin-top:10px; border-top:1px dashed var(--border); padding-top:8px;">
+        <summary style="cursor:pointer; font-size:10px; font-weight:700; color:var(--gray-mid); text-transform:uppercase; letter-spacing:0.5px; outline:none;">
+          <span style="font-size:11px;">📝</span> How top reps actually said it (${parsed._mined.length})
+        </summary>
+        <ul style="list-style:none; padding:0; margin:8px 0 0;">${lis}</ul>
+      </details>`
+  }
+  return badgeHtml + renderStructured(parsed) + minedHtml
+}
+
+function renderIntentMatch(match) {
+  if (match.type === 'intent') {
+    const intent = match.intent
+    const styleKey = ctx.style || 'direct_setup'
+    // v2: look up by style group (direct_setup -> group_a, etc.)
+    const groupKey = patternEngine && patternEngine.style_group_map && patternEngine.style_group_map[styleKey] ? patternEngine.style_group_map[styleKey] : 'group_a'
+    const groupedSay = intent.say_this_by_group ? intent.say_this_by_group[groupKey] : null
+    // v1 fallback: style_specific say_this
+    const legacySay = intent.say_this_by_style ? (intent.say_this_by_style[styleKey] || intent.say_this_by_style['direct_setup']) : null
+    const sayThis = groupedSay || legacySay || ''
+    const parsed = {
+      saythis: sayThis, then: intent.then, check: intent.check, raw: '',
+      _badge: `${intent.label} · pattern match`,
+      _mined: intent.mined_examples || null
+    }
+    return renderStructuredWithBadge(parsed)
+  } else if (match.type === 'pest') {
+    const cfg = match.config
+    let sayThis
+    if (match.found) {
+      const e = match.found
+      const cat = (e.category || '').toString()
+      const desc = (e.description || e.doWeTreat || '').substring(0, 220)
+      sayThis = cfg.say_this_fallback_covered
+        .replace('{name}', e.name || match.term)
+        .replace('{category_statement}', cat.toLowerCase() === 'yes' ? 'covered in our standard program' : `listed under ${cat}`)
+        .replace('{short_description}', desc)
+    } else {
+      sayThis = cfg.say_this_fallback_not_found.replace('{term}', match.term)
+    }
+    const parsed = {
+      saythis: sayThis, then: cfg.then, check: cfg.check, raw: '',
+      _badge: `TruSource lookup · "${match.term}"${match.found ? ' · found' : ' · NOT found'}`
+    }
+    return renderStructuredWithBadge(parsed)
+  }
+  return ''
+}
+
+function renderFallback() {
+  const fb = patternEngine?.fallback
+  if (!fb) return `<div class="err-msg">No match found for that question.</div>`
+  return `
+    <div style="font-size:10px; color:var(--orange); background:var(--orange-tint); padding:3px 8px; border-radius:3px; display:inline-block; margin-bottom:8px; font-weight:700;">No pattern match</div>
+    <div class="r-block"><div class="r-label say"><span class="ico">💬</span>Note</div>
+      <div class="r-text">${escapeHtml(fb.say_this)}</div></div>
+    <div class="r-block"><div class="r-label then"><span class="ico">→</span>Then</div>
+      <div class="r-text">${escapeHtml(fb.then)}</div></div>
+    <div style="margin-top:10px;">
+      <button class="btn-send" onclick="askAI()" style="width:auto; padding:6px 14px; max-width:200px;">🤖 Ask AI (uses API)</button>
+    </div>`
+}
+
+// ======================================================================
+// Message handler — pattern first, AI fallback on explicit request
+// ======================================================================
+let lastUserMessage = ''
+
+function sendMessage() {
+  const input = document.getElementById('input-box')
+  const text = input.value.trim()
+  if (!text) return
+  if (!ctx.style) {
+    document.getElementById('style-picker').classList.add('open')
+    return
+  }
+
+  appendMsg('user', escapeHtml(text))
+  input.value = ''
+  lastUserMessage = text
+  callMessages.push({ role: 'user', content: text })
+
+  const match = matchIntent(text)
+  if (match) {
+    appendMsg('bot', renderIntentMatch(match))
+    return
+  }
+  appendMsg('bot', renderFallback())
+}
+
+async function askAI() {
+  if (!lastUserMessage) return
+  const sendBtn = document.getElementById('send-btn')
+  sendBtn.disabled = true
+  const loadingEl = appendMsg('bot', '<span class="loading">Asking Claude...</span>')
+  try {
+    const response = await fetch(PROXY_URL, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 600,
+        system: buildSystemPrompt(),
+        messages: callMessages.slice(-8)
+      })
+    })
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({ error: `HTTP ${response.status}` }))
+      loadingEl.innerHTML = `<div class="err-msg">${escapeHtml(err.error || 'Request failed')}</div>`
+      return
+    }
+    const data = await response.json()
+    const replyText = data.content?.[0]?.text || ''
+    if (!replyText) {
+      loadingEl.innerHTML = `<div class="err-msg">Empty response from Claude.</div>`
+      return
+    }
+    callMessages.push({ role: 'assistant', content: replyText })
+    const parsed = parseStructured(replyText)
+    parsed._badge = 'AI response · Claude Haiku'
+    loadingEl.innerHTML = renderStructuredWithBadge(parsed)
+  } catch (e) {
+    loadingEl.innerHTML = `<div class="err-msg">Network error: ${escapeHtml(e.message)}</div>`
+  } finally {
+    sendBtn.disabled = false
+  }
+}
+</script>
+
+</body>
+</html>

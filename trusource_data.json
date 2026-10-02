@@ -1,0 +1,1863 @@
+[
+  {
+    "name": "Armyworms",
+    "category": "lawn",
+    "status": "conditional",
+    "description": "Armyworms are damaging, lawn-feeding pests that emerge in HOT weather. They feed on grass blades in one area until\ntheir food supply is exhausted, often devouring an entire lawn, then move on to the next available lawn.\nDiscolored grass is often the first sign of armyworms. The damage usually begins along one edge of the turf area. Large\nnumbers of birds in a turf area may also be a sign of infestation, since armyworms are a source of food for the birds.\nGreen fecal pellets can often be seen in areas of damage. An infestation can be hard to detect as the caterpillars migrate\nto new feeding areas in the cool of the night. Damage can occur rapidly and unexpectedly. Armyworm infestations may\nnot occur every year in the north.",
+    "doWeTreat": "Yes, but coverage will vary by branch. Check TruView shopping cart for availability. If not available in the\ncart, set up a property visit request to the branch.",
+    "image": "images/trusource/armyworms_ace34f.png",
+    "page": 2
+  },
+  {
+    "name": "Bahiagrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Bahiagrass is a warm season grass primarily found in Florida and throughout Southeast Georgia. It prefers direct sunlight\nand warm temperatures. Not a common grass-type due to sensitivity to weather and products.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans but it needs to be identified prior to service.",
+    "image": "images/trusource/bahiagrass.png",
+    "page": 2
+  },
+  {
+    "name": "Bentgrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Creeping Bentgrass is a soft lime-green turfgrass. It can form an attractive lawn if it is the only variety of grass present,\nfor example, on a golf course putting green. Usually, Bentgrass is a nuisance in a customer’s lawn because it doesn’t\nblend well with other grass types, and it requires so much care. Bentgrass is sensitive to warm temperatures, turns brown\nin the summer heat and can be susceptible to diseases such as dollar spot.",
+    "doWeTreat": "Yes, this grass type can benefit from our lawn plans, alongside significant maintenance from the homeowner.\nTruGreen does not selectively remove Bentgrass from cool season turfgrass lawns.",
+    "image": "images/trusource/bentgrass_73df5e.png",
+    "page": 2
+  },
+  {
+    "name": "Bermudagrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Bermudagrass is a warm season grass that is the most common type of grass in the southern US. It is heat and drought\nresistant and prefers full sunlight, so will perform poorly in low temperatures and the shade. In the heat it grows quickly,\nrequiring more frequent mowing than other grass types, yet is wear tolerant. Bermudagrass will go dormant in cooler\ntemperatures.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "page": 2
+  },
+  {
+    "name": "Billbugs",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Billbugs can damage the lawn in the larvae or grub stage. They will burrow inside the stem and eat the plant from the\ninside out, leaving the grass brown, brittle and easy to break off. Lawn damage will appear as spotty patches or yellow or\ndead grass, often near sidewalks and driveways, although the entire lawn can be affected. In the North, they prefer\nKentucky Bluegrass and feed from July to August. In the South, they prefer Bermudagrass and Zoysiagrass. Damage can\ncommonly be mistaken for drought stress.\nDo We Treat: Yes, it is included in plans with preventative Grub treatments or as an expanded service.",
+    "image": "images/trusource/billbugs_15d0d0.png",
+    "page": 2
+  },
+  {
+    "name": "Bindweed/Morning Glory",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Bindweed, often referred to as Morning Glory, is a difficult to control perennial weed that grows along a deep, extensive\nroot system and is composed of vines of arrow-shaped weeds and trumpet shaped flowers. The thread-like vines wrap\nthemselves tightly around plants or other upward objects.",
+    "doWeTreat": "Yes, we use pre-emergent and post-emergent weed control to combat this weed and often require multiple\ntreatments to keep them under control. It can also be treated by removing it, roots, and all, before it germinates. We only\ntreat for bindweed if it is growing in the lawn.",
+    "image": "images/trusource/bindweedmorning_glory.png",
+    "page": 2
+  },
+  {
+    "name": "Bluegrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Bluegrass, also known as Kentucky Bluegrass, is a cool season grass grown in the Northern & Transitional zones. It\nprefers full sunshine so has poor shade tolerance. It also prefers cool temperatures. Kentucky Bluegrass requires at least\n1-2\" of water per week to stay green and should be mowed at 3-4\". Warm temperatures and lack of moisture will cause\nthis grass type to quickly turn brown and enter dormancy.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "image": "images/trusource/bluegrass_13dd9e.png",
+    "page": 2
+  },
+  {
+    "name": "Buffalo Grass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Buffalo grass is a North American prairie grass suited for semiarid areas of the Great Plains and West. It is a warm season\ngrass that requires low maintenance once it’s established and is tolerant of alkaline soils but has poor shade tolerance.\nNot a common grass for home lawns.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "image": "images/trusource/buffalo_grass_cdff0b.png",
+    "page": 2
+  },
+  {
+    "name": "Bugleweed",
+    "category": "lawn",
+    "status": "no",
+    "description": "Bugleweed (Ajuga) is a compact, dense groundcover with beautiful small clusters of purple flowers. It is a fast-spreading,\naggressive ground cover that can quickly take over if not given room to roam.",
+    "doWeTreat": "No, TruGreen does not offer a service to keep this ground cover in check and we do not remove weeds from\ngroundcovers.",
+    "image": "images/trusource/bugleweed_0371f3.png",
+    "page": 3
+  },
+  {
+    "name": "Centipede Grass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Centipede Grass is a warm season grass that grows primarily in the Southeast due to soil and climate requirements.\nPopular along the coastal areas of Carolina, Georgia and the Florida Panhandle, Centipede tolerates heat well but also\nneeds acidic soil to thrive. Centipedegrass is also characterized by slow growth and poor wear tolerance. During the\nwinter, it is susceptible to winter injury and severe disease issues in the Spring and Fall.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "page": 3
+  },
+  {
+    "name": "Chamberbitter",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Chamberbitter is also known as Gripeweed, Leafflower or Little Mimosa. It is a warm season, annual, broadleaf weed that\nemerges from warm soils beginning in early summer. It tends to germinate in late spring/early summer and can be harder\nto remove - needing a combination of manual removal and product to fully eradicate. It is prevalent across the southeast\n- from Virginia to Texas.",
+    "doWeTreat": "Yes, but due to its nature, customer can ensure eradication by also removing the plant by its roots and using\nproper watering/mowing techniques.",
+    "image": "images/trusource/chamberbitter_c1ba7b.png",
+    "page": 3
+  },
+  {
+    "name": "Chickweed",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Chickweed is a cool season, broadleaf weed that prefers moist, well-watered soil and is common in the spring. It has\nsmall succulent leaves, small white flowers, and grows low to the ground in dense patches. Chickweed is common in bare\nareas of the lawn. Recommend a fall aeration/overseeding to fill in bare areas.",
+    "doWeTreat": "Yes, we use pre-emergent and post-emergent weed treatments to combat this weed. It may take multiple\napplications to control this weed.",
+    "image": "images/trusource/chickweed_5d44e4.png",
+    "page": 3
+  },
+  {
+    "name": "Chinch Bugs (Southern)",
+    "category": "pest",
+    "status": "yes",
+    "description": "Chinch Bugs (Southern) are small lawn-damaging insects that feed on the grass blades, causing turf to wilt, turn brown\nand die in small, irregular patches. Chinch bug damage is often mistaken for drought damage because chinch bugs are\nmost damaging during hot and dry weather, and they target stressed areas. The patches will get bigger, even if the lawn\nis watered. These pests are mostly found in Florida, Texas and along the coast of the Carolinas and Georgia, where St.\nAugustine grass grows.",
+    "doWeTreat": "We offer preventative Chinch Bug control as part of the lawn plan or as an expanded service in areas with\nSt. Augustine turf.",
+    "image": "images/trusource/chinch_bugs_southern_67f316.png",
+    "page": 3
+  },
+  {
+    "name": "Clover",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Clover is a weedy ground cover that appears as three leaflets with flowers that are round, and colored white, yellow or\nreddish pink. Clover can be common in lawns that are thin, under fertilized or have received excessive moisture.",
+    "doWeTreat": "Yes, but these weeds can be difficult to treat and require multiple applications to be controlled.",
+    "image": "images/trusource/clover_50a3a0.png",
+    "page": 3
+  },
+  {
+    "name": "Clump Fescue",
+    "category": "lawn",
+    "status": "no",
+    "description": "Tall Fescue is a common turfgrass in the Northern & Transitional regions. It is Clump Fescue when it shows up on a lawn\nof Bermudagrass or Kentucky Bluegrass, where it is considered a weed. Tall fescue forms a clump and does not spread\non its own.",
+    "doWeTreat": "Not in cool season lawns, it requires a non-selective herbicide that needs to be applied by the customer.\nTruGreen can then follow up with a tailored lawn plan to restore the lawn. Tall fescue can be removed from warm season\nlawns in the south.",
+    "image": "images/trusource/clump_fescue_593568.png",
+    "page": 3
+  },
+  {
+    "name": "Crabgrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Crabgrass is an annual weed that germinates in the spring/summer and grows wide and flat in the heat of summer if not\ncontrolled. It is lime-green in appearance and typically grown along edges next to hard surfaces. It will take advantage of\nany bare or damaged area in the lawn. It thrives in sandy, compacted soil with thin grass and plenty of sunlight.",
+    "doWeTreat": "Yes, it is a stubborn weed that requires multiple applications to be controlled. It is best addressed through\nthe pre-emergent applications applied during the spring, so late season purchasers may struggle more with controlling\nthis weed.",
+    "image": "images/trusource/crabgrass_85809c.png",
+    "page": 3
+  },
+  {
+    "name": "Creeping Charlie",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Creeping Charlie, also known as Ground Ivy, thrives in moist and shady areas. It blooms from April-June and can spread\nquickly. Its leaves are characterized by round, scalloped edges and are deeply veined. Creeping Charlie can be found\nacross the US.",
+    "doWeTreat": "Yes, however it may require multiple applications to control this weed. Customers can also pull out the plant\nby the root, making sure to get all parts of the plant.",
+    "image": "images/trusource/creeping_charlie_694dd4.png",
+    "page": 4
+  },
+  {
+    "name": "Cypress Spurge",
+    "category": "lawn",
+    "status": "no",
+    "description": "Cypress Spurge is an invasive broadleaf weed that can be difficult to control. The best way to control the spread of such\nweeds is to dig up the plant to remove its extensive root system and prevent continued spread. Also, you can mow down\nthese weeds while in their flowering state but avoid them when they go to seed as mowing will only encourage the spread\nof such weeds.",
+    "doWeTreat": "No, TruGreen does not treat Cypress Spurge.",
+    "page": 4
+  },
+  {
+    "name": "Dallisgrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Dallisgrass is a vigorous grassy weed that grows throughout the southeastern US and parts of the transition zone. It easily\nspreads by underground rhizomes. Hand pulling is an option, but if rhizomes are left in the soil, then the weed will regrow.\nThis weed is very difficult to control with selective herbicides on the market, although TruGreen continues to partner with\nuniversities and suppliers to find breakthrough solutions to control this weed responsibly.",
+    "doWeTreat": "Only in specific markets utilizing a specific product on Bermudagrass lawns. A non-selective weed control\noption can be used to kill these weeds, but TruGreen does not use these products on lawns as they can damage more\nthan just the weed.",
+    "image": "images/trusource/dallisgrass_8b1c12.png",
+    "page": 4
+  },
+  {
+    "name": "Dandelions",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Dandelion is a common perennial broadleaf weed with roots that grow deep into the soil similar to a carrot. It can be found\nacross the US and in almost all conditions. It prefers sunny areas with good drainage and tends to have very long and\nragged leaves that appear before the flower. The flower will go to seed as temperatures warm. New plants can grow from\nseed each year.",
+    "doWeTreat": "Yes, we use post-emergent weed treatments to combat this weed. It can take multiple applications for these\nweeds to be controlled.",
+    "image": "images/trusource/dandelions_07e821.png",
+    "page": 4
+  },
+  {
+    "name": "Deadnettle",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Deadnettle is a broadleaf weed also known as Red Deadnettle or Purple Nettle, due to its purplish flowers and reddish or\npurplish-tinged leaves. An aggressive, upright weed that prefers moist, shady areas of the lawn. It can usually be found\nunder trees and shrubs, where grass is sparse.",
+    "doWeTreat": "Yes, our post-emergent weed control can address, but this weed is a winter annual, so an ongoing annual\nprogram is recommended.",
+    "image": "images/trusource/deadnettle_e8bf6c.png",
+    "page": 4
+  },
+  {
+    "name": "Dollarweed",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Dollarweed is a summer perennial weed that thrives in wet areas - often in thin lawns, gardens, and unplanted areas. It\nhas bright green, round leaves that appear like silver dollars. Due to its love of water, it has a hard time invading properly\nirrigated lawns.",
+    "doWeTreat": "Yes, but it may take 2 applications, and we recommend aeration to help thicken the turf to ensure Dollarweed\ncannot invade in the future. Since Dollarweed loves water, drainage improvements may be required as well.",
+    "image": "images/trusource/dollarweed_bd0d62.png",
+    "page": 4
+  },
+  {
+    "name": "Driveways/Sidewalks",
+    "category": "lawn",
+    "status": "no",
+    "doWeTreat": "No, we do not treat driveways/sidewalks. The products that we use are labeled for use in lawns only.",
+    "image": "images/trusource/drivewayssidewalks.png",
+    "page": 4
+  },
+  {
+    "name": "European Crane Flies",
+    "category": "pest",
+    "status": "visit",
+    "description": "European Crane Flies can damage a lawn when in their larvae feed on grass roots and cause thinning areas. Healthy,\nvigorous turfgrass can withstand low to moderate populations. Damage often becomes noticeable in March and April and\nappears as dying patches of turfgrass.",
+    "doWeTreat": "Grub preventatives will not control craneflies because the timing of egg laying does not match. If the customer\nis already dealing with an infestation, then a property visit is recommended to diagnose the problem and come up with a\ntreatment plan. Craneflies larvae (leather jackets) can be treated curatively.",
+    "image": "images/trusource/european_crane_flies_c7e8bc.png",
+    "page": 4
+  },
+  {
+    "name": "Fine Fescue",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Fine Fescue is a cool-season grass that prefers shade and cooler temperatures but does not tolerate high temperatures.\nIt tolerates drought well and is often blended with Kentucky Bluegrass for shaded lawns.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "image": "images/trusource/fine_fescue_4feda4.png",
+    "page": 4
+  },
+  {
+    "name": "Foxtail",
+    "category": "lawn",
+    "status": "yes",
+    "description": "The Foxtail plant is a grassy weed with a busy, spiked seed head. A coarse, sprawling weed that quickly multiplies and\ntakes over large swaths of the landscape. It grows best in both moist and dry soils and all sorts of climate conditions.",
+    "doWeTreat": "Yes, our pre-emergent and post-emergent weed control can address this weed.",
+    "image": "images/trusource/foxtail_0d3f8b.png",
+    "page": 5
+  },
+  {
+    "name": "Fungus",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Signs that a fungus may have caused a disease in the lawn include white, yellow, or brown patches or rings that grow\nin diameter. Thin patches of frayed, distorted, or discolored grass blades. Gray, black, red, orange, or purple spots\non blades or stems.",
+    "doWeTreat": "Yes, TruGreen treats lawn fungus/diseases however this will require a property visit as the treatment protocol\ncould be as simple as employing proper mowing and watering practices or more involved as applying a fungicide.",
+    "image": "images/trusource/fungus_2c8c4a.png",
+    "page": 5
+  },
+  {
+    "name": "Goat Head Weed",
+    "category": "lawn",
+    "status": "no",
+    "description": "Goat Head Weeds are often found in dry states out west and are a difficult to control weed. They are also harmful to pets\nand livestock as they can be both poisonous and inflict harm with their burrs.",
+    "doWeTreat": "No, non-selective weed controls can be used to kill these weeds, but TruGreen does not use these products\non lawns as they can damage more than just the weed.",
+    "image": "images/trusource/goat_head_weed_6170df.png",
+    "page": 5
+  },
+  {
+    "name": "Goosegrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Goosegrass is an annual warm season grassy weed that thrives in warm conditions. Each plant can produce thousands\nof seeds that germinate in the late spring and mature during the summer months.",
+    "doWeTreat": "Yes, but this is a very difficult weed to control and requires a special product for eradication. In warm season\nlawns, a preemergent would be a better solution.",
+    "page": 5
+  },
+  {
+    "name": "Gravel Areas",
+    "category": "lawn",
+    "status": "no",
+    "doWeTreat": "No, we do not treat gravel areas. The products that we use are labeled for use in lawns only.",
+    "image": "images/trusource/gravel_areas.png",
+    "page": 5
+  },
+  {
+    "name": "Grubs",
+    "category": "pest",
+    "status": "yes",
+    "description": "White grubs are small, white, C-shaped larvae of a group of beetles known as scarabs. White Grubs feed on the roots of\nplants. The first sign of damage is that the grass wilts easily despite watering. Damage symptoms mimic drought stress.\nContinued feeding on grass roots will cause the turf to die in irregular patches. The turf will feel spongy underfoot and\nbirds may begin to feed in the area. With heavy infestations, the turf can be rolled back like a carpet. Animals, such as\nskunks, may tear up the turf while looking for grubs and other insects for food. Japanese Beetle eggs hatch into grubs in\nmidsummer.",
+    "doWeTreat": "Yes, we offer preventative Grub control as part of the lawn plan or as an expanded service. We can also\nprovide curative services if grubs are actively feeding.",
+    "image": "images/trusource/grubs_e67104.png",
+    "page": 5
+  },
+  {
+    "name": "Henbit",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Henbit is a common aggressive, upright weed that prefers moist, shady areas of the lawn. It can usually be found under\ntrees and shrubs, where grass is sparse.",
+    "doWeTreat": "Yes, our weed control can address, but this weed is a winter annual, so an ongoing annual program is\nrecommended.",
+    "image": "images/trusource/henbit_57a31c.png",
+    "page": 5
+  },
+  {
+    "name": "Hydroseeding",
+    "category": "lawn",
+    "status": "no",
+    "description": "Hydroseeding/Hydraseeding is a planting process that uses a slurry of grass seed, paper mulch, fertilizer, and water to\ncover an area quickly. It is often used as an erosion control technique on construction sites, as an alternative to the\ntraditional process of broadcasting or sowing dry seed.",
+    "doWeTreat": "TruGreen does NOT Hydroseed.",
+    "image": "images/trusource/hydroseeding.png",
+    "page": 5
+  },
+  {
+    "name": "Japanese Clover/Lespedeza",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Japanese Clover is a woody, perennial weed that makes its appearance in late summer. It forms a mat on the ground and\nprefers thin, dry, compacted earth. Its leaves resemble a clover with its three leaflets and its pinkish purple to white\nflowers.",
+    "doWeTreat": "Yes, but it can be difficult to address. It requires pre-emergent weed control and aeration since this weed\nprefers compacted soil.",
+    "image": "images/trusource/japanese_cloverlespedeza.png",
+    "page": 5
+  },
+  {
+    "name": "Japanese Knotweed",
+    "category": "lawn",
+    "status": "no",
+    "description": "Japanese Knotweed is a difficult to control weed that spreads by underground stems. The best way to control the spread\nof such weeds is to dig up the plant to remove its extensive root system and prevent continued spread.",
+    "doWeTreat": "No, non-selective weed controls can be used to kill these weeds, but TruGreen does not use these products\non lawns as they can damage more than just the weed.",
+    "image": "images/trusource/japanese_knotweed_f56659.png",
+    "page": 6
+  },
+  {
+    "name": "Japanese Stiltgrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Japanese Stiltgrass is an invasive grassy summer annual weed that is difficult to control. Commonly found in shaded and\nmoist areas, it spreads rapidly in wooded areas or lawns that are struggling. When dealing with a small population, this\nweed can be removed by hand before the plant goes to seed but ensure any equipment that touches the weed is cleaned\nand the weed is properly disposed of to avoid further spread.",
+    "doWeTreat": "Allowing more sunlight and strengthening the turf will help to stop the spread of this problem weed. A few\nproducts can reduce the population, but typically only a non-selective weed control can be used to kill these weeds.\nTruGreen does not use non-selective products on lawns as they can damage more than just the weed.",
+    "image": "images/trusource/japanese_stiltgrass_cef1f9.png",
+    "page": 6
+  },
+  {
+    "name": "Johnsongrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Johnsongrass is a difficult to control weed as it spreads through underground rhizomes and seed heads. The best way to\ncontrol the spread of such weeds is to dig up the plant to remove its extensive root system and keep the plant from\nproducing seed that can only further the spread.",
+    "doWeTreat": "No, non-selective weed controls can be used to kill these weeds, but TruGreen does not use these products\non lawns as they can damage more than just the weed.",
+    "image": "images/trusource/johnsongrass_2606aa.png",
+    "page": 6
+  },
+  {
+    "name": "Kikuyugrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Kikuyu grass is a warm season grass that spreads quickly and thrives in warm, temperate climates, around the California\ncoast. It is mainly used in Southern California due to its drought and heat tolerance, but also can be a serious perennial\nweed. Because of its texture, Kikuyugrass is often mistaken for St. Augustine grass.",
+    "doWeTreat": "No, non-selective weed controls can be used to kill these weeds, but TruGreen does not use these products\non lawns as they can damage more than just the weed.",
+    "image": "images/trusource/kikuyugrass_f3d82b.png",
+    "page": 6
+  },
+  {
+    "name": "Lambsquarters",
+    "category": "lawn",
+    "status": "yes",
+    "description": "A warm season, annual broadleaf weed found in unmown areas. It grows vertically with a gray mealy coating on young\nleaves and small, clustered, green flowers on spikes.",
+    "doWeTreat": "Yes, the best treatment for this weed is a well-maintained lawn that is fertilized, mowed, and watered but is\nalso covered by our weed control treatments.",
+    "page": 6
+  },
+  {
+    "name": "Lawn Plugs",
+    "category": "lawn",
+    "status": "conditional",
+    "description": "A grass plug is an individual plant that is grown in a tray. The size of the plugs can vary but they are usually about the size\nof a large cupcake. Grass plugs can be used to introduce new grass into a lawn or to fill in bare areas.",
+    "doWeTreat": "TruGreen only provides lawn plugs in some of our Florida branches. This should be set up as a property\nvisit. The branches that offer this service are (subject to change): Pensacola, Orlando East/West, Brooksville, Tampa\nEast/West, Lake Wales, Ft Walton, Ft Myers, Jacksonville East, Leesburg, Sarasota, Ocala, Tallahassee.",
+    "image": "images/trusource/lawn_plugs_e7f496.png",
+    "page": 6
+  },
+  {
+    "name": "Mole Crickets",
+    "category": "pest",
+    "status": "yes",
+    "program": "Mole Cricket Recurring Control",
+    "description": "Mole Crickets are 1-2 inches long with strong front legs that burrow into the soil to feed on grass roots, often leaving\nunsightly trails, thin turf, and dry root systems. They are most active in the Southeast from April through October and\nthey prefer warm season turf that is growing in sandy soil.",
+    "doWeTreat": "TruGreen offers an expanded service to treat lawns that are most impacted by these insects, which are\nprimarily in the Carolina and Florida region. Service is called Mole Cricket Recurring Control.",
+    "image": "images/trusource/mole_crickets_3dec2a.png",
+    "page": 6
+  },
+  {
+    "name": "Moles (animal)",
+    "category": "lawn",
+    "status": "no",
+    "description": "Moles are small mammals adapted to a subterranean lifestyle. They have cylindrical bodies, velvety fur, very small,\ninconspicuous eyes and ears, reduced hindlimbs, and short, powerful forelimbs with large paws adapted for digging.\nMoles may be viewed as pests to gardeners, but they provide positive contributions to soil, gardens, and ecosystems, including\nsoil aeration, feeding on slugs and small creatures that eat plant roots, and providing prey for other wildlife. They eat earthworms\nand other small invertebrates in the soil.",
+    "doWeTreat": "TruGreen does not treat for moles. Our grub preventative will not prevent or reduce moles!",
+    "image": "images/trusource/moles_animal_65a5ba.png",
+    "page": 6
+  },
+  {
+    "name": "Moss",
+    "category": "lawn",
+    "status": "conditional",
+    "description": "This small, leafy plant is often incorrectly referred to as a \"fungus\". It can be found in damp or shady conditions with low\npH and compacted soil.",
+    "doWeTreat": "Only in Washington state.",
+    "howToCombat": "Rake up the moss, reseed, and correct the acidity of the soil to prevent further issues. Aim for a full\nprogram with aeration, seeding, and a sulfur/pH balancing treatment. Cut back tree limbs to allow more light to reach the\ngrass.",
+    "image": "images/trusource/moss_53fc62.png",
+    "page": 7
+  },
+  {
+    "name": "Mowing/Hedge Trimming",
+    "category": "lawn",
+    "status": "no",
+    "doWeTreat": "We \"grow it, not mow it.\" We also do not trim hedges or trees as part of our services.",
+    "bestPractices": "We recommend mowing frequently enough so that no more than 1/3 of the leaf blade is removed in a\nsingle mowing - more often during periods of growth and only as needed during periods of drought or dormancy. Keep\nin mind that certain grasses, such as Bermuda grass, Zoysia grass and Centipede grass, require close mowing to stay\nhealthy. Allowing these grasses to grow too high will increase the thatch in your lawn. We also recommend leaving grass\nclippings behind to recycle nutrients into your lawn but avoid leaving clumps of wet grass that can suffocate the turf.",
+    "image": "images/trusource/mowinghedge_trimming.png",
+    "page": 7
+  },
+  {
+    "name": "Mushrooms",
+    "category": "lawn",
+    "status": "no",
+    "description": "Mushrooms appear due to a confluence of factors including shade, moisture, and cloudy & rainy weather conditions. They\nare generally found in plant beds or around trees and go away naturally when exposed to sun.",
+    "doWeTreat": "While we do not treat for them, trimming back trees and shrubs can expose the mushrooms to sun and keep\nthem at bay. If mushrooms appear on your lawn alongside standing water, then it is likely a sign of compacted soil, which\ncould be addressed by core aeration. Digging up old dead tree roots and stumps can help prevent mushrooms that are\nfeeding on the decaying wood.",
+    "image": "images/trusource/mushrooms_361e21.png",
+    "page": 7
+  },
+  {
+    "name": "Necrotic Ring Spot",
+    "category": "lawn",
+    "status": "conditional",
+    "description": "Necrotic ring spot is a lawn disease that primarily affects sodded Kentucky bluegrass lawns in the late-spring and fall. The\ndisease causes a circular pattern that looks like a frog-eye that can continue to spread through the lawn. Although it is\nnot often a devastating disease that kills large areas of turf, moderate to severe outbreaks will disturb the appearance of\nthe turf. Initial outbreaks of the disease normally occur during cool wet weather in spring or fall months.",
+    "doWeTreat": "We will apply a curative fungicide as a LAST resort. Regular fertilization, proper watering, and an annual\naeration to improve soil drainage should all be recommended before a fungicide application.",
+    "image": "images/trusource/necrotic_ring_spot_a05961.png",
+    "page": 7
+  },
+  {
+    "name": "Newly Seeded / Sodded Lawns",
+    "category": "lawn",
+    "status": "no",
+    "description": "TruGreen does not treat newly seeded / sodded lawns as this work is often guaranteed by the landscaper who completed\nthe work. Any treatment on our end would invalidate the guarantee. Furthermore, TruGreen products, especially our weed\ncontrol products, are not labeled for such lawns as they may cause damage. TruGreen recommends waiting 30 days to\napply any weed controls and 1 year to aerate a newly sodded lawn.",
+    "image": "images/trusource/newly_seeded_sodded_lawns_558b9e.png",
+    "page": 7
+  },
+  {
+    "name": "Nimblewill",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Nimblewill is a difficult to control, grassy weed that grows in patches and is most obvious in warm summer months when\nthe cool season lawns they threaten are stressed.",
+    "doWeTreat": "Yes, TruGreen can help reduce a Nimblewill population, but it may take multiple applications. It is also\nrecommended the customer has aeration/overseeding alongside a comprehensive fall fertilization plan to help crowd out\nthese weeds and keep them from regrowing next season.",
+    "image": "images/trusource/nimblewill.png",
+    "page": 7
+  },
+  {
+    "name": "Nutsedge",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Nutsedge is a rapidly spreading, grass-like weed that appears in the summer in the north but can be persistent year-round\nin areas of the south. Nutsedge thrives in warm moist conditions so areas that are compacted and have poor drainage will\nbe prone to this weed.",
+    "doWeTreat": "Yes, it is a stubborn weed that requires multiple applications to be controlled. We can knock the weed back,\nbut complete control is a challenge.",
+    "image": "images/trusource/nutsedge_64b7e0.png",
+    "page": 7
+  },
+  {
+    "name": "Oxalis/Shamrock/Yellow Wood",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Shamrocks/Wood Sorrell (Oxalis) is a weedy ground cover that appears as three heart-shaped leaflets that resemble a\nclover. It often produces small, yellow, five petal flowers that close at night. This weed typically appears in the summer.",
+    "doWeTreat": "Yes, we use pre-emergent and post-emergent weed treatments to combat this weed, but it may take multiple\ntreatments to be controlled.",
+    "page": 7
+  },
+  {
+    "name": "Perennial Ryegrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Perennial Ryegrass is a cool-season grass known for its ability to germinate quickly. It thrives in areas where summers\nare moderate and winters are cool, as it is not extremely cold tolerant. It mixes well with Kentucky Bluegrass.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "image": "images/trusource/perennial_ryegrass_5a9494.png",
+    "page": 7
+  },
+  {
+    "name": "Pigweed",
+    "category": "glossary",
+    "description": "See Lambsquarters.",
+    "page": 8
+  },
+  {
+    "name": "Plantain Weed",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Plantain weeds thrive in unhealthy lawns with compacted soil. They come in two varieties, broad and narrow leaf, and can\nbe found across the US. They can contaminate mowers/lawn equipment so thorough cleaning after use is necessary to\nprevent spreading.",
+    "doWeTreat": "Yes, aeration is the best plan as well as a lawn program that includes fertilization and weed control.",
+    "image": "images/trusource/plantain_weed_f7b8a2.png",
+    "page": 8
+  },
+  {
+    "name": "Poa Annua/Annual Bluegrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Poa Annua is one of the most common grassy weeds in the United States. It looks very similar to Kentucky Bluegrass,\nexcept it is a lighter shade of green. Poa produces numerous seed heads and will brown out in the summer due to poor\nheat & drought tolerance.",
+    "doWeTreat": "We do not treat for Poa annua in the north or in cool season lawns. In the south, pre-emergent weed\ntreatments in late summer will stop them from germinating. Post-emergent applications in the spring can be used in warm\nseason turf markets. Mowing cool season grass at 3-4 inches will make the Poa less noticeable.",
+    "image": "images/trusource/poa_annuaannual_bluegrass.png",
+    "page": 8
+  },
+  {
+    "name": "Poison Ivy",
+    "category": "lawn",
+    "status": "no",
+    "description": "This vine grows across the US and can be found in wooded areas, especially at the tree-break line. It is characterized by\nthree pointed leaflets. “Leaves of three, let it be!”\nNote: Dead poison ivy can still be hazardous. Use caution if removing.",
+    "doWeTreat": "No, we recommend store-bought products labeled for poison ivy control.",
+    "image": "images/trusource/poison_ivy_f820c4.png",
+    "page": 8
+  },
+  {
+    "name": "Pokeweed",
+    "category": "lawn",
+    "status": "no",
+    "description": "Pokeweed is a large annual weed with red stems that produces toxic berries.",
+    "doWeTreat": "No. It’s best to remove by hand using gloves before the weed produces berries.",
+    "page": 8
+  },
+  {
+    "name": "Pythium Blight",
+    "category": "lawn",
+    "status": "no",
+    "description": "Pythium Blight is a lawn disease that can spread rapidly and cause damage in 24 hours. It thrives in hot, wet conditions\nand is attracted to areas that are poorly drained, protected with limited air movement, and have overgrown thatch. Limiting\nwatering and core aeration are often recommended to address this situation.",
+    "doWeTreat": "No. It’s too late to treat pythium blight once the disease is active. Reduce watering to prevent it from\nspreading.",
+    "image": "images/trusource/pythium_blight_bf4a9f.png",
+    "page": 8
+  },
+  {
+    "name": "Quackgrass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Quackgrass is a creeping perennial weed grass that blue green in color. It is commonly found mixed into cool season\nlawns. Quackgrass typically is found in vacant fields or along roadsides that are not regularly mowed.",
+    "doWeTreat": "No. We cannot safely remove Quackgrass from cool season lawns. Proper mowing and the TruGreen\nlawncare program will help the desired lawn grasses outcompete the Quackgrass.",
+    "image": "images/trusource/quackgrass_fb144b.png",
+    "page": 8
+  },
+  {
+    "name": "Ragweed",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Common Ragweed can be found across the US and is the source of most fall allergies including hay fever. It can be found\ngrowing in unkempt lawns, fields, and roadsides. It looks like a fern and has a pungent odor.",
+    "doWeTreat": "Yes, it is a stubborn weed and may require multiple applications to be controlled.",
+    "image": "images/trusource/ragweed_ef475a.png",
+    "page": 8
+  },
+  {
+    "name": "Red Sorrell",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Red Sorrell, also known as sheep sorrell, is perennial broadleaf weed that is easily identified by its red flowers and arrow-\nshaped leaves. Once it begins to flower, herbicide treatments may be ineffective or require multiple applications.",
+    "doWeTreat": "Yes, we use pre-emergent and post-emergent weed treatments to combat this weed, but it may take the full\nseason to control.",
+    "image": "images/trusource/red_sorrell.png",
+    "page": 8
+  },
+  {
+    "name": "Red Thread",
+    "category": "lawn",
+    "description": "Red thread is a fungal disease that most commonly occurs in late spring and fall. The affected areas have a pink color\nfrom the tiny red threads of the fungus found on the grass blades as the disease progresses. Moist warm overcast\nconditions tend to favor this disease. This disease will only kill the blades leaving brown patches in the lawn. Red thread\nwill not kill the grass plants.",
+    "doWeTreat": "Our lawncare program will help keep the lawn healthy and allow the grass to grow out if the disease occurs.\nWatering during dry periods and mowing at the proper height can help reduce the disease. Fungicides are rarely necessary.",
+    "image": "images/trusource/red_thread_289aea.png",
+    "page": 9
+  },
+  {
+    "name": "Sandburs",
+    "category": "lawn",
+    "status": "visit",
+    "description": "Sandburs grow in southern regions with dry, sandy soils and in patchy lawns.",
+    "doWeTreat": "Set up a property visit request to the branch.",
+    "page": 9
+  },
+  {
+    "name": "Snow Mold",
+    "category": "lawn",
+    "status": "no",
+    "description": "Snow Mold is a lawn disease that occurs as the snow is melting in late winter and when daytime temperatures are between\n35-40 degrees. Signs of both pink and gray snow mold are usually most noticeable in the spring when the snow begins\nto melt. As the snow melts, straw-colored circular patches ranging in size from a few inches to several feet across\nappear in the lawn. The grass in these patches is usually matted down and crust. Snow mold will only kill the grass blades\nand not the grass plants.",
+    "doWeTreat": "No. Customers should be encouraged to rake the affected areas to allow the sun to warm the soil and\npromote air flow. The grass will recover quickly once the soil temperatures increase. Fertilizer from our TruGreen\nlawncare program will promote fast recovery.",
+    "image": "images/trusource/snow_mold_a323b8.png",
+    "page": 9
+  },
+  {
+    "name": "Sod",
+    "category": "lawn",
+    "status": "no",
+    "description": "Sod is grass and a small part of the soil beneath it held together by the root system and harvested into rolls. It is used to\nestablish a lawn quickly, especially in areas where seed would be too expensive or not available. Most common types of\nsod are St. Augustine, Bermuda, and Centipede.",
+    "doWeTreat": "TruGreen does not put down sod. Homeowners should wait until their new sod is fully established to purchase\nany of our lawn care services. Their focus should be on proper watering and mowing maintenance. The timeline to start\nup with lawn care services will vary, but the homeowner should consider any guarantees offered by their sodding provider.\nThat said, it’s best to wait a year before signing up for any lawn care services.",
+    "image": "images/trusource/sod_ae9b01.png",
+    "page": 9
+  },
+  {
+    "name": "Sod Webworms",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Sod Webworms chew on grass blades when in their caterpillar stage before they turn into moths. Damage first appears\nas small, ragged brown spots in the turf, then becomes larger and may join other large dead patches of grass. The\npresence of birds or large numbers of moths in the late evening may suggest a Sod Webworm infestation. In the South,\ntopical sod webworms prefer St. Augustinegrass and can damage throughout the year. In the North, they threaten Fine\nFescue and Bluegrass during the summer months.",
+    "doWeTreat": "Yes. Lawn inspection is required. In Florida & Savanah, GA, these insects are covered as part of the\npreventative Chinch Bug control application. Chargeable applications will vary across other branches.",
+    "image": "images/trusource/sod_webworms_eae337.png",
+    "page": 9
+  },
+  {
+    "name": "Soil Sampling",
+    "category": "lawn",
+    "description": "Does TruGreen do soil samples or other soil testing? The short answer is no.\nSoil samples/testing:\n•\nIs not included as part of our standard program\n•\nIs not advertised as part of TruGreen lawn services\n•\nShould never be provided as a feature or benefit\n•\nIs not part of the first service assessment conducted by the specialist\n•\nShould not be offered as an enticement to start with TruGreen\nSometimes, customers may think that soil testing is needed in their area. A well-maintained lawn does not need ongoing soil testing.\nFurther, we do not do soil testing even if the customer asks – any customers that request this should be referred to their specialist.",
+    "page": 9
+  },
+  {
+    "name": "Spurge/Spotted Spurge",
+    "category": "lawn",
+    "status": "yes",
+    "description": "A spotted weed that thrives in the heat of summer, spotted spurge (Euphorbia maculata) is an unsightly nuisance that not\nonly takes up residence in weak areas of the lawn, but also invades landscape beds, sidewalk cracks, and vegetable\ngardens. Spotted spurge is easily recognized by its hairy red stems that branch out from a central point, tiny dark green\nleaves with a red spot, and dense, mat-like shape. This annual weed germinates in mid-spring and produces\ninconspicuous, tiny green flowers all summer long. In addition to its signature red spots, spotted spurge can be\ndistinguished from other weeds by the milky sap that is produced when any part of the plant is damaged. In thin areas of\nthe lawn, it can form a thick mat that can be up to 3 feet across.",
+    "doWeTreat": "Yes, we use post-emergent weed treatments to combat this weed. It may take multiple applications to control\nthis weed.",
+    "image": "images/trusource/spurgespotted_spurge.png",
+    "page": 9
+  },
+  {
+    "name": "St. Augustine Grass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "St. Augustine grass is most popular in the Southern regions due to its tolerance to heat, humidity, and salt. It grows best\nin the heat of summer and can produce heavy thatch that requires aeration to break up. It may become dormant and\ndiscolored in the winter.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "image": "images/trusource/st_augustine_grass.png",
+    "page": 9
+  },
+  {
+    "name": "Tall Fescue",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Tall Fescue is a cool-season grass that is durable due to its coarse texture, making for good wear tolerance. It tolerates\ndrought and heat well - adapting well to either sunny or partially shaded areas. It is not compatible with other turfgrasses\ndue to its texture and is often considered a weed in finer textured turfgrasses. Tall fescue does not spread so bare spots\nwill need to be seeded.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.",
+    "image": "images/trusource/tall_fescue_fddc0b.png",
+    "page": 10
+  },
+  {
+    "name": "Thistle/Creeping Thistle",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Thistle is a thorny broadleaf weed that is also referred to as Creeping Thistle or Canada Thistle. Thistle can release\nchemicals into the soil that inhibit the growth of other plants. They tend to take hold on disturbed soils, like field and road\nedges, wet and dry sites, pastures, or the yard. It can be found across the US.",
+    "doWeTreat": "Yes, we use post-emergent weed treatments to combat this weed. It may take multiple applications to control\nthis weed.",
+    "image": "images/trusource/thistlecreeping_thistle.png",
+    "page": 10
+  },
+  {
+    "name": "Torpedograss",
+    "category": "lawn",
+    "status": "visit",
+    "description": "Torpedograss is a perennial grassy weed also known as Bullet Grass, Couch Panicum, Creeping Panic, Dogtooth Grass,\nPanic Rampant, and Quack Grass. This grows mostly along the coastal regions of the southern US and prefers marshy\nsoils.",
+    "doWeTreat": "Set up a property visit request to the branch.",
+    "image": "images/trusource/torpedograss_b75da2.png",
+    "page": 10
+  },
+  {
+    "name": "Violets",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Wild violets are a perennial broadleaf weed with heart-shaped leaves and a purple flower, which can be white or pink for\nsome species. It blooms from March through June and can be found in the Eastern half of the US. It prefers shade but\nwill thrive in full sun areas of the lawn. This weed is very difficult to control and will require multiple applications.",
+    "doWeTreat": "Yes - post-emergent weed treatments to control this weed, but it can take a full season to get this weed\nunder control.",
+    "image": "images/trusource/violets_a2fe6c.png",
+    "page": 10
+  },
+  {
+    "name": "Virginia Buttonweed",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Virginia Buttonweed is an upright, spreading weed often with yellow-mottled foliage due to a virus. Can have white flowers.\nIt thrives in wet, moist conditions and tolerates close mowing, so it is found mainly in grass and lawns. This usually grows\nalong the Southern East Coast and into Texas.",
+    "doWeTreat": "Yes, it is a stubborn weed and may require multiple applications to be controlled.",
+    "image": "images/trusource/virginia_buttonweed_f1a877.png",
+    "page": 10
+  },
+  {
+    "name": "White Clover",
+    "category": "lawn",
+    "status": "yes",
+    "description": "White Clover is a perennial broadleaf weed that grows low to the ground. It has dark green, trifoliate leaves (three leaflets)\nwith white round flowers with a pinkish cast. It grows in many places, especially sparse lawns where the competition from\ngrass is weak.",
+    "doWeTreat": "Yes, we use post-emergent weed treatments to control this weed, but it can take a full season to get this\nweed under control.",
+    "image": "images/trusource/white_clover_b046a7.png",
+    "page": 10
+  },
+  {
+    "name": "Wild Onions / Onion Grass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Wild Onions / Onion Grass is the most common onion-like winter perennial weed with underground bulbs. They can appear\nin lawns but are more often found in flower beds.",
+    "doWeTreat": "No, the best method to remove these weeds is to dig up the bulbs; simply pulling from above ground can\ncause the bulb to break apart and leave roots behind that can regenerate. You will want to do this before it goes to seed\nas that will allow the weed to continue to spread.",
+    "page": 10
+  },
+  {
+    "name": "Wiregrass",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Wiregrass, also known as Goosegrass, is a perennial grassy weed. This lawn weed makes its home in sidewalk cracks\nand lawns and can be difficult to manage.",
+    "doWeTreat": "Yes, we treat this weed when it appears in the lawn, but not on the sidewalks as our products are only\nlabeled for lawn applications. We highly recommend an annual plan that includes aeration/overseeing to help keep this\nweed at bay.",
+    "image": "images/trusource/wiregrass_9f11ee.png",
+    "page": 10
+  },
+  {
+    "name": "Yarrow Weed",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Yarrow is an extremely adaptable plant found across the US with a fern-like appearance and a strong sage-like odor. The\ntiny seeds are spread by wind and can remain viable in soil for up to nine years. The longevity of the seeds makes complete\nyarrow control very difficult.",
+    "doWeTreat": "Yes, we use post-emergent weed treatments to combat this weed, but it requires multiple applications to be\ncontrolled.",
+    "image": "images/trusource/yarrow_weed_cc9277.png",
+    "page": 10
+  },
+  {
+    "name": "Zoysia",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Zoysia is a warm season grass that can tolerate some cooler temperatures - thriving in Southern and Transitional zones.\nIt prefers sun but can grow in light shade as well and it does not require much water or mowing due to its slow growth.\nIt can also tolerate drought and high traffic. Zoysia will go dormant and discolor during winter months. Zoysiagrass is not\nrecommended for the north as its dormancy period will exceed its growing season.",
+    "doWeTreat": "Yes, this grass benefits from our lawn plans.\nTrees and Shrubs",
+    "image": "images/trusource/zoysia_966fef.png",
+    "page": 11
+  },
+  {
+    "name": "Anti-Desiccant",
+    "category": "glossary",
+    "status": "conditional",
+    "description": "This treatment will reduce water loss from evergreens and broadleaf evergreen shrubs during the winter months. Extreme water loss during the winter can cause\nwinter burn. The leaves and needles are coated with a liquid anti-desiccant that prevents water from escaping and thereby reducing the potential for winter burn.\nAntidesiccants are applied in November and December before temperatures remain below freezing.",
+    "doWeTreat": "Not all branches provide this service. Contact the branch for more information.",
+    "image": "images/trusource/anti_desiccant_1447b2.png",
+    "page": 11
+  },
+  {
+    "name": "Aphids",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Aphids are small, soft-bodied insects that feed by sucking the nutrient-rich liquids out of plants. They multiply quickly and\nare found throughout the US.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "page": 11
+  },
+  {
+    "name": "Apple Scab",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Apple Scab is a fungus that attacks the leaves of Crabapple trees. Look for small round brown patches on the leaves. If\nuntreated, this can lead to complete leaf loss. Fungicide treatments must be made in April – June to be effective.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/apple_scab.png",
+    "page": 11
+  },
+  {
+    "name": "Arborvitae",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Arborvitae is an evergreen coniferous tree which is native to eastern Canada and much of the north-central and\nnortheastern United States. It is widely cultivated as an ornamental plant.",
+    "doWeTreat": "Yes, with our standard TruShrub Program.",
+    "mainIssues": "Spider Mites, bagworms",
+    "image": "images/trusource/arborvitae.png",
+    "page": 11
+  },
+  {
+    "name": "Ash Trees",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "There are many species of Ash Trees, but the most common are white, black, and green Ash Trees. Their leaves turn\nbeautiful shades of yellow and burgundy in fall. They are drought tolerant and can be found across the US.",
+    "doWeTreat": "Yes, with our standard TruShrub Program. If your TruGreen specialist discovers borer damage, they may\nalso recommend our Emerald Ash Borer treatment which is NOT included in the standard TruShrub program.",
+    "image": "images/trusource/ash_trees_206969.png",
+    "page": 11
+  },
+  {
+    "name": "Azaleas",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Azaleas are spring flowering shrubs that bloom in a variety of colors. Azaleas bloom in the spring, their flowers often last\nfor several weeks. Shade tolerant and prefer acidic soils.",
+    "doWeTreat": "Yes, with our standard TruShrub Program.",
+    "mainIssues": "Aphids and lacebugs.",
+    "page": 11
+  },
+  {
+    "name": "Bagworms",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Bagworm caterpillars make distinctive 1.5- to 2-inch-long spindle-shaped bags that can be seen hanging from twigs of a\nvariety of trees and shrubs. Bagworms prefer Juniper, Arborvitae, Spruce, Pine, and Cedar but also attack deciduous\ntrees. The bagworms can defoliate plants in a short period of time. These pests are typically active in June and July.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "whereLocated": "East of the Mississippi river.",
+    "image": "images/trusource/bagworms_c3d5b2.png",
+    "page": 11
+  },
+  {
+    "name": "Bamboo",
+    "category": "lawn",
+    "status": "no",
+    "description": "Bamboo is a type of grass with a hard, woody, hollow stem. It is a perennial evergreen, meaning it grows every year and\nstays green year-round. Hundreds of kinds grow in different regions of the world, and people have used them in everything\nfrom construction to medicine. Bamboo prefers well-watered, mildly acidic soil in most cases. There are dozens of varieties\nof bamboo, with experts asserting that there are over 1,400 different types.",
+    "doWeTreat": "No, TruGreen does not treat Bamboo plants.",
+    "image": "images/trusource/bamboo_91c667.png",
+    "page": 11
+  },
+  {
+    "name": "Barberry",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Barberry is a thorny deciduous shrub that can range from 1-5' in height. The leaves can be red, green, yellow, or\nvariegated.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/barberry.png",
+    "page": 12
+  },
+  {
+    "name": "Blight",
+    "category": "lawn",
+    "status": "no",
+    "description": "Blight is a range of tree diseases that can attack leaves and fruit, causing it to discolor and wilt. More serious cases\ncause branches to die.",
+    "doWeTreat": "No, proper treatment for such diseases will vary based on the type of blight disease affecting the tree so\nthis will require a property visit to properly diagnose the issue and determine a potential treatment plan.",
+    "image": "images/trusource/blight.png",
+    "page": 12
+  },
+  {
+    "name": "Blue Spruce Trees",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Blue Spruce, also known as Colorado Spruce, is a conical-shaped evergreen tree with stiff, horizontal branches and short,\nstiff needles. It is commonly used in Midwest landscapes.",
+    "doWeTreat": "Yes, with our TruShrub Program; however, certain diseases cannot be controlled such as Cytospora canker.\nWe will avoid spraying the trees with dormant oil because this application can remove the blue off the needles. Your\nTruGreen specialist will also look for signs of Needlecast.",
+    "image": "images/trusource/blue_spruce_trees_c52989.png",
+    "page": 12
+  },
+  {
+    "name": "Boring Beetles",
+    "category": "pest",
+    "status": "visit",
+    "description": "Wood-boring beetles are species and families of insects, whose larva (in most cases) or adult forms feed off and destroy\nwooden materials. The most common types include longhorn beetles, bark beetles and weevils.",
+    "doWeTreat": "Set up a property visit request to the branch.",
+    "whereLocated": "Across the US.",
+    "image": "images/trusource/boring_beetles_21d14a.png",
+    "page": 12
+  },
+  {
+    "name": "Bottlebrush Buckeye",
+    "category": "tree",
+    "status": "no",
+    "description": "The Bottlebrush Buckeye is a species of large suckering deciduous shrub. The species is native to the southeastern United\nStates, where it is found primarily in Alabama and Georgia, with a disjunct population in South Carolina along the Savannah\nRiver.",
+    "doWeTreat": "No, TruGreen does not treat Bottlebrush Buckeye.",
+    "image": "images/trusource/bottlebrush_buckeye_1de174.png",
+    "page": 12
+  },
+  {
+    "name": "Boxwood",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Boxwood shrubs are slow-growing plants with dark green glossy leaves. Some varieties have variegated leaves. Leaf\nshape depends on the variety; some are round while others are elliptical. They provide thick cover because the foliage\nbegins close to the ground and is dense enough to block light.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "mainIssues": "Psyllids, Aphids, box tree moths, boxwood\nblight",
+    "image": "images/trusource/boxwood_afc2f1.png",
+    "page": 12
+  },
+  {
+    "name": "Caterpillars",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "A caterpillar is the larva of a butterfly or moth. It’s the second stage in its four-stage life cycle of egg, larva, pupa, and\nadult. Caterpillars are insects, just like their parent butterflies or moths. They have six proper legs, like all insects, but also\nup to five pairs of stumpy prolegs with little hooks that help them to hang onto things, and to move in a wave-like motion.\nCaterpillars eat mostly plants. Many species have a favorite plant, such as a type of tree or grass, or even stinging nettles.\nThese are known as host plants. The butterfly or moth will lay its eggs on a host plant, so the caterpillars have a ready\nsource of food when they hatch.",
+    "doWeTreat": "Yes, with our TruShrub Program. This is mostly a spring to early summer pest, so round 3 in the north and\nrounds 3 & 5 in the south would be the applications that would target these.",
+    "image": "images/trusource/caterpillars_e75ac6.png",
+    "page": 12
+  },
+  {
+    "name": "Cherry trees – non-edible fruit bearing",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Cherry Blossom trees bring billowy pink and white blooms in the spring. These blooms often last no more than 2 weeks.\nOrnamental cherry trees do not produce edible fruit. TruGreen will not treat edible fruit bearing cherry trees.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "page": 12
+  },
+  {
+    "name": "Coneflower",
+    "category": "lawn",
+    "status": "no",
+    "description": "Echinacea is a genus of herbaceous flowering plants in the daisy family. It has ten species, which are commonly called\nconeflowers. They are found only in eastern and central North America, where they grow in moist to dry prairies and open\nwooded areas.",
+    "doWeTreat": "No, TruGreen does not treat Coneflowers.",
+    "image": "images/trusource/coneflower_85b6db.png",
+    "page": 12
+  },
+  {
+    "name": "Crabapple Tree",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Crabapple are common ornamental trees that are grown in the north. They come in a variety of forms and can grow up\nto 20 ft tall. They are widely grown for their attractive growth habit, spring flower display that can range from white to pink\nto reg, and decorative red or gold fruits. The most common problem is apple scab disease.",
+    "doWeTreat": "Yes, with our TruShrub Program. Some states may consider crabapples to be fruit bearing trees which limits\nour ability to treat them.",
+    "image": "images/trusource/crabapple_tree_8f5e0f.png",
+    "page": 13
+  },
+  {
+    "name": "Crape Myrtle",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Crape Myrtles are flowering trees that come in a variety of colors and are prevalent in the southern US. They range in size\nfrom dwarf selections that grow less than three feet tall to several varieties that reach upwards of 30 feet. Common\nproblems are powdery mildew and crape myrtle scale.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/crape_myrtle.png",
+    "page": 13
+  },
+  {
+    "name": "Dogwood Trees",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Dogwoods are spring flowering ornamental trees that produce a large display of white, pink, or red flowers. The most\ncommon problem is dogwood anthracnose.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "page": 13
+  },
+  {
+    "name": "Emerald Ash Borer",
+    "category": "tree",
+    "status": "conditional",
+    "program": "Emerald Ash Borer",
+    "description": "The Emerald Ash Borer is a green jewel-like beetle native to northeastern Asia that feeds on various species of Ash trees.\nThe adult beetles nibble on ash foliage but cause little damage. The larvae, however, feed on the inner bark of Ash Trees,\ndisrupting the tree's ability to transport water and nutrients.",
+    "doWeTreat": "Set up a property visit request to the branch. This is a specialized treatment that is not included in the tree\nand shrub program. Not all branches are equipped to treat for Emerald Ash Borer.",
+    "whereLocated": "Eastern and Midwest US.",
+    "image": "images/trusource/emerald_ash_borer_39e456.png",
+    "page": 13
+  },
+  {
+    "name": "Ground Cover",
+    "category": "lawn",
+    "status": "no",
+    "description": "Ground covers are ornamental, perennial plants that are intended to cover an area of ground for many years. EX: Creeping\nThyme and Ice Plant. They are low (typically less than two feet) spreading plants.",
+    "doWeTreat": "No. Pachysandra may be treated in some areas due to certain disease and insects.",
+    "image": "images/trusource/ground_cover_90a621.png",
+    "page": 13
+  },
+  {
+    "name": "Gypsy Moths (Spongy moths)",
+    "category": "pest",
+    "status": "no",
+    "description": "Gypsy Moths, also known as spongy moths, as caterpillars, are about two inches long with blue and red dots on their\nbacks. They feed from late April to mid-June. The caterpillars defoliate (remove leaves from) trees, leaving trees vulnerable\nto diseases and other pests, and can eventually kill the tree.",
+    "doWeTreat": "We will treat trees that are less than 25’ tall. TruGreen does not treat trees that are larger than 25’ tall.",
+    "whereLocated": "Eastern and Central US.",
+    "image": "images/trusource/gypsy_moths_spongy_moths_294618.png",
+    "page": 13
+  },
+  {
+    "name": "Hibiscus",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Hibiscus is a genus of flowering plants in the mallow family, Malvaceae. The genus is quite large, comprising several\nhundred species that are native to warm temperate, subtropical, and tropical regions throughout the world. Member\nspecies are renowned for their large, showy flowers and those species are commonly known simply as \"hibiscus\", or less\nwidely known as rose mallow. Other names include hardy hibiscus, rose of Sharon, and tropical hibiscus.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/hibiscus_750545.png",
+    "page": 13
+  },
+  {
+    "name": "Hydrangea",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Hydrangeas are popular shrubs with colorful flowers that bloom through summer and into fall. They usually bloom in\nshades of blue, purple, and pink, with some selections in white, green, or red. Most hydrangea bushes are easy to grow\nand prefer partial shade.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/hydrangea_df8942.png",
+    "page": 13
+  },
+  {
+    "name": "Japanese Beetles",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Japanese Beetles are iridescent green beetles that emerge in early July and can be very active for about 6-8 weeks. They\ncan cause damage to several hundred different types of plants by skeletonizing the leaves (see image to the right). The\ngrubs develop in the soil, feeding o the roots of various plants and grasses and often destroying turf in lawns.",
+    "doWeTreat": "Yes. Damage to trees and shrubs from adult beetles can be minimized with our TruShrub program, which\nprovides protection.",
+    "whereLocated": "Across the US, however not as much in Florida.",
+    "image": "images/trusource/japanese_beetles_85809c.png",
+    "page": 13
+  },
+  {
+    "name": "Japanese Maple",
+    "category": "tree",
+    "status": "no",
+    "description": "The Japanese Maple is considered a small tree, typically growing from 5 to 25 feet (1.5 to 7.5 m.) tall. Their delicate, often\npurple leaves turn a shade of red, orange, or yellow in the fall. They are susceptible to wilt and fungus from improper\nwatering/care.",
+    "doWeTreat": "No. We do not treat or fertilize Japanese maples.",
+    "image": "images/trusource/japanese_maple.png",
+    "page": 14
+  },
+  {
+    "name": "June Bugs",
+    "category": "pest",
+    "status": "no",
+    "description": "The name \"June bug\" refers to any of the 100 species of beetles that are related to the scarabs familiar from ancient\nEgyptian iconography. Other common names for the June bug include \"June beetle\" and \"May beetle.\" The common June\nbug is one-half to five-eighths inches long and reddish-brown in color. Being beetles, they also sport shiny wing covers,\ncalled elytra. June bugs can cause damage to gardens, lawns, and pastures. They are classified as chafers, meaning they\nfeed on vegetation, specifically leaves. Their diet can also encompass grass, flowers, fruit, food crops such as grains\n(wheat, corn, etc.), sap and decaying organic material. June bugs are nocturnal. They feed from dusk through the evening\nhours to avoid predators.",
+    "doWeTreat": "No, TruGreen does not treat for June Bugs.",
+    "image": "images/trusource/june_bugs_8bca44.png",
+    "page": 14
+  },
+  {
+    "name": "Juniper shrubs",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Junipers are evergreen shrubs that thrive in most US growing zones. Junipers are versatile and a great for adding depth\nand color to any landscape. Junipers are deer resistant, salt tolerant, and extremely low maintenance. Helpful for\ncontrolling soil erosion, Juniper plants are an excellent choice for planting on hills and slopes.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "mainIssues": "Spider Mites,\nBagworms",
+    "image": "images/trusource/juniper_shrubs.png",
+    "page": 14
+  },
+  {
+    "name": "Kudzu plant",
+    "category": "lawn",
+    "status": "no",
+    "description": "Known as “mile-a-minute” and “the vine that ate the South,” this creeping, climbing perennial vine terrorizes native plants\nall over the southeastern United States and is making its way into the Midwest, Northeast and even Oregon.",
+    "doWeTreat": "No, TruGreen does not treat or control Kudzu plants.",
+    "image": "images/trusource/kudzu_plant.png",
+    "page": 14
+  },
+  {
+    "name": "Leafminers",
+    "category": "lawn",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "The leafminers are a large group of insects that have evolved an interesting approach to survival and reproduction.\nInstead of feeding on foliage like many other insects, leafminers live and feed inside the leaves. There are various types\nof leafminers, and the adults are either moths, sawflies, flies, or beetles.\nMany ornamental trees and shrubs are attacked. Leafminer feeding results in dead tissue in the leaf with a characteristic\nfeeding track left by each species. A light infestation will not cause much damage but when several generations build up\non a plant, severe leaf browning and leaf drop can occur.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/leafminers_829fa3.png",
+    "page": 14
+  },
+  {
+    "name": "Lilac",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "The common lilac is well-loved for its toughness, reliability, and fragrance. In fact, lilacs are so tough that they can grow\nfor 100+ years, often outliving the homes they were planted around. This deciduous multi-stemmed shrub (or small\ntree) has about 10 canes and produces flowers at eye-level. The common lilac grows between 8 and 12 feet tall,\ndepending on the variety. The fragrant flowers are good for cutting and attractive to butterflies. The most common\nproblem is powdery mildew.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/lilac_b13425.png",
+    "page": 14
+  },
+  {
+    "name": "Magnolia trees",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Magnolia trees are deciduous and evergreen trees and shrubs that can most accurately be described as magnificent\nflowering plants. Magnolia trees are diverse in leaf shape and plant form, and they include both evergreen and deciduous\nsorts. Magnolia hardiness varies by species, but most of them thrive in full sun or partial shade with regular water. Main\nissues: Magnolia Scale.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/magnolia_trees_3c6876.png",
+    "page": 14
+  },
+  {
+    "name": "Monkey Grass",
+    "category": "lawn",
+    "status": "no",
+    "description": "Monkey grass, also known as Liriope, lilyturf, and blue lily turf, is a grass-like flowering plant that is mainly used as a\nground cover border. Liriope is a tough, adaptable plant that is maintenance free once it is established. The grass-like\nleaves stay nice well into the winter months. They are evergreen in warmer climates and semi-evergreen in cooler growing\nzones.",
+    "doWeTreat": "No, we do not treat Monkey Grass.",
+    "image": "images/trusource/monkey_grass.png",
+    "page": 14
+  },
+  {
+    "name": "Needlecast",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Needlecast is a common fungal disease on Colorado spruce including blue spruce. The disease causes the previous year’s\nneedles to fall off in the summer. This will be most dramatic at the bottom of the tree. Needlecast attacks trees under\nstress in the spring and early summer. Customers must allow at least two years to see the results from our tree and shrub\nprogram.",
+    "doWeTreat": "Yes, with our TruShrub Program.",
+    "image": "images/trusource/needlecast_969557.png",
+    "page": 15
+  },
+  {
+    "name": "Oak Wilt",
+    "category": "tree",
+    "status": "no",
+    "description": "Oak wilt is an aggressive disease that affects many species of oak (Quercus spp.). It is one of the most serious tree\ndiseases in the Eastern United States, killing thousands of oaks each year in forests, woodlots, and home landscapes.",
+    "doWeTreat": "No, TruGreen does not treat Oak Wilt or any wilt diseases.",
+    "image": "images/trusource/oak_wilt_dea541.png",
+    "page": 15
+  },
+  {
+    "name": "Palms",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Palms are not actually trees. They are considered perennial flowering plants and are mainly found in tropical/subtropical\nlocations.",
+    "doWeTreat": "Yes, if under 25 feet tall with our standard TruShrub Program.",
+    "image": "images/trusource/palms_df4e00.png",
+    "page": 15
+  },
+  {
+    "name": "Pine Bark Beetles",
+    "category": "tree",
+    "status": "no",
+    "description": "Pine Bark Beetles are insects that normally attack stressed and dying pine trees and usually do not infest trees that are\notherwise healthy and vigorous. They feed and breed in the inner bark of pine trees, and introduce symbiotic fungi into\nthe tree, often causing or hastening the death of the tree as a result.",
+    "doWeTreat": "No, TruGreen does not treat for Pine Bark Beetles.",
+    "image": "images/trusource/pine_bark_beetles_937abf.png",
+    "page": 15
+  },
+  {
+    "name": "Pine Trees",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Pine trees are one of the most wide-spread and varied native trees in North America. These cone-bearing evergreens\ngenerally have needle-like leaves, and a single straight trunk, with lateral branches.",
+    "doWeTreat": "Yes, if under 25 feet tall with our standard TruShrub Program.",
+    "page": 15
+  },
+  {
+    "name": "Rose of Sharon",
+    "category": "glossary",
+    "description": "See Hibiscus",
+    "page": 15
+  },
+  {
+    "name": "Roses/Rose Bushes",
+    "category": "lawn",
+    "status": "yes",
+    "description": "Rose bushes are woody perennial flowering plants. There are over 300 species. They grow in bushes with thorns on the\nflower stems. Rose bushes can range in size from miniature to seven feet tall climbing roses. They are also delicate and\nneed special care.\n•\nA shrub rose is typically hardier than other roses. While some will stay in the form of a shrub, others will climb\nand grow as tall as 15 feet. Common varieties are Knockout roses and Wiltshire.\n•\nBush Rose is a term used to describe modern roses that are smaller than shrub roses. These plants are great\nfor growing in containers and are an excellent choice for small growing locations. Bush roses can be a smaller\ntype of shrub rose or even a hybrid tea rose variety. They won’t usually grow taller than 6 feet, which explains\nwhy they’re such a great choice for container gardens or small gardening areas. Popular varieties of bush roses\nare the Sunflare and Fairest Cape.",
+    "doWeTreat": "Yes, shrub roses such as Knock Out Roses planted in landscapes are included in the tree and shrub program.\nHybrid tea, floribunda and grandiflora roses are not included in the program and will not be treated.",
+    "image": "images/trusource/rosesrose_bushes.png",
+    "page": 15
+  },
+  {
+    "name": "Ruby Loropetalum",
+    "category": "lawn",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Ruby Loropetalum is an evergreen shrub found in the South that produces fragrant pink flowers in the spring alongside\ngreen and purple foliage.",
+    "doWeTreat": "Yes, with our TruShrub program.",
+    "page": 15
+  },
+  {
+    "name": "Rust fungus",
+    "category": "lawn",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Rust on trees is a fungal infection that causes orange pustules to form on leaves, stems, and branches. Rust can affect\nmany different types of trees and plants, including crabapples, hawthorns and ornamental pears. Rust rarely kills plants,\nbut it can cause stems to dieback in severe cases.",
+    "doWeTreat": "Yes, we do treat for rust in our TruShrub program. Applications must be made soon after the leaves expand\nin the spring.",
+    "image": "images/trusource/rust_fungus_444779.png",
+    "page": 15
+  },
+  {
+    "name": "Scale",
+    "category": "tree",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Scale are tiny sap-sucking insects that can cause damage by draining nutrients from the host plant. Adults form a covering\nover their bodies which makes control challenging. Soft scales produce a sticky honeydew that leads to black sooty mold\non leaves. Hard scale does not produce honeydew but can be more challenging to control. Depending on the type of scale\ninsect, some are easy to control, most require multiple treatments, and there are select ones we may not be able to\ncontrol. While customers usually seek out services when there is an issue, the optimal approach is preventative including\ndormant oil to limit certain types of scale.",
+    "doWeTreat": "Yes, with our TruShrub program.",
+    "image": "images/trusource/scale_4ee050.png",
+    "page": 16
+  },
+  {
+    "name": "Spanish Moss",
+    "category": "lawn",
+    "status": "no",
+    "description": "Spanish moss is an Epiphyte (a plant that grows on another plant without directly gaining nourishment from it). Spanish\nmoss receives all of its nutrients and moisture from the air and is not considered a parasite to the tree, it only uses the\ntree for support. The only damage it may cause is by breaking a weak limb. Spanish moss is part of the bromeliad family\nwhich places it in the same plant family as pineapples and succulent house plants. Spanish moss is actually native to\nMexico, Central America, South America, the United States and the Caribbean where it can grow in a tropical environment.",
+    "doWeTreat": "No, we do not control Spanish Moss.",
+    "image": "images/trusource/spanish_moss.png",
+    "page": 16
+  },
+  {
+    "name": "Spider Mites",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "Spider Mites can be a major problem on many woody ornamental plants. Feeding by Spider Mites causes discoloration,\ndirty appearance, and early leaf drop. They are related to spiders, are extremely small, and are difficult to detect. They are\ntypically active starting late Spring and can last through Fall.",
+    "doWeTreat": "Yes, with our TruShrub program.",
+    "image": "images/trusource/spider_mites.png",
+    "page": 16
+  },
+  {
+    "name": "Spotted Lanternfly",
+    "category": "lawn",
+    "status": "conditional",
+    "description": "The Spotted Lanternfly is an invasive plant hopper species that has become common in Pennsylvania and several other\nnearby states. Adults have black heads and grayish wings with black spots. When flying, they will display red hind wings.\nThey feed on plants by piercing stems and leaves and leave behind a sticky residue called honeydew, which can attract\nbees, wasps, and feed mold. They can often be found swarming in masses over an infested plant.",
+    "doWeTreat": "Yes, this is a special treatment available in some areas. Check the shopping cart for availability. If it is not\navailable, set up a property visit.",
+    "image": "images/trusource/spotted_lanternfly_81d1bb.png",
+    "page": 16
+  },
+  {
+    "name": "White Fly",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruShrub",
+    "description": "White flies are sap-sucking insects that are often found in clusters on the undersides of leaves. They have wings and can\nbe as small as 1/12 of an inch. They scatter when disturbed. They damage plants by sucking the juices from new plant\ngrowth, causing stunted growth, leaf yellowing and reduced yields. They secrete honeydew, which can cause leaves to be\nsticky or have a black mold.",
+    "doWeTreat": "Yes, but only in accordance with our TruShrub Program guidelines (e.g., we will not treat them if on edible\nplants or fruit trees).\nPests",
+    "whereLocated": "In the south, they are found year-round. In the North, they are only found year-round in indoor gardens.",
+    "image": "images/trusource/white_fly_e57130.png",
+    "page": 16
+  },
+  {
+    "name": "Big Head Ants",
+    "category": "pest",
+    "description": "What are they: Big-headed ants are soil-nesting ants, commonly found nesting outdoors beneath stones, logs and old\ntimbers. These ants also are commonly found inside the soil of potted plants. In addition, big-headed ants may be found\nnesting beneath slab foundations.",
+    "whereLocated": "Southeastern states, mostly Florida.",
+    "howToCombat": "Our Flea & Tick Control will combat them.",
+    "image": "images/trusource/big_head_ants_c9fda7.png",
+    "page": 16
+  },
+  {
+    "name": "Black Widow Spiders",
+    "category": "pest",
+    "status": "no",
+    "program": "TruBarrier",
+    "description": "What are they: Black Widows are poisonous spiders that have a skeleton outside their body, a segmented body, and eight\njointed legs. They are NOT insects. Their deadly poison is said to be 15 times stronger than rattlesnake venom. Black\nWidows get their name from the popular belief that the female eats the male after mating, a phenomenon which rarely\nhappens in nature.",
+    "whereLocated": "The Southern black widow is highly concentrated in the Southeastern states but goes as far north as New\nYork and as far west as Arizona. Northern black widows reside mostly in New England and Southeastern Canada but have\nbeen spotted as far west as Texas and as far south as Florida.",
+    "howToCombat": "TruGreen does not directly treat black widows where they live, which tend to be in protected areas such\nas crawl spaces or wood piles. Our TruBarrier Perimeter Pest Control only creates a barrier around the house to keep\nthem from coming in.",
+    "image": "images/trusource/black_widow_spiders_caf018.png",
+    "page": 16
+  },
+  {
+    "name": "Box Elder Bugs",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Wood-boring beetles are species and families of insects, whose nymphs (in most cases) or adult forms\nfeed off and destroy wooden materials. Nymphs (immature) will be red in color and adults will be black with red marking.\nIt’s common to find these on the warm side of a building in the fall. This insects are not harmful and do not feed on live\nplants.",
+    "whereLocated": "Across most of the Eastern and Mid US.",
+    "howToCombat": "TruBarrier Perimeter Pest Control",
+    "image": "images/trusource/box_elder_bugs_5ba440.png",
+    "page": 17
+  },
+  {
+    "name": "Bumble Bees",
+    "category": "glossary",
+    "description": "What are they: A bumblebee is any of over 250 species in the genus Bombus, one of the bee families. Unlike Honeybees,\nBumblebees are robust, large in girth, have more hairs on their body, and are colored with yellow, orange, and black. They\nare typically not aggressive and rarely sting. They also usually nest underground.",
+    "whereLocated": "Across the US and most active during warmer months.\nDo We Treat: TruGreen takes pollinator protection very seriously. We do NOT treat for pollinators as they encourage plant\ngrowth and are good for the environment. Additionally, we do not treat flowering plants when pollinators are present.",
+    "page": 17
+  },
+  {
+    "name": "Carpenter Ants",
+    "category": "pest",
+    "status": "no",
+    "program": "TruBarrier",
+    "description": "What are they: Carpenter Ants get their name from their nest building, where they will excavate the wood and form\nsmooth tunnels inside the wood. Carpenter Ants do not eat wood, they only tunnel and chew through wood to create\nnests.",
+    "whereLocated": "Across the US. They appear from May until August in the eastern United States and from February through\nJune in the west.",
+    "howToCombat": "We do not treat for carpenter ants because they are a wood damaging pests. TruBarrier Perimeter Pest\nControl will prevent them from entering a home. Also, remove sources of water and wood piles from around the house.",
+    "image": "images/trusource/carpenter_ants_ad756b.png",
+    "page": 17
+  },
+  {
+    "name": "Centipedes",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Centipedes are elongated segmented creatures with one pair of legs per body segment. All centipedes\nare venomous and can inflict painful bites, injecting their venom through pincer-like appendages known as forcipules.\nDespite the name, no centipede has exactly 100 pairs of legs; number of legs ranges from 15 pairs to 191 pairs, always\nan odd number. They are predominantly carnivorous.",
+    "whereLocated": "Centipedes have a wide geographical range and are found in terrestrial habitats from tropical\nrainforests to deserts.",
+    "howToCombat": "TruBarrier Perimeter Pest Control",
+    "image": "images/trusource/centipedes_ff77c8.png",
+    "page": 17
+  },
+  {
+    "name": "Chiggers",
+    "category": "pest",
+    "description": "What are they: Chiggers are the juvenile form of a species of mite that belongs to the Trombiculidae family. They attach\nthemselves to humans and feed on skin cells, which can lead to itching. They are active from spring until the first frost in\nfall.",
+    "whereLocated": "Across the US – usually near damp, grassy areas and at the edge of forests.",
+    "howToCombat": "Our Flea & Tick Control program will prevent chiggers from coming onto the property by treating for\nthese pests at the source.",
+    "image": "images/trusource/chiggers_3935ec.png",
+    "page": 17
+  },
+  {
+    "name": "Chironomid Midges",
+    "category": "glossary",
+    "status": "no",
+    "description": "What are they: Also called \"blind mosquitoes\", \"chizzywinks,\", or \"fuzzy bills\", midges are non-biting insects in the fly\nfamily Chironomidae that breed in natural and constructed bodies of water. Their larvae are also known as \"bloodworms\".\nThey are a pest in the south where they can congregate in large masses.",
+    "whereLocated": "Usually found near water but can be found inland near man-made bodies of water as well.",
+    "howToCombat": "We do not treat for midges. Our exterior pest control services will not control the source of these insects.",
+    "image": "images/trusource/chironomid_midges_e56b63.png",
+    "page": 17
+  },
+  {
+    "name": "Cicadas",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: There are over 3400 species of Cicada across the US. They spend most of their lives underground and\nemerge in 3–17-year cycles when the ground reaches 64 degrees. They are not lawn damaging, however may damage\nornamentals or large trees (like Maple, Elm, or Oak).",
+    "whereLocated": "Across the US, but active at different times.",
+    "howToCombat": "We do not treat for Cicadas.",
+    "image": "images/trusource/cicadas_fb0b68.png",
+    "page": 17
+  },
+  {
+    "name": "Cicada Killer Wasps",
+    "category": "pest",
+    "status": "no",
+    "description": "What are they: Cicada Killers are also known as digger wasps and tend to be solitary, living in burrows. These wasps are\nlarge and can be intimidating but are not aggressive like other wasps. They will be typically found in early summer making\nburrows in sandy soils.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "We do not treat for cicada killers.",
+    "image": "images/trusource/cicada_killer_wasps.png",
+    "page": 18
+  },
+  {
+    "name": "Clover Mites",
+    "category": "pest",
+    "description": "What are they: They are a nuisance pest and are a member of the arachnid family; they do not bite or pass diseases to\nhumans. They do, however, invade in very large numbers and can get into fabrics and furniture, and can cause irritation\nin some people.",
+    "whereLocated": "Across the US. Abundant in well-fertilized lawns, Clover Mites get into houses through cracks around\nwindows and doors.",
+    "howToCombat": "Flea & Tick Control program can prevent Clover Mites from becoming a nuisance.",
+    "image": "images/trusource/clover_mites_e52c04.png",
+    "page": 18
+  },
+  {
+    "name": "Earwigs",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Commonly referred to as pincher bugs, they are medium-sized insects that have flat bodies (like silverfish)\nand are usually black or brown. Earwigs are nocturnal feeders that dine on other insects, as well as vegetation, decaying\norganic material — think mulch or piles of leaves — and may also feed on greasy food items.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "Our TruBarrier Perimeter Pest program will help prevent Earwigs from infesting homes with its multi-\nlayered approach.",
+    "image": "images/trusource/earwigs_a1db2d.png",
+    "page": 18
+  },
+  {
+    "name": "Fire Ants",
+    "category": "pest",
+    "description": "What are they: Fire Ants are social and colony forming insects. Adult red imported fire ants are reddish to dark brown\nand can vary in size. Eggs are only produced by the queen and hatch into legless larvae that are cared for by the worker\nants. Fire ant stings usually occur when a fire ant mount is disturbed and can be very painful.",
+    "whereLocated": "Fire ants can be found in most of the southern United States and in a few areas of New Mexico and\nCalifornia.",
+    "howToCombat": "TruGreen uses Top Choice by Bayer to suppress fire ants for a full year.",
+    "image": "images/trusource/fire_ants_ae7c71.png",
+    "page": 18
+  },
+  {
+    "name": "Fleas",
+    "category": "pest",
+    "description": "What are they: Fleas are small, wingless, and about 2.5 mm long. They feed on blood and can bite pets and humans. Flea\nbites may leave the host with numerous swollen, itchy marks. They may cause allergic reactions in some people and can\ntransmit several diseases.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "Our Flea & Tick Control program will control flea populations by treating for these pests at the source.\nHowever, this service will not control fleas that have become established inside a home..",
+    "image": "images/trusource/fleas_5c3e59.png",
+    "page": 18
+  },
+  {
+    "name": "Gnats",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruDefense",
+    "description": "What are they: Gnats are small flies in the suborder Nematocera that include midges, crane flies and mosquitoes. They\nare often confused with many other types of flying insects. Because of their small size, they are commonly referred to as\n‟no-see-ums.” Some of the more common species include fungus gnats, black gnats, drain flies, midges, sand flies and\nfruit flies.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "Not directly however, Bifenthrin is a product also used to treat Gnats so TruDefense may help control\nGnats. This would NOT be guaranteed as they are not a targeted pest.",
+    "image": "images/trusource/gnats_4d7896.png",
+    "page": 18
+  },
+  {
+    "name": "Grasshoppers",
+    "category": "lawn",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Grasshoppers are among what is possibly the most ancient living group of chewing herbivorous insects.\nGrasshoppers are typically ground-dwelling insects with powerful hind legs which allow them to escape from threats by\nleaping vigorously. Grasshoppers have chewing mouthparts that remove large sections of leaves and flowers, sometimes\ndevouring entire plants. Garden damage is usually limited to a few weeks in early summer immediately after weeds dry\nup.",
+    "whereLocated": "In North America, the American grasshopper is found east of the Great Plains, throughout the southeast\nand north to near Iowa and Pennsylvania. It is common throughout Florida and is also found in Mexico and the\nBahamas.",
+    "howToCombat": "Our Flea & Tick Control and TruBarrier Perimeter Pest Control will control grasshoppers if they are present\nat the time of service. It is important to set proper expectations with the customer about where we treat as neither service\ntreats the lawn. We do not guarantee that our services will prevent grasshoppers.",
+    "image": "images/trusource/grasshoppers_fc5147.png",
+    "page": 18
+  },
+  {
+    "name": "Honeybees",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: Honeybees are social insects that live in colonies. The hive population consists of a single queen, a few\nhundred drones, and thousands of worker bees. They are slender in body appearance, have fewer body hairs and wings\nthat are more translucent. They can only sting once and have nests that are above ground. These bees produce edible\nhoney.",
+    "whereLocated": "Across the US and most active during warmer months.",
+    "howToCombat": "We do NOT treat for honeybees or any pollinating insects.",
+    "image": "images/trusource/honeybees_68ff29.png",
+    "page": 19
+  },
+  {
+    "name": "Hookworms",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: Intestinal parasites, but unlike roundworms and tapeworms they can persist and live in the soil and\nenvironment without an intermediate host.",
+    "howToCombat": "We do NOT treat for hookworms. Customers should consult a doctor or veterinarian as appropriate.",
+    "image": "images/trusource/hookworms_378bdd.png",
+    "page": 19
+  },
+  {
+    "name": "Hornets",
+    "category": "pest",
+    "status": "no",
+    "description": "What are they: Hornets are the largest of the eusocial wasps and are similar in appearance to their close relatives\nyellowjackets. Some species can reach up to 5.5 cm in length. They are distinguished from other vespine wasps by the\nrelatively large top margin of the head. Worldwide, 22 species of Vespa are recognized.",
+    "howToCombat": "We do NOT treat hornets. Customers should seek a specialized hornet removal service.",
+    "image": "images/trusource/hornets.png",
+    "page": 19
+  },
+  {
+    "name": "Kudzu Bugs",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Kudzu bugs suck nutrients out of plants and can produce a nasty smell when threatened. During the warm\nsummer months, people do not see the bugs. Once fall temperatures start dropping, kudzu bugs congregate in massive\nnumbers on sun-exposed surfaces to warm themselves. They will often congregate in homes during the winter months.",
+    "whereLocated": "Mostly in Southeastern states like Georgia and the Carolinas however, they are spreading.",
+    "howToCombat": "Our TruBarrier Perimeter Pest program will help prevent Kudzu bugs from infesting homes with its multi-\nlayered approach.",
+    "image": "images/trusource/kudzu_bugs_e47df4.png",
+    "page": 19
+  },
+  {
+    "name": "Love Bugs",
+    "category": "pest",
+    "description": "What are they: Also referred to as kissing bugs, these insects are flies related to mosquitoes. They will attach their bodies\nto their mate and fly in tandem together. They have black bodies and red heads, and they are typically 6-9 millimeters in\nlength. They swarm once in spring and once in late summer.",
+    "whereLocated": "Along the Gulf Coast of the US, especially in Florida. They love warm, humid conditions.",
+    "howToCombat": "No, as these are not normally biting insects and do not cause lawn damage.",
+    "image": "images/trusource/love_bugs.png",
+    "page": 19
+  },
+  {
+    "name": "Millipedes",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Millipedes are a group of arthropods that are characterized by having two pairs of jointed legs on most\nbody segments; they are known scientifically as the class Diplopoda, the name derived from this feature. Each double-\nlegged segment is a result of two single segments fused together. Most millipedes have very elongated cylindrical or\nflattened bodies with more than 20 segments, while pill millipedes are shorter and can roll into a tight ball. Although the\nname \"millipede\" derives from Latin for \"thousand feet\", no species was known to have 1,000 or more until the discovery\nof Eumillipes persephone, which can have over 1,300 legs. There are approximately 12,000 named species classified into\n16 orders and around 140 families, making Diplopoda the largest class of myriapods, an arthropod group which also\nincludes centipedes and other multi-legged creatures.",
+    "whereLocated": "Millipedes are found in every U.S. state, including Alaska and Hawaii, as well as in Puerto Rico and the\nU.S. Virgin Islands.",
+    "howToCombat": "TruBarrier Perimeter Pest Control",
+    "image": "images/trusource/millipedes_01270b.png",
+    "page": 19
+  },
+  {
+    "name": "Mosquitoes",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruDefense",
+    "description": "What are they: A mosquito is an insect that bites and feeds on the blood of humans and other animals by tracking their\nexhaled Carbon Dioxide. They transmit Zika virus, dengue, malaria, West Nile virus, chikungunya, yellow fever, and more.",
+    "whereLocated": "Across the US. Mosquitoes can live in almost any environment, except extreme cold weather. They favor\nforests, marshes, tall grasses and weeds, and ground that is wet at least part of the year.",
+    "howToCombat": "Our TruDefense treatments are guaranteed to significantly reduce populations and help protect the\noutdoor environment.",
+    "image": "images/trusource/mosquitoes_3a8553.png",
+    "page": 19
+  },
+  {
+    "name": "Mud Daubers",
+    "category": "lawn",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Mud Dauber is a common name for a wasp that builds its nest out of mud. This name covers several\nwasps such as organpipe, black-and-yellow and blue Mud Daubers. Finding a nest is the most common sign of an\ninfestation. If the nest has holes, it may indicate that the nest is inactive, as mud dauber wasps create holes when they\nleave the nest.",
+    "whereLocated": "Across the US and most active during warmer months.",
+    "howToCombat": "While we would NOT treat live wasps (see Pollinators), our TruBarrier Perimeter Pest program will remove\nold nests from around the first level of the structure.",
+    "image": "images/trusource/mud_daubers_e6f704.png",
+    "page": 19
+  },
+  {
+    "name": "Nematodes",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: They are multicellular insects with smooth, unsegmented bodies and are often confused with worms.\nSome nematodes feed on the outer surfaces of a plant while others burrow into the tissue. Soil-dwelling nematodes are\nthe most common culprits, but some species can damage plant roots, stems, foliage, and flowers.",
+    "whereLocated": "Across the US, more prevalent in the North.",
+    "howToCombat": "We do not treat for nematodes.",
+    "image": "images/trusource/nematodes_bbf0f4.png",
+    "page": 20
+  },
+  {
+    "name": "No-see-ums",
+    "category": "pest",
+    "status": "no",
+    "description": "What are they: Gnats are small flies in the suborder Nematocera that includes midges, Crane Flies, and mosquitoes. They\nare often confused with many other types of flying insects. Because of their small size, they are commonly referred to as\n‟no-see-ums.” Some of the more common species include fungus gnats, black gnats, drain flies, midges, sand flies and\nfruit flies.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "We do not treat for gnats or no-see-ums.",
+    "image": "images/trusource/no_see_ums_867e42.png",
+    "page": 20
+  },
+  {
+    "name": "Palmetto Bugs",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: A Palmetto Bug is the same thing as a cockroach. The term “palmetto bug” is used most frequently in the\nSoutheastern United States, particularly in Florida. The American Cockroach is most commonly called a \"Palmetto Bug\"\ndue to living in Palmetto trees.",
+    "whereLocated": "Roaches are located throughout the US, \"Palmetto Bugs\" are usually found in the Southeastern US.",
+    "howToCombat": "TruBarrier Perimeter Pest will help treat these invaders.",
+    "image": "images/trusource/palmetto_bugs_14c11e.png",
+    "page": 20
+  },
+  {
+    "name": "Pill Bugs",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Also known as \"Rollie Pollies/Roly Polies\", Pill Bugs and Sow Bugs are crustaceans adapted to living on\nland. They are active at night, live up to two years, and prefer decomposing vegetation as a food source. Seeing a pill bug\nin the home usually means that there is a large population outdoors and without a food source, they do not survive more\nthan a few days indoors.",
+    "whereLocated": "Across the US, usually near moist and dark environments.",
+    "howToCombat": "While not specifically named, Pill Bugs are controlled by the same methods as Sow Bugs and would be\ntreated under TruBarrier Perimeter Pest.",
+    "image": "images/trusource/pill_bugs_fe250d.png",
+    "page": 20
+  },
+  {
+    "name": "Roaches",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Roaches are insects of the order Blattodea, which also includes termites. About 30 cockroach species out\nof 4,600 are associated with human habitats and about four species are well-known pests. Also known as Water Bugs.",
+    "whereLocated": "Across the US, mostly in dark and damp environments like basements or wood piles.",
+    "howToCombat": "TruBarrier Perimeter Pest will help prevent this pest from entering a home unless there is an existing\ninfestation.",
+    "image": "images/trusource/roaches.png",
+    "page": 20
+  },
+  {
+    "name": "Scorpions",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Scorpions are nuisance pests that are closely related to spiders, mites, and ticks. There are about 1,200\nscorpion species in the world and 70 species in the United States.",
+    "whereLocated": "Arid climates and in the American Southwest. Can be found under rocks and in dark areas.",
+    "howToCombat": "Yes, with TruBarrier Perimeter Pest!",
+    "image": "images/trusource/scorpions.png",
+    "page": 20
+  },
+  {
+    "name": "Slugs",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: Slugs are soft-bodied animals. Depending on the species, adults can be one to four inches long. Outdoors,\nthey can cause considerable damage to plants in gardens and flowerbeds.",
+    "whereLocated": "Across the US. Moist plant debris, underneath rocks, low weeds, mulch, and fallen logs all provide hiding\nplaces.",
+    "howToCombat": "We do not treat for slugs.",
+    "image": "images/trusource/slugs_4f90a7.png",
+    "page": 20
+  },
+  {
+    "name": "Snails",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: Snails are soft-bodied animals and have shells and can withdraw inside them. In harsh conditions, they\ncan seal the shell and stay alive inside for several years. Outdoors they can cause considerable damage to plants in\ngardens and flowerbeds.",
+    "whereLocated": "Across the US. Moist plant debris, underneath rocks, low weeds, mulch, and fallen logs all provide hiding\nplaces.",
+    "howToCombat": "We do not treat for snails.",
+    "image": "images/trusource/snails_4f5916.png",
+    "page": 20
+  },
+  {
+    "name": "Spiders",
+    "category": "pest",
+    "status": "yes",
+    "program": "TruBarrier",
+    "description": "What are they: Spiders can be an uncomfortable guest in our homes. Spiders are air-breathing arthropods that have eight\nlegs, chelicerae with fangs generally able to inject venom, and spinnerets that extrude silk. They are the largest order of\narachnids and rank seventh in total species diversity among all orders of organisms.",
+    "howToCombat": "TruGreen offers TruBarrier Perimeter Pest Control, which keeps these helpful arachnids outside where\nthey can help control populations of other nuisance pests.",
+    "image": "images/trusource/spiders_e8b264.png",
+    "page": 21
+  },
+  {
+    "name": "Springtail",
+    "category": "lawn",
+    "status": "no",
+    "description": "What are they: Also known as \"Snow Fleas\", they prefer moist conditions and decaying logs. They will flock together near\nplant bases in the winter and moist areas in the summer. They are not considered lawn damaging pests as they mostly\neat decaying material.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "We do not treat for Springtails.",
+    "image": "images/trusource/springtail_2ce494.png",
+    "page": 21
+  },
+  {
+    "name": "Stag Beetles",
+    "category": "pest",
+    "status": "no",
+    "description": "What are they: One of the largest of the North American beetles, females of this species can grow up to two inches long\nand males up to three inches. Males have elongated, antler-like jaws used to fight rivals and attract mates. They spend\nmost of their life underground as larvae, only emerging for a few weeks in the summer to find a mate and reproduce.",
+    "whereLocated": "Along the middle of the east coast of the US. Adults are usually attracted by dead or decaying wood,\nwhere they like to lay their eggs, or by tree and plant sap.",
+    "howToCombat": "We do not treat for Stag Beetles.",
+    "image": "images/trusource/stag_beetles_10035e.png",
+    "page": 21
+  },
+  {
+    "name": "Stink Bugs",
+    "category": "pest",
+    "status": "no",
+    "program": "TruBarrier",
+    "description": "What are they: Stink bugs are large, oval, or shield-shaped insects that produce a strong odor from their abdomen. Many\nspecies of Stink bugs feed on plants. Some Stink bugs become serious pests of crops. When they attack fruits, like\npeaches, they make the fruit unfit for sale.",
+    "whereLocated": "Across the US.",
+    "howToCombat": "TruBarrier Perimeter Pest will help control Stink bugs; however, we do not treat for them inside the home\nor above the first level of a home.",
+    "image": "images/trusource/stink_bugs_5ee76f.png",
+    "page": 21
+  },
+  {
+    "name": "“Sugar” Ants",
+    "category": "pest",
+    "status": "no",
+    "program": "TruBarrier",
+    "description": "What are they: Any ant variety that nests outdoors but comes into your home to feed on sweets and potentially nest.\n\"Sugar Ant\" can refer to: Acrobat, Cornfield, False Honey, Little Black, Rover, Argentine, Carpenter, House, Pavement, and\nPharoah Ants.",
+    "whereLocated": "Across the US, more of a problem in warmer states.",
+    "howToCombat": "Our Flea & Tick Control and TruBarrier Perimeter Pest Control will assist with most ant varieties. Customer\ncan also make sure food items are sealed and counters cleaned of residue. We do NOT treat Carpenter Ants or Pharoah\nAnts in any program.",
+    "image": "images/trusource/sugar_ants_a0a3f5.png",
+    "page": 21
+  },
+  {
+    "name": "Termites",
+    "category": "pest",
+    "status": "no",
+    "description": "What are they: Subterranean termites build their colonies in the soil and construct pathways in the ground to locate\nsources of wood that remain below ground or on the ground surface.",
+    "whereLocated": "Across the US and especially in warmer states.",
+    "howToCombat": "We do not treat Termites. If customer believes they have Termites, they should speak to a licensed\nprofessional.",
+    "image": "images/trusource/termites_f24efb.png",
+    "page": 21
+  },
+  {
+    "name": "Thatching Ants",
+    "category": "glossary",
+    "description": "What are they: Thatching ants are sometimes referred to as mound ants because some species construct mounds from\nsmall sticks, grass stems, leaves, and pine or fir needles. They may also nest in decayed logs. Under most circumstances,\nthatching ants should be considered beneficial, since they are fierce predators of other insects.",
+    "whereLocated": "Thatching Ants are located across much of the western North America.",
+    "howToCombat": "Our Flea & Tick Control will control tick populations by treating for these pests at the source.",
+    "image": "images/trusource/thatching_ants_96c271.png",
+    "page": 21
+  },
+  {
+    "name": "Ticks",
+    "category": "pest",
+    "description": "What are they: Ticks are related to spiders and have eight legs. They feed on the blood of all kinds of animals, from birds\nto deer to humans. Ticks can transmit Lyme disease and Rocky Mountain Spotted Fever.",
+    "whereLocated": "Across the US. Often found near wooded and highly vegetated areas. Some species require moisture to\nsurvive.",
+    "howToCombat": "Our Flea & Tick Control service will treat the areas around a home that will most likely harbor ticks.",
+    "image": "images/trusource/ticks_2e59a3.png",
+    "page": 21
+  },
+  {
+    "name": "Wasps",
+    "category": "pest",
+    "status": "no",
+    "description": "What are they: A wasp is any member of a group of insects in the order Hymenoptera, suborder Apocrita, some of which\nare stinging. Wasps are distinguished from the ants and bees of Apocrita by various behavioral and physical characteristics,\nparticularly their possession of a slender, smooth body and legs with relatively few hairs.",
+    "howToCombat": "We do not treat for wasps. TruGreen’s Perimeter Pest Control will remove inactive nests under eaves up\nto 10 feet above the foundation.",
+    "image": "images/trusource/wasps.png",
+    "page": 22
+  },
+  {
+    "name": "Yellowjackets",
+    "category": "glossary",
+    "description": "See Wasps\nGlossary of Terms",
+    "page": 22
+  },
+  {
+    "name": "Aeration",
+    "category": "glossary",
+    "description": "Mechanical process that removes cores of soil from the ground. Removed cores are left on top of the lawn, dissolving\nover time back into the lawn. In markets with very sandy soils, the cores may break apart immediately.\n•\nOne of the best things you can do for your lawn besides watering\n•\nEnhances root development and water circulation\n•\nAllows better treatment and nutrient penetration\n•\nReduces soil compaction and helps manage thatch layer\nDepending on the region, we may follow an aeration service with overseeding.",
+    "image": "images/trusource/aeration_831df6.png",
+    "page": 22
+  },
+  {
+    "name": "Agronomics",
+    "category": "glossary",
+    "description": "Study of plants and soil as related to crop production (in TruGreen’s case, turfgrasses).",
+    "page": 22
+  },
+  {
+    "name": "Application",
+    "category": "glossary",
+    "description": "Refers to a TruGreen treatment. Do not use “treatment” to describe an application or service. Do not use the term “app.”",
+    "page": 22
+  },
+  {
+    "name": "Audit",
+    "category": "glossary",
+    "description": "A sales audit is a standard checkpoint to ensure a customer has a clear understanding of what they are buying and what to expect. There are 3 different ways a\ncustomer can confirm services purchased – Email, text or via live auditor.",
+    "page": 22
+  },
+  {
+    "name": "Bad Debt",
+    "category": "glossary",
+    "description": "When TruGreen is not at fault and the customer refuses to pay. These accounts are coded as bad debt write-offs. Bad Debts are usually turned over to a collection\nagency.\nBad debt customers cannot be reinstated or sold new programs until balance owed is paid in full.",
+    "page": 22
+  },
+  {
+    "name": "Branch",
+    "category": "glossary",
+    "description": "Branches are a separate but dependent part of TruGreen from which services are fulfilled. TruGreen’s services are provided by over 250 local branches.",
+    "page": 22
+  },
+  {
+    "name": "Calcium",
+    "category": "glossary",
+    "description": "Calcium is an essential plant nutrient in soil. It is crucial because it helps the plant form new cell walls and grow new shoots and leaves. It also helps make plants\nless susceptible to diseases and pest damage.",
+    "page": 22
+  },
+  {
+    "name": "CFR",
+    "category": "glossary",
+    "description": "Customer Follow-up Request – a process for notifying the branch regarding service issues.",
+    "page": 22
+  },
+  {
+    "name": "Commercial Customers",
+    "category": "glossary",
+    "description": "Commercial customers are non-residential accounts (e.g., businesses, religious institutions, schools, etc.).\nCommercial accounts are handled by local branches.",
+    "image": "images/trusource/commercial_customers.png",
+    "page": 22
+  },
+  {
+    "name": "Cool Season Grasses",
+    "category": "glossary",
+    "description": "Cool season grasses are a variety of grass species that thrive best in cooler temperatures and particularly in the cooler regions of the country from the central\ntransition zone throughout the northern U.S.\nCool season turfgrasses include bluegrasses, fescues, and ryegrasses.",
+    "page": 23
+  },
+  {
+    "name": "Desertscape / TruScape",
+    "category": "lawn",
+    "status": "visit",
+    "description": "Desertscape or TruScape is a service that targets weed in landscape grounds devoted to rock, gravel, or mulch surfaces.\nMany TruGreen customers and homeowners in hot, dry locations use Desertscape to save water. Numerous counties and\ncities require the use of Desertscape designs for new construction. Drought conditions in the southwest accelerate the\nconversion of traditional landscapes to Desertscape. TruScape gives customers the option to treat for weeds in areas that\nare not covered by TruGreen Lawn and TruShrub services.\nSales of this program are limited to the branch (property visit) so they can confirm the property is a Desertscape landscape\nas this services will damage a lawn if improperly sold.",
+    "image": "images/trusource/desertscape_truscape_2b6e55.png",
+    "page": 23
+  },
+  {
+    "name": "Dormant Oil",
+    "category": "glossary",
+    "description": "Dormant oils work by suffocating present insect pests. Beneficial insects that encounter the oil later are not harmed. This can be done in the late winter or late fall.\nNot all plants are suitable for this treatment. The specialist will determine which plans will get the most benefit. Also known as Horticultural oil.",
+    "page": 23
+  },
+  {
+    "name": "EasyPay",
+    "category": "glossary",
+    "description": "EasyPay is TruGreen’s free electronic payment service whereby customers’ payments are automatically charged to a credit card or deducted from a checking\naccount.\nThe customer’s credit card/bank account is charged immediately after the service is posted to their TruGreen account.\nCustomers do not have the option of selecting the date that payments are withdrawn from their account.",
+    "page": 23
+  },
+  {
+    "name": "EcoCare Lawn Plan",
+    "category": "lawn",
+    "description": "EcoCare Lawn Plan offers homeowners a greener approach to a greener lawn by combining ingredients with TruGreen expertise at a price homeowners\ncan feel good about. EcoCare Lawn Plan offers 5-6 applications a year dependent on location (every 35-45 days). This lawn plan includes:\n• 5-6 services per year, dependent on location\no Specialist will visit every 35-45 days\n• Nutrients are a unique blend of composted materials, micro-nutrients and extended-release fertilizers to provide steady, balanced nutrition\nthroughout the year\n• Addition of organic bio-stimulants such as kelp improve soil health and tolerance to environmental stressors such as drought\n• TruGreen's proven weed control treatments help prevent and treat weeds throughout the year\n• Satisfaction Guarantee: TruGreen will gladly visit your property as needed between scheduled visits to ensure your satisfaction",
+    "page": 23
+  },
+  {
+    "name": "Expanded Service",
+    "category": "glossary",
+    "status": "yes",
+    "description": "Expanded services are beneficial services not included in the standard service programs and are available at additional cost.\nExamples are Core Aeration, Fire Ant Control, TruDefense Mosquito Control and Soil Enhancers (e.g., Lime).",
+    "page": 23
+  },
+  {
+    "name": "Fertilizer",
+    "category": "glossary",
+    "description": "Any material of natural or synthetic origin that is applied to soil or to plant tissues to supply plant nutrients.\nPromotes shoot, leaf, and root growth, density, color, and overall health.",
+    "page": 23
+  },
+  {
+    "name": "Flea & Tick Control/Outdoor Nuisance Pest Control",
+    "category": "glossary",
+    "description": "Our Flea & Tick Control program is designed to significantly reduce the number of active pests on our customers’ property. This service helps to control fleas,\nticks, chiggers, earwigs, and spiders. Our Flea & Tick Control Program can help reduce exposure to pests and pest-associated diseases. The Flea & Tick Control\nplan consists of between 6 and 12 applications depending on the branch.",
+    "page": 23
+  },
+  {
+    "name": "Full Program",
+    "category": "glossary",
+    "status": "yes",
+    "description": "Full Program customers receive 4 or more regionally tailored service visits for lawn, tree/shrub care, TruDefense or TruBarrier Perimeter Pest Control.",
+    "page": 23
+  },
+  {
+    "name": "Fungicide",
+    "category": "glossary",
+    "description": "A fungicide is a product used to help prevent a fungus from spreading throughout the lawn. Most lawn diseases cause little to no turf damage but may be visibly\nunappealing. Damage caused by disease will grow out in time. Customer concerns should be inspected by specialist.",
+    "page": 23
+  },
+  {
+    "name": "Hort",
+    "category": "glossary",
+    "description": "“Hort” (short version of “Horticulture”), is a term we use when referring to Tree & Shrub programs (see “Tree/Shrub Programs” for explanation). The term Hort\nshould not be used when talking to a customer. It is an internal TruGreen term.",
+    "image": "images/trusource/hort_85809c.png",
+    "page": 23
+  },
+  {
+    "name": "Insect and Disease Control",
+    "category": "glossary",
+    "description": "The goal is to reduce the effects of disease, insect and mite population before tree plant damage occurs. These applications are applied when disease and insects\nare present in the late spring, summer, and early fall.",
+    "page": 24
+  },
+  {
+    "name": "Invoice",
+    "category": "glossary",
+    "description": "An invoice is a bill for completed services that customers receive in the mail after each service.\nThis payment method is also referred to as “Pay by Invoice” or “PBI.”",
+    "page": 24
+  },
+  {
+    "name": "Lime",
+    "category": "glossary",
+    "description": "Granular limestone is applied to help increase soil pH. Lime helps counteract acid soils. Creates a more suitable soil for healthy turf growth.",
+    "page": 24
+  },
+  {
+    "name": "Nitrogen",
+    "category": "glossary",
+    "description": "Nitrogen is included in some of our fertilizer treatments and helps to improve overall plant health, color, and promotes growth. It may not be applied with every\nlawn application.",
+    "page": 24
+  },
+  {
+    "name": "Overseeding",
+    "category": "glossary",
+    "description": "Spreading new grass seed over existing turf. Overseeding restores bare spots, thinning turf, or patchy grass, and is a great way to improve the density of your\nlawn and enhance its color. Overseeding with TruGreen incorporates advanced, high-quality seeds which have shown improved disease and drought tolerance in\nuniversity trials.\nOverseeding is performed on cool season grasses – Fescue, Bluegrass, and Rye.\nAfter an aeration with overseeding, customer should mow as usual until germination begins, then wait 10 days for seeds to establish before resuming mowing with\nmower set at the highest setting.",
+    "page": 24
+  },
+  {
+    "name": "PCI",
+    "category": "glossary",
+    "description": "Acronym for “Payment Card Industry.” A series of standards that TruGreen follows regarding protecting customers’ personal information. Also referred to as “PCI\nCompliant.”",
+    "page": 24
+  },
+  {
+    "name": "Post-emergent",
+    "category": "glossary",
+    "description": "Post-emergent weed control eliminates weeds that pop up throughout the year and keeps them from spreading. It is designed to eliminate weeds that are already\nin the lawn. Also knows as targeted weed control.",
+    "page": 24
+  },
+  {
+    "name": "Potassium (Potash)",
+    "category": "glossary",
+    "description": "Is a nutrient that helps strengthen plants to fight against diseases. Helps plants survive drought and extreme temperatures. Creates a more suitable soil for healthy\nturf growth.",
+    "page": 24
+  },
+  {
+    "name": "Pre-emergent",
+    "category": "glossary",
+    "description": "Pre-emergent weed control is used to prevent an undesired weed problem before it starts. This is achieved by applying a protective layer of pre-emergent herbicide\nto the lawn, preventing the weeds from penetrating the soil barrier.",
+    "page": 24
+  },
+  {
+    "name": "PrePay",
+    "category": "glossary",
+    "description": "The PrePay plan allows our customers to pay for their entire service on an annual basis. TruGreen currently offers a discount to customers who choose to pay a\nyear in advance. It is important to note that some services may be excluded from PrePay discounts.",
+    "page": 24
+  },
+  {
+    "name": "Property Visit",
+    "category": "lawn",
+    "status": "yes",
+    "description": "A property visit is any time a branch representative visits the prospects home before purchasing a program. Property visits are warranted for these scenarios:\n•\nProspect request (only after letting the customer know we can view their property, the benefits of setting up services over the phone and attempting to\novercome)\n•\nProperty cannot be accurately measured\n•\nService customer is requesting is not available in TruView or cannot be sold by the contact center sales representative",
+    "page": 24
+  },
+  {
+    "name": "Residential Customers",
+    "category": "glossary",
+    "description": "Residential customers are homeowners, renters, and landlords of non-commercial properties. This is our largest customer group. These accounts are handled by\nthe national sales team, including contact centers.",
+    "image": "images/trusource/residential_customers.png",
+    "page": 24
+  },
+  {
+    "name": "Revive",
+    "category": "lawn",
+    "description": "Soil conditioner that contains organic fertilizer, iron, and surfactant. It helps improve water penetration to grass roots. Can help lawns come back from drought\nstress.\nRevive works great for challenging areas in the lawn including slopes, dry spots, and highly compacted areas. Maximizes water usage, reducing the overall amount\nof water needed to achieve best results. Not all branches sell Revive.",
+    "page": 25
+  },
+  {
+    "name": "Service Call",
+    "category": "glossary",
+    "description": "TruGreen offers full program customers free service calls if they are not satisfied with the results of their service. During a service call, a specialist will return to\nthe customer’s residence, evaluate the property, and re-treat the problem area IF necessary.",
+    "page": 25
+  },
+  {
+    "name": "Service Summary",
+    "category": "glossary",
+    "description": "A Service Summary is a document that is created at the end of every application. This may be left at the door or transmitted electronically. The Service Summary\nincludes customer information, details of the treatment and recommendations from the specialist.",
+    "page": 25
+  },
+  {
+    "name": "Specialist",
+    "category": "glossary",
+    "description": "Person that delivers applications to customers. Do not use “technician.”",
+    "page": 25
+  },
+  {
+    "name": "Sulfur",
+    "category": "glossary",
+    "description": "Granular soil amendment that is used to help decrease soil pH. Creates a more suitable soil for healthy turf growth.",
+    "page": 25
+  },
+  {
+    "name": "TruBarrier Perimeter Pest Control",
+    "category": "lawn",
+    "status": "yes",
+    "description": "TruGreen’s TruBarrier Perimeter Pest Control is the best way for our customers and prospects to help prevent pests such as spiders, ants, cockroaches, and\nearwigs from making their way into their home. TruBarrier Perimeter Pest Control targets pest populations where they live around the structure of our customers’\nhomes. The program prevents pests from entering homes, helping customers enjoy their indoor living spaces.\nOur TruBarrier Perimeter Pest Control covers the following pests where they live and in areas where they could enter the customers’ homes:\n•\nBoxelder Bugs\n•\nStink Bugs\n•\nSpiders\n•\nEarwigs\n•\nMillipedes\n•\nCentipedes\n•\nPaper Wasps\n•\n•\nCockroaches\n•\nAnts (except Fire Ants and Pharaoh Ants)",
+    "page": 25
+  },
+  {
+    "name": "TruBasic",
+    "category": "glossary",
+    "description": "TruBasic is our started weed and feed option. The TruBasic plan offers essential fertilizer and weed control for a\npartial season, ensuring your lawn gets the right care when it matters most. Our team of trained and certified\nprofessionals applies nutrient-packed treatments during the optimal times of the year. To tackle persistent weeds,\nwe rely on scientifically formulated products that not only treat existing weeds but also prevent future growth.\nTruBasic does NOT offer the TruGreen Guarantee.\nThe TruView shopping cart will display the exact services provided for the customer’s region.",
+    "image": "images/trusource/trubasic_f1daea.png",
+    "page": 25
+  },
+  {
+    "name": "TruCore/TruHealth",
+    "category": "glossary",
+    "description": "TruCore is our mid-grade option. It includes the same services as TruPro, except for aeration. It’s important to note that all lawns benefit from aeration. TruPro\noffers the best results.\n•\nWeed control\n•\nFertilization\n•\nLawn feeding insect control or a soil amendment (depending on region or lawn’s needs)\nThe TruView shopping cart will display the exact services provided for the customer’s region.",
+    "image": "images/trusource/trucoretruhealth.png",
+    "page": 25
+  },
+  {
+    "name": "Trudy/Truman",
+    "category": "glossary",
+    "description": "Trudy/Truman is TruGreen’s call ahead system that notifies the customer prior to a service visit.\n•\nTrudy calls one business day prior to the service for all services except aeration.\n•\nTruman calls for aerations three business days prior to the service.",
+    "page": 25
+  },
+  {
+    "name": "TruGreen Guarantee",
+    "category": "glossary",
+    "description": "Our guarantee states that “TruGreen will gladly visit your property as needed between scheduled visits to ensure your satisfaction”. The TruBasic and TruYou Partial\nplans are not covered by the TruGreen Guarantee.",
+    "image": "images/trusource/trugreen_guarantee.png",
+    "page": 25
+  },
+  {
+    "name": "TruNatural",
+    "category": "lawn",
+    "status": "yes",
+    "description": "TruNatural is our 100% natural organic fertilizer option. We offer this approach to meet the needs of customers who prefer a natural alternative.\nTruNatural encourages healthy grass growth and gradually thickens the lawn\nDoes not include weed or insect control.\nAt the customer’s request, we will come out and treat for weeds using conventional products at no extra charge\nFertilizer nutrients in the TruNatural program come from animal components such as bone meal, feather meal and blood meal.",
+    "image": "images/trusource/trunatural_d1f417.png",
+    "page": 26
+  },
+  {
+    "name": "TruPro/TruComplete",
+    "category": "glossary",
+    "status": "yes",
+    "description": "TruPro is our best lawn-only plan. It includes everything the lawn needs to be healthy.\n•\nWeed control\n•\nFertilization\n•\nLawn feeding insect control or a soil amendment (depending on region or lawn’s needs)\n•\nCore aeration – May include overseeding for cool season grasses.\nThe TruView shopping cart will display the exact services provided for the customer’s region. We offer the TruPro program to all customers since it will bring all\nlawns to optimum health.",
+    "image": "images/trusource/truprotrucomplete.png",
+    "page": 26
+  },
+  {
+    "name": "TruYou/TruMaintenance",
+    "category": "glossary",
+    "description": "TruYou is our entry level option. TruYou includes:\n•\nWeed control\n•\nFertilization\nTruYou may not be offered in all regions. The TruView shopping cart will display the exact services provided for the customer’s region.",
+    "image": "images/trusource/truyoutrumaintenance.png",
+    "page": 26
+  },
+  {
+    "name": "Warm Season Grasses",
+    "category": "glossary",
+    "description": "Warm season grasses are a variety of grass species that thrive best in warmer temperatures between 80 and 95 degrees. Their primary range of adaptation is in\nthe southern and western regions of the country and the area known as the transition zone.\nWarm season turfgrasses include Bermuda, St. Augustine, Bahia, Zoysia, and Centipede.\nUpdated: March 28, 2025",
+    "image": "images/trusource/warm_season_grasses_85809c.png",
+    "page": 26
+  }
+]
